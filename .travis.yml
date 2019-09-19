@@ -31,6 +31,8 @@ jobs:
       if: type = push
       name: Deploy to GitHub Pages
       node_js: lts/*
+      script:
+        - npm run build
       deploy:
         provider: pages
         local_dir: build
