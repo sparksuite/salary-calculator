@@ -8,19 +8,16 @@ branches:
 jobs:
   include:
     - stage: test
-      if: type = pull_request
       name: Lint code
       node_js: lts/*
       script:
         - npx eslint .
     - stage: test
-      if: type = pull_request
       name: Verify build
       node_js: lts/*
       script:
         - npm run build
     - stage: test
-      if: type = pull_request
       name: Run tests
       node_js: lts/*
       script:
@@ -30,6 +27,7 @@ jobs:
     - stage: deploy
       if: type = push
       name: Deploy to GitHub Pages
+      node_js: lts/*
       deploy:
         provider: pages
         local_dir: build
