@@ -5,6 +5,9 @@ cache:
 branches:
   only:
     - master
+stages:
+  - test
+  - deploy
 jobs:
   include:
     - stage: test
