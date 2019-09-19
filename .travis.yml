@@ -27,6 +27,7 @@ jobs:
     - stage: deploy
       if: type = push
       name: Deploy to GitHub Pages
+      node_js: lts/*
       deploy:
         provider: pages
         local_dir: build
