@@ -1,6 +1,6 @@
 {
-	"name": "ungroup",
-	"version": "0.1.0",
+	"name": "@sparksuite/salary-calculator",
+	"version": "0.0.0",
 	"private": true,
 	"dependencies": {
 		"@types/jest": "24.0.18",
