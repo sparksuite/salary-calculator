@@ -38,3 +38,4 @@ jobs:
         local_dir: build
         skip_cleanup: true
         github_token: $GITHUB_TOKEN
+        fqdn: salaries.sparksuite.com
