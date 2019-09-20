@@ -1,8 +1,13 @@
 {
-	"extends": [
-		"plugin:prettier/recommended",
-		"react-app",
-		"plugin:jsx-a11y/recommended"
-	],
-	"plugins": ["jsx-a11y"]
+	"extends": ["react-app", "plugin:jsx-a11y/recommended", "prettier"],
+	"plugins": ["jsx-a11y"],
+	"rules": {
+		"no-unused-vars": [
+			"error",
+			{
+				"vars": "all",
+				"args": "after-used"
+			}
+		]
+	}
 }
