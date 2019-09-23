@@ -2,7 +2,7 @@
 
 exports[`Storyshots Choice Normal 1`] = `
 <div
-  className="sc-bdVaJa eACDca"
+  className="sc-bdVaJa eYeTxk"
 >
   <select
     className="sc-bwzfXH jvWbPK"
@@ -23,7 +23,7 @@ exports[`Storyshots Choices Normal 1`] = `
 >
   I am a  
   <div
-    className="sc-bdVaJa eACDca"
+    className="sc-bdVaJa eYeTxk"
   >
     <select
       className="sc-bwzfXH jvWbPK"
@@ -59,7 +59,7 @@ exports[`Storyshots Choices Normal 1`] = `
   </div>
     and, for health benefits, I  
   <div
-    className="sc-bdVaJa eACDca"
+    className="sc-bdVaJa eYeTxk"
   >
     <select
       className="sc-bwzfXH jvWbPK"
@@ -74,7 +74,7 @@ exports[`Storyshots Choices Normal 1`] = `
   </div>
      have a spouse/dependents. Iʼve been with Sparksuite for  
   <div
-    className="sc-bdVaJa eACDca"
+    className="sc-bdVaJa eYeTxk"
   >
     <select
       className="sc-bwzfXH jvWbPK"

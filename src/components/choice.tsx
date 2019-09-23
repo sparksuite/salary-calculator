@@ -13,7 +13,6 @@ const Wrapper = styled.div`
 	display: inline-block;
 	transition: all 0.2s ease;
 	line-height: 1.2;
-	color: #fff;
 
 	&:hover {
 		border-color: rgba(255, 255, 255, 0.7);
