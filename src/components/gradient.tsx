@@ -1,5 +1,5 @@
 // Imports
-import styled from 'styled-components';
+import styled from 'styled-components/macro';
 
 // Styled gradient in the background
 const Gradient = styled.div`

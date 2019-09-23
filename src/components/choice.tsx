@@ -1,6 +1,6 @@
 // Imports
 import React from 'react';
-import styled from 'styled-components';
+import styled from 'styled-components/macro';
 
 // Initialize
 const spaceBeforeIcon = 0.4;
