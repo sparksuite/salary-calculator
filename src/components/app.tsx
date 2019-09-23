@@ -6,6 +6,7 @@ import Header from './header';
 
 // Global style
 const GlobalStyle = createGlobalStyle`
+	/* Duplicated in preview-head.html */
 	body {
 		margin: 0;
 		padding: 0;
