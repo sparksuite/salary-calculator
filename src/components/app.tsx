@@ -3,6 +3,7 @@ import React from 'react';
 import { createGlobalStyle } from 'styled-components';
 import Gradient from './gradient';
 import Header from './header';
+import Choices from './choices';
 
 // Global style
 const GlobalStyle = createGlobalStyle`
@@ -19,7 +20,7 @@ const GlobalStyle = createGlobalStyle`
 	
 	#root {
 		width: 90%;
-		max-width: 800px;
+		max-width: 900px;
 		margin: auto;
 	}
 `;
@@ -31,6 +32,7 @@ const App: React.FC = () => {
 			<GlobalStyle />
 			<Gradient />
 			<Header />
+			<Choices />
 		</React.Fragment>
 	);
 };
