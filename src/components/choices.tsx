@@ -1,6 +1,6 @@
 // Imports
 import React from 'react';
-import styled from 'styled-components';
+import styled from 'styled-components/macro';
 import Choice from './choice';
 import positions from '../data/positions.json';
 
