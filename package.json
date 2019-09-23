@@ -43,6 +43,7 @@
 		"@storybook/addon-backgrounds": "^5.2.1",
 		"@storybook/addon-links": "^5.2.1",
 		"@storybook/addon-notes": "^5.2.1",
+		"@storybook/addon-storyshots": "^5.2.1",
 		"@storybook/addon-viewport": "^5.2.1",
 		"@storybook/addons": "^5.2.1",
 		"@storybook/react": "^5.2.1",
@@ -57,6 +58,7 @@
 		"eslint-plugin-jsx-a11y": "^6.2.3",
 		"eslint-plugin-react": "^7.14.3",
 		"eslint-plugin-react-hooks": "^1.7.0",
-		"prettier": "1.18.2"
+		"prettier": "1.18.2",
+		"require-context.macro": "^1.2.1"
 	}
 }
