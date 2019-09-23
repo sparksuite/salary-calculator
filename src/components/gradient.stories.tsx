@@ -5,7 +5,7 @@ import Gradient from './gradient';
 // Stories
 export default {
 	component: Gradient,
-	title: 'Gradient title',
+	title: 'Gradient',
 };
 
 export const normal = () => <Gradient />;

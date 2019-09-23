@@ -6,6 +6,8 @@ const Gradient = styled.div`
 	width: 100vw;
 	height: 30rem;
 	transform: rotate(-5deg) scale(1.5) translateY(-9rem);
+	position: absolute;
+	z-index: -1;
 	background: #67b1d6;
 	background: linear-gradient(
 		90deg,
