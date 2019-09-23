@@ -19,7 +19,7 @@
 	"scripts": {
 		"start": "react-scripts start",
 		"build": "react-scripts build",
-		"test": "react-scripts test",
+		"test": "build-storybook && react-scripts test",
 		"eject": "react-scripts eject",
 		"lint": "eslint . --ext .js,.jsx,.ts,.tsx && prettier --check '**/*.{js,jsx,ts,tsx,json}'",
 		"format": "eslint --fix . --ext .js,.jsx,.ts,.tsx && prettier --write '**/*.{js,jsx,ts,tsx,json}'",
