@@ -2,10 +2,10 @@
 
 exports[`Storyshots Choice Normal 1`] = `
 <div
-  className="sc-bdVaJa eACDca"
+  className="choice__Wrapper-sc-1k1omlp-0 bvhpJK"
 >
   <select
-    className="sc-bwzfXH jvWbPK"
+    className="choice__Select-sc-1k1omlp-1 ilDHRF"
   >
     <option>
       Option 1
@@ -19,14 +19,14 @@ exports[`Storyshots Choice Normal 1`] = `
 
 exports[`Storyshots Choices Normal 1`] = `
 <div
-  className="sc-htpNat cPapMJ"
+  className="choices__Container-sc-800kf9-0 vrJvZ"
 >
   I am a  
   <div
-    className="sc-bdVaJa eACDca"
+    className="choice__Wrapper-sc-1k1omlp-0 bvhpJK"
   >
     <select
-      className="sc-bwzfXH jvWbPK"
+      className="choice__Select-sc-1k1omlp-1 ilDHRF"
     >
       <option>
         Front End Engineer I
@@ -59,10 +59,10 @@ exports[`Storyshots Choices Normal 1`] = `
   </div>
     and, for health benefits, I  
   <div
-    className="sc-bdVaJa eACDca"
+    className="choice__Wrapper-sc-1k1omlp-0 bvhpJK"
   >
     <select
-      className="sc-bwzfXH jvWbPK"
+      className="choice__Select-sc-1k1omlp-1 ilDHRF"
     >
       <option>
         donʼt
@@ -74,10 +74,10 @@ exports[`Storyshots Choices Normal 1`] = `
   </div>
      have a spouse/dependents. Iʼve been with Sparksuite for  
   <div
-    className="sc-bdVaJa eACDca"
+    className="choice__Wrapper-sc-1k1omlp-0 bvhpJK"
   >
     <select
-      className="sc-bwzfXH jvWbPK"
+      className="choice__Select-sc-1k1omlp-1 ilDHRF"
     >
       <option>
         less than one year
@@ -101,19 +101,19 @@ exports[`Storyshots Choices Normal 1`] = `
 
 exports[`Storyshots Gradient Normal 1`] = `
 <div
-  className="sc-bxivhb cNoLdp"
+  className="gradient__Gradient-zihgh-0 hjEpSB"
 />
 `;
 
 exports[`Storyshots Header Normal 1`] = `
 Array [
   <div
-    className="sc-ifAKCX cTGjcJ"
+    className="header__Title-vob98y-0 dbnGjZ"
   >
     Sparksuiteʼs Salary Calculator
   </div>,
   <div
-    className="sc-EHOje cAeJBy"
+    className="header__Subtitle-vob98y-1 jDVMfa"
   >
     Transparent, predictable, & holistic compensation
   </div>,
