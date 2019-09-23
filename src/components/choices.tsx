@@ -7,13 +7,13 @@ import positions from '../data/positions.json';
 // Styled container
 const Container = styled.div`
 	margin-top: 2rem;
-	padding: 2rem;
+	padding: 1.5rem 2rem;
 	background: #8acc5e;
 	background: linear-gradient(90deg, #afcc5e 0%, #8acc5e 100%);
 	box-shadow: 0 1rem 3.125rem 0 rgba(0, 0, 0, 0.15);
 	font-size: 1.25rem;
 	font-weight: 500;
-	line-height: 1.5;
+	line-height: 1.75;
 	color: #fff;
 	color: rgba(255, 255, 255, 0.9);
 `;
