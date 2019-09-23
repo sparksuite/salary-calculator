@@ -1,6 +1,6 @@
 // Imports
 import React from 'react';
-import styled from 'styled-components';
+import styled from 'styled-components/macro';
 
 // Styled title & subtitle
 const Title = styled.div`

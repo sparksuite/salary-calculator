@@ -1,6 +1,6 @@
 // Imports
 import React from 'react';
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from 'styled-components/macro';
 import Gradient from './gradient';
 import Header from './header';
 import Choices from './choices';
