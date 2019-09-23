@@ -2,6 +2,7 @@
 import React from 'react';
 import { createGlobalStyle } from 'styled-components';
 import Gradient from './gradient';
+import Header from './header';
 
 // Global style
 const GlobalStyle = createGlobalStyle`
@@ -28,6 +29,7 @@ const App: React.FC = () => {
 		<React.Fragment>
 			<GlobalStyle />
 			<Gradient />
+			<Header />
 		</React.Fragment>
 	);
 };
