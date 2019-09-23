@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Choice Normal 1`] = `
+<div
+  className="sc-bdVaJa eYeTxk"
+>
+  <select
+    className="sc-bwzfXH jvWbPK"
+  >
+    <option>
+      Option 1
+    </option>
+    <option>
+      Option 2
+    </option>
+  </select>
+</div>
+`;
+
+exports[`Storyshots Choices Normal 1`] = `
+<div
+  className="sc-htpNat cPapMJ"
+>
+  I am a  
+  <div
+    className="sc-bdVaJa eYeTxk"
+  >
+    <select
+      className="sc-bwzfXH jvWbPK"
+    >
+      <option>
+        Front End Engineer I
+      </option>
+      <option>
+        Front End Engineer II
+      </option>
+      <option>
+        Lead Front End Engineer
+      </option>
+      <option>
+        Back End Engineer I
+      </option>
+      <option>
+        Back End Engineer II
+      </option>
+      <option>
+        Lead Back End Engineer
+      </option>
+      <option>
+        Customer Success Champion I
+      </option>
+      <option>
+        Customer Success Champion II
+      </option>
+      <option>
+        Lead Customer Success Champion
+      </option>
+    </select>
+  </div>
+    and, for health benefits, I  
+  <div
+    className="sc-bdVaJa eYeTxk"
+  >
+    <select
+      className="sc-bwzfXH jvWbPK"
+    >
+      <option>
+        donʼt
+      </option>
+      <option>
+        do
+      </option>
+    </select>
+  </div>
+     have a spouse/dependents. Iʼve been with Sparksuite for  
+  <div
+    className="sc-bdVaJa eYeTxk"
+  >
+    <select
+      className="sc-bwzfXH jvWbPK"
+    >
+      <option>
+        less than one year
+      </option>
+      <option>
+        one to two years
+      </option>
+      <option>
+        two to three years
+      </option>
+      <option>
+        three to four years
+      </option>
+      <option>
+        more than four years
+      </option>
+    </select>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Gradient Normal 1`] = `
+<div
+  className="sc-bxivhb cNoLdp"
+/>
+`;
+
+exports[`Storyshots Header Normal 1`] = `
+Array [
+  <div
+    className="sc-ifAKCX cTGjcJ"
+  >
+    Sparksuiteʼs Salary Calculator
+  </div>,
+  <div
+    className="sc-EHOje cAeJBy"
+  >
+    Transparent, predictable, & holistic compensation
+  </div>,
+]
+`;
