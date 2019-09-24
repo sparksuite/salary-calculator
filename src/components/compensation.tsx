@@ -43,6 +43,10 @@ const Perks = styled.div`
 
 	a {
 		color: #67b1d6;
+
+		&:hover {
+			text-decoration: none;
+		}
 	}
 `;
 
@@ -134,7 +138,7 @@ const Compensation: React.FC = () => {
 					<p>
 						Flexible funds that reimburse you for nearly any health-related
 						expense, including insurance premiums, deductibles, copayments,
-						coinsurance, eye glasses, sunscreen, and so much more.
+						coinsurance, eyeglasses, sunscreen, and so much more.
 					</p>
 				</div>
 
