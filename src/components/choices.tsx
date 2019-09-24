@@ -18,7 +18,7 @@ const Container = styled.div`
 	line-height: 1.75;
 	color: #fff;
 	color: rgba(255, 255, 255, 0.9);
-	
+
 	@media (max-width: 768px) {
 		font-size: 1.1rem;
 	}

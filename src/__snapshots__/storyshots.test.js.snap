@@ -2,10 +2,10 @@
 
 exports[`Storyshots Choice Normal 1`] = `
 <div
-  className="choice__Wrapper-sc-1k1omlp-0 bvhpJK"
+  className="choice__Wrapper-sc-1k1omlp-0 bghiPC"
 >
   <select
-    className="choice__Select-sc-1k1omlp-1 ilDHRF"
+    className="choice__Select-sc-1k1omlp-1 bLBqKy"
     onChange={[Function]}
   >
     <option>
@@ -20,14 +20,18 @@ exports[`Storyshots Choice Normal 1`] = `
 
 exports[`Storyshots Choices Normal 1`] = `
 <div
-  className="choices__Container-sc-800kf9-0 kPGmCS"
+  className="choices__Container-sc-800kf9-0 hmyeUu"
 >
-  I am a  
+  <span
+    className="choices__Text-sc-800kf9-1 eQJQMD"
+  >
+    I am a
+  </span>
   <div
-    className="choice__Wrapper-sc-1k1omlp-0 bvhpJK"
+    className="choice__Wrapper-sc-1k1omlp-0 bghiPC"
   >
     <select
-      className="choice__Select-sc-1k1omlp-1 ilDHRF"
+      className="choice__Select-sc-1k1omlp-1 bLBqKy"
       onChange={[Function]}
     >
       <option>
@@ -59,12 +63,16 @@ exports[`Storyshots Choices Normal 1`] = `
       </option>
     </select>
   </div>
-    and, for health benefits, I  
+  <span
+    className="choices__Text-sc-800kf9-1 eQJQMD"
+  >
+    and, for health benefits, I
+  </span>
   <div
-    className="choice__Wrapper-sc-1k1omlp-0 bvhpJK"
+    className="choice__Wrapper-sc-1k1omlp-0 bghiPC"
   >
     <select
-      className="choice__Select-sc-1k1omlp-1 ilDHRF"
+      className="choice__Select-sc-1k1omlp-1 bLBqKy"
       onChange={[Function]}
     >
       <option>
@@ -75,12 +83,16 @@ exports[`Storyshots Choices Normal 1`] = `
       </option>
     </select>
   </div>
-     have a spouse/dependents. Iʼve been with Sparksuite for  
+  <span
+    className="choices__Text-sc-800kf9-1 eQJQMD"
+  >
+    have a spouse / dependents. Iʼve been with Sparksuite for
+  </span>
   <div
-    className="choice__Wrapper-sc-1k1omlp-0 bvhpJK"
+    className="choice__Wrapper-sc-1k1omlp-0 bghiPC"
   >
     <select
-      className="choice__Select-sc-1k1omlp-1 ilDHRF"
+      className="choice__Select-sc-1k1omlp-1 bLBqKy"
       onChange={[Function]}
     >
       <option>
@@ -105,7 +117,7 @@ exports[`Storyshots Choices Normal 1`] = `
 
 exports[`Storyshots Gradient Normal 1`] = `
 <div
-  className="gradient__Gradient-zihgh-0 hjEpSB"
+  className="gradient__Gradient-zihgh-0 dVdwRk"
 />
 `;
 
