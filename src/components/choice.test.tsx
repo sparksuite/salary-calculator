@@ -1,11 +1,9 @@
 // Imports
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { shallow } from 'enzyme';
 import Choice from './choice';
 
 // Tests
-it('renders fully without crashing', () => {
-	const div = document.createElement('div');
-	ReactDOM.render(<Choice choices={['Option 1', 'Option 2']} />, div);
-	ReactDOM.unmountComponentAtNode(div);
+it('renders shallowly without crashing', () => {
+	shallow(<Choice choices={['Option 1', 'Option 2']} onChange={() => null} />);
 });

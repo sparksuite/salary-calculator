@@ -47,13 +47,14 @@ const Select = styled.select`
 // Definition
 type ChoiceProps = {
 	choices: string[];
+	onChange: Function;
 };
 
 // Functional component
 const Choices: React.FC<ChoiceProps> = (props) => {
 	return (
 		<Wrapper>
-			<Select>
+			<Select onChange={(event) => props.onChange(event.target.value)}>
 				{props.choices.map((choice) => (
 					<option key={choice}>{choice}</option>
 				))}
