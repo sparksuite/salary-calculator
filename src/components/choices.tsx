@@ -3,6 +3,7 @@ import React from 'react';
 import styled from 'styled-components/macro';
 import Choice from './choice';
 import positions from '../data/positions.json';
+import * as actions from '../redux/actions';
 
 // Styled container
 const Container = styled.div`
@@ -23,9 +24,12 @@ const Choices: React.FC = () => {
 	return (
 		<Container>
 			I am a&nbsp;&nbsp;
-			<Choice choices={positions.map((position) => position.title)} />
+			<Choice
+				choices={positions.map((position) => position.title)}
+				action={actions.setPosition}
+			/>
 			&nbsp;&nbsp;and, for health benefits, I&nbsp;&nbsp;
-			<Choice choices={['donʼt', 'do']} />
+			<Choice choices={['donʼt', 'do']} action={actions.setDependents} />
 			&nbsp;&nbsp; have a spouse/dependents. Iʼve been with Sparksuite
 			for&nbsp;&nbsp;
 			<Choice
@@ -36,6 +40,7 @@ const Choices: React.FC = () => {
 					'three to four years',
 					'more than four years',
 				]}
+				action={actions.setTenure}
 			/>
 		</Container>
 	);
