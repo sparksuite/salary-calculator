@@ -5,6 +5,7 @@ import Gradient from './gradient';
 import Header from './header';
 import Choices from './choices';
 import PositionDescription from './position-description';
+import Compensation from './compensation';
 
 // Global style
 const GlobalStyle = createGlobalStyle`
@@ -12,11 +13,14 @@ const GlobalStyle = createGlobalStyle`
 	body {
 		margin: 0;
 		padding: 0;
+		padding-bottom: 5rem;
 		font-family: Raleway, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
 		-moz-osx-font-smoothing: grayscale;
 		-webkit-font-smoothing: antialiased;
 		text-rendering: optimizeLegibility;
 		text-size-adjust: 100%;
+		font-variant-numeric: lining-nums;
+		font-feature-settings:"lnum" 1;
 	}
 	
 	/* Other styles */
@@ -36,6 +40,7 @@ const App: React.FC = () => {
 			<Header />
 			<Choices />
 			<PositionDescription />
+			<Compensation />
 		</React.Fragment>
 	);
 };
