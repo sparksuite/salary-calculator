@@ -8,6 +8,7 @@ const extraPaddingForClickEvents = 1.4;
 
 // Styled components
 const Wrapper = styled.div`
+	margin-right: 0.5rem;
 	font-weight: 700;
 	border-bottom: 0.125rem solid rgba(255, 255, 255, 0.3);
 	display: inline-block;
@@ -38,10 +39,14 @@ const Select = styled.select`
 	font: inherit;
 	color: inherit;
 	border-radius: 0;
+	margin: 0;
+	padding: 0;
 
 	/* Other styles */
 	padding-right: ${extraPaddingForClickEvents}rem;
 	cursor: pointer;
+	text-overflow: ellipsis;
+	max-width: 50vw;
 `;
 
 // Definition

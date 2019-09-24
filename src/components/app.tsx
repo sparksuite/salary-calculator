@@ -18,6 +18,7 @@ const GlobalStyle = createGlobalStyle`
 		text-size-adjust: 100%;
 	}
 	
+	/* Other styles */
 	#root {
 		width: 90%;
 		max-width: 900px;

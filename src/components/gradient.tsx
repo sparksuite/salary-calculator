@@ -4,9 +4,12 @@ import styled from 'styled-components/macro';
 // Styled gradient in the background
 const Gradient = styled.div`
 	width: 100vw;
-	height: 30rem;
-	transform: rotate(-5deg) scale(1.5) translateY(-9rem);
+	height: 40rem;
+	transform: skewY(-5deg);
+	transform-origin: -100%;
 	position: absolute;
+	top: 0;
+	left: 0;
 	z-index: -1;
 	background: #67b1d6;
 	background: linear-gradient(
