@@ -6,6 +6,7 @@ exports[`Storyshots Choice Normal 1`] = `
 >
   <select
     className="choice__Select-sc-1k1omlp-1 ilDHRF"
+    onChange={[Function]}
   >
     <option>
       Option 1
@@ -27,6 +28,7 @@ exports[`Storyshots Choices Normal 1`] = `
   >
     <select
       className="choice__Select-sc-1k1omlp-1 ilDHRF"
+      onChange={[Function]}
     >
       <option>
         Front End Engineer I
@@ -63,6 +65,7 @@ exports[`Storyshots Choices Normal 1`] = `
   >
     <select
       className="choice__Select-sc-1k1omlp-1 ilDHRF"
+      onChange={[Function]}
     >
       <option>
         donʼt
@@ -78,6 +81,7 @@ exports[`Storyshots Choices Normal 1`] = `
   >
     <select
       className="choice__Select-sc-1k1omlp-1 ilDHRF"
+      onChange={[Function]}
     >
       <option>
         less than one year

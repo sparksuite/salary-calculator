@@ -1,7 +1,6 @@
 // Imports
 import React from 'react';
 import styled from 'styled-components/macro';
-import { useDispatch } from 'react-redux';
 
 // Initialize
 const spaceBeforeIcon = 0.4;
@@ -48,18 +47,14 @@ const Select = styled.select`
 // Definition
 type ChoiceProps = {
 	choices: string[];
-	action: Function;
+	onChange: Function;
 };
 
 // Functional component
 const Choices: React.FC<ChoiceProps> = (props) => {
-	// Use dispatch
-	const dispatch = useDispatch();
-
-	// Return JSX
 	return (
 		<Wrapper>
-			<Select onChange={(event) => dispatch(props.action(event.target.value))}>
+			<Select onChange={(event) => props.onChange(event.target.value)}>
 				{props.choices.map((choice) => (
 					<option key={choice}>{choice}</option>
 				))}

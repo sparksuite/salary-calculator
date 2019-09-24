@@ -21,6 +21,6 @@ export default {
 export const normal = () => (
 	<Choice
 		choices={['Option 1', 'Option 2']}
-		action={action('choice-changed')}
+		onChange={action('choice-changed')}
 	/>
 );

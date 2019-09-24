@@ -4,6 +4,7 @@ import styled from 'styled-components/macro';
 import Choice from './choice';
 import positions from '../data/positions.json';
 import * as actions from '../redux/actions';
+import { useDispatch } from 'react-redux';
 
 // Styled container
 const Container = styled.div`
@@ -21,15 +22,19 @@ const Container = styled.div`
 
 // Functional component
 const Choices: React.FC = () => {
+	// Use dispatch
+	const dispatch = useDispatch();
+	
+	// Return JSX
 	return (
 		<Container>
 			I am a&nbsp;&nbsp;
 			<Choice
 				choices={positions.map((position) => position.title)}
-				action={actions.setPosition}
+				onChange={(value: string) => dispatch(actions.setPosition(value))}
 			/>
 			&nbsp;&nbsp;and, for health benefits, I&nbsp;&nbsp;
-			<Choice choices={['donʼt', 'do']} action={actions.setDependents} />
+			<Choice choices={['donʼt', 'do']} onChange={(value: string) => dispatch(actions.setDependents(value))} />
 			&nbsp;&nbsp; have a spouse/dependents. Iʼve been with Sparksuite
 			for&nbsp;&nbsp;
 			<Choice
@@ -40,7 +45,7 @@ const Choices: React.FC = () => {
 					'three to four years',
 					'more than four years',
 				]}
-				action={actions.setTenure}
+				onChange={(value: string) => dispatch(actions.setTenure(value))}
 			/>
 		</Container>
 	);

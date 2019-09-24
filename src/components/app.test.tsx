@@ -8,9 +8,3 @@ import App from './app';
 it('renders shallowly without crashing', () => {
 	shallow(<App />);
 });
-
-it('renders fully without crashing', () => {
-	const div = document.createElement('div');
-	ReactDOM.render(<App />, div);
-	ReactDOM.unmountComponentAtNode(div);
-});
