@@ -1,0 +1,17 @@
+{
+	"Front End Engineer": {
+		"I": 85000,
+		"II": 95000,
+		"Lead": 110000
+	},
+	"Back End Engineer": {
+		"I": 77500,
+		"II": 87500,
+		"Lead": 102500
+	},
+	"Customer Success Champion": {
+		"I": 45000,
+		"II": 49000,
+		"Lead": 54500
+	}
+}
