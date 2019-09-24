@@ -18,6 +18,14 @@ const Container = styled.div`
 	line-height: 1.75;
 	color: #fff;
 	color: rgba(255, 255, 255, 0.9);
+	
+	@media (max-width: 768px) {
+		font-size: 1.1rem;
+	}
+`;
+
+const Text = styled.span`
+	margin-right: 0.5rem;
 `;
 
 // Functional component
@@ -28,18 +36,17 @@ const Choices: React.FC = () => {
 	// Return JSX
 	return (
 		<Container>
-			I am a&nbsp;&nbsp;
+			<Text>I am a</Text>
 			<Choice
 				choices={positions.map((position) => position.title)}
 				onChange={(value: string) => dispatch(actions.setPosition(value))}
 			/>
-			&nbsp;&nbsp;and, for health benefits, I&nbsp;&nbsp;
+			<Text>and, for health benefits, I</Text>
 			<Choice
 				choices={['donʼt', 'do']}
 				onChange={(value: string) => dispatch(actions.setDependents(value))}
 			/>
-			&nbsp;&nbsp; have a spouse/dependents. Iʼve been with Sparksuite
-			for&nbsp;&nbsp;
+			<Text>have a spouse / dependents. Iʼve been with Sparksuite for</Text>
 			<Choice
 				choices={[
 					'less than one year',
