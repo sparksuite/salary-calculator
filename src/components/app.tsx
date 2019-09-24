@@ -4,6 +4,7 @@ import { createGlobalStyle } from 'styled-components/macro';
 import Gradient from './gradient';
 import Header from './header';
 import Choices from './choices';
+import PositionDescription from './position-description';
 
 // Global style
 const GlobalStyle = createGlobalStyle`
@@ -34,6 +35,7 @@ const App: React.FC = () => {
 			<Gradient />
 			<Header />
 			<Choices />
+			<PositionDescription />
 		</React.Fragment>
 	);
 };
