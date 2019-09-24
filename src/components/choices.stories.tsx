@@ -10,4 +10,8 @@ export default {
 	title: 'Choices',
 };
 
-export const normal = () => <Provider store={store}><Choices /></Provider>;
+export const normal = () => (
+	<Provider store={store}>
+		<Choices />
+	</Provider>
+);

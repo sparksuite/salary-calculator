@@ -24,7 +24,7 @@ const Container = styled.div`
 const Choices: React.FC = () => {
 	// Use dispatch
 	const dispatch = useDispatch();
-	
+
 	// Return JSX
 	return (
 		<Container>
@@ -34,7 +34,10 @@ const Choices: React.FC = () => {
 				onChange={(value: string) => dispatch(actions.setPosition(value))}
 			/>
 			&nbsp;&nbsp;and, for health benefits, I&nbsp;&nbsp;
-			<Choice choices={['donʼt', 'do']} onChange={(value: string) => dispatch(actions.setDependents(value))} />
+			<Choice
+				choices={['donʼt', 'do']}
+				onChange={(value: string) => dispatch(actions.setDependents(value))}
+			/>
 			&nbsp;&nbsp; have a spouse/dependents. Iʼve been with Sparksuite
 			for&nbsp;&nbsp;
 			<Choice

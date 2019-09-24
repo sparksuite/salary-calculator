@@ -1,5 +1,11 @@
 // Imports
-import { AppState, SET_POSITION, SET_DEPENDENTS, SET_TENURE, ChoiceTypes } from './types'
+import {
+	AppState,
+	SET_POSITION,
+	SET_DEPENDENTS,
+	SET_TENURE,
+	ChoiceTypes,
+} from './types';
 
 // Define initial state
 const initialState: AppState = {

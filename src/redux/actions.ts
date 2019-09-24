@@ -1,6 +1,5 @@
 // Imports
-import { SET_POSITION, SET_DEPENDENTS, SET_TENURE, ChoiceTypes } from './types'
-
+import { SET_POSITION, SET_DEPENDENTS, SET_TENURE, ChoiceTypes } from './types';
 
 // Set the position
 export function setPosition(value: string): ChoiceTypes {
