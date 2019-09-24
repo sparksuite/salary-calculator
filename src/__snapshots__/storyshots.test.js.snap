@@ -115,6 +115,12 @@ exports[`Storyshots Choices Normal 1`] = `
 </div>
 `;
 
+exports[`Storyshots Container Normal 1`] = `
+<div
+  className="container__Container-sc-8aaowj-0 kvuGWV"
+/>
+`;
+
 exports[`Storyshots Gradient Normal 1`] = `
 <div
   className="gradient__Gradient-zihgh-0 dVdwRk"
