@@ -169,15 +169,6 @@ exports[`Storyshots Choices Normal 1`] = `
         <option>
           one to two years
         </option>
-        <option>
-          two to three years
-        </option>
-        <option>
-          three to four years
-        </option>
-        <option>
-          more than four years
-        </option>
       </select>
     </div>
   </div>

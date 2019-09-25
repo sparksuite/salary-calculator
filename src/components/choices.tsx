@@ -62,7 +62,7 @@ const Choices: React.FC = () => {
 			}
 		}
 	}
-	
+
 	// Determine available tenures
 	let possibleExtraTenures = [
 		'one to two years',
@@ -70,18 +70,16 @@ const Choices: React.FC = () => {
 		'three to four years',
 		'more than four years',
 	];
-	
-	let tenures = [
-		'less than one year',
-	];
-	
+
+	let tenures = ['less than one year'];
+
 	for (let i = 0; i < annualRaises.length; i++) {
 		tenures.push(possibleExtraTenures[i]);
 	}
-	
+
 	// Reset tenure if currently-selected one is unavailable
 	const selectedTenure = useSelector((state: AppState) => state.tenure);
-	
+
 	if (!tenures.includes(selectedTenure)) {
 		dispatch(actions.setTenure(tenures[0]));
 	}
