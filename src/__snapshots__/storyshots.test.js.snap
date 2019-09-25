@@ -1,6 +1,47 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Choice Normal 1`] = `
+exports[`Storyshots Choice Grouped 1`] = `
+<div
+  style={
+    Object {
+      "margin": "auto",
+      "maxWidth": "80%",
+    }
+  }
+>
+  <div
+    className="choice__Wrapper-sc-1k1omlp-0 bghiPC"
+  >
+    <select
+      className="choice__Select-sc-1k1omlp-1 bLBqKy"
+      onChange={[Function]}
+    >
+      <optgroup
+        label="Group 1"
+      >
+        <option>
+          Option 1
+        </option>
+        <option>
+          Option 2
+        </option>
+      </optgroup>
+      <optgroup
+        label="Group 2"
+      >
+        <option>
+          Option 3
+        </option>
+        <option>
+          Option 4
+        </option>
+      </optgroup>
+    </select>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Choice Simple 1`] = `
 <div
   style={
     Object {
@@ -51,33 +92,41 @@ exports[`Storyshots Choices Normal 1`] = `
         className="choice__Select-sc-1k1omlp-1 bLBqKy"
         onChange={[Function]}
       >
-        <option>
-          Front End Engineer I
-        </option>
-        <option>
-          Front End Engineer II
-        </option>
-        <option>
-          Lead Front End Engineer
-        </option>
-        <option>
-          Back End Engineer I
-        </option>
-        <option>
-          Back End Engineer II
-        </option>
-        <option>
-          Lead Back End Engineer
-        </option>
-        <option>
-          Customer Success Champion I
-        </option>
-        <option>
-          Customer Success Champion II
-        </option>
-        <option>
-          Lead Customer Success Champion
-        </option>
+        <optgroup
+          label="Engineering"
+        >
+          <option>
+            Front End Engineer I
+          </option>
+          <option>
+            Front End Engineer II
+          </option>
+          <option>
+            Lead Front End Engineer
+          </option>
+          <option>
+            Back End Engineer I
+          </option>
+          <option>
+            Back End Engineer II
+          </option>
+          <option>
+            Lead Back End Engineer
+          </option>
+        </optgroup>
+        <optgroup
+          label="Customer Success"
+        >
+          <option>
+            Customer Success Champion I
+          </option>
+          <option>
+            Customer Success Champion II
+          </option>
+          <option>
+            Lead Customer Success Champion
+          </option>
+        </optgroup>
       </select>
     </div>
     <span
@@ -103,7 +152,9 @@ exports[`Storyshots Choices Normal 1`] = `
     <span
       className="choices__Text-sc-800kf9-1 eQJQMD"
     >
-      have a spouse / dependents. Iʼve been with Sparksuite for
+      have a spouse / dependents. Iʼve been 
+      an engineer
+       in the Sparksuite family for
     </span>
     <div
       className="choice__Wrapper-sc-1k1omlp-0 bghiPC"
