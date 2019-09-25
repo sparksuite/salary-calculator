@@ -3,6 +3,13 @@ import React from 'react';
 import styled from 'styled-components/macro';
 
 // Styled elements
+const Container = styled.figure`
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	position: relative;
+`;
+
 const UpTo = styled.div`
 	margin-bottom: 0.2rem;
 	line-height: 1;
@@ -49,13 +56,7 @@ const Figure: React.FC<FigureProps> = ({
 	infoURL,
 }) => {
 	return (
-		<figure
-			style={{
-				textAlign: 'center',
-				position: 'relative',
-				fontSize: smaller ? '0.8rem' : '1rem',
-			}}
-		>
+		<Container style={{ fontSize: smaller ? '0.8rem' : '1rem' }}>
 			{showUpTo && <UpTo>UP TO</UpTo>}
 			<Amount style={{ color: color }}>
 				{new Intl.NumberFormat('en-US', {
@@ -77,7 +78,7 @@ const Figure: React.FC<FigureProps> = ({
 					</a>
 				)}
 			</Subtitle>
-		</figure>
+		</Container>
 	);
 };
 
