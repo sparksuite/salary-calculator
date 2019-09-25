@@ -14,7 +14,7 @@ const Text = styled.div`
 	background: #fff;
 	font-family: Times New Roman, serif;
 	font-style: italic;
-	color: #bdbdbd;
+	color: #a5a5a5;
 	transform: translateY(50%);
 	display: inline-block;
 `;

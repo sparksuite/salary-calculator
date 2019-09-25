@@ -91,11 +91,13 @@ const Choices: React.FC = () => {
 			<Choice
 				choices={positions}
 				onChange={(value: string) => dispatch(actions.setPosition(value))}
+				ariaLabel='Position'
 			/>
 			<Text>and, for health benefits, I</Text>
 			<Choice
 				choices={['donʼt', 'do']}
 				onChange={(value: string) => dispatch(actions.setDependents(value))}
+				ariaLabel='Spouse or dependents'
 			/>
 			<Text>
 				have a spouse / dependents. Iʼve been {fieldDescriptor} in the
@@ -104,6 +106,7 @@ const Choices: React.FC = () => {
 			<Choice
 				choices={tenures}
 				onChange={(value: string) => dispatch(actions.setTenure(value))}
+				ariaLabel='Tenure'
 			/>
 		</Container>
 	);

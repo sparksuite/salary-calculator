@@ -7,7 +7,7 @@ const UpTo = styled.div`
 	margin-bottom: 0.2rem;
 	line-height: 1;
 	font-size: 1.09375em;
-	color: #828282;
+	color: #777676;
 `;
 
 const Amount = styled.div`
@@ -17,11 +17,11 @@ const Amount = styled.div`
 	color: #8ccc5e;
 `;
 
-const Subtitle = styled.div`
+const Subtitle = styled.figcaption`
 	margin-top: 0.5rem;
 	line-height: 1;
 	font-size: 1.25em;
-	color: #828282;
+	color: #717171;
 
 	i {
 		margin-left: 0.3rem;
@@ -49,7 +49,7 @@ const Figure: React.FC<FigureProps> = ({
 	infoURL,
 }) => {
 	return (
-		<div
+		<figure
 			style={{
 				textAlign: 'center',
 				position: 'relative',
@@ -67,12 +67,17 @@ const Figure: React.FC<FigureProps> = ({
 			<Subtitle>
 				{subtitle}
 				{infoURL && (
-					<a href={infoURL} target='_blank' rel='noopener noreferrer'>
+					<a
+						href={infoURL}
+						target='_blank'
+						rel='noopener noreferrer'
+						aria-label='Learn more'
+					>
 						<i className='far fa-info-circle' />
 					</a>
 				)}
 			</Subtitle>
-		</div>
+		</figure>
 	);
 };
 

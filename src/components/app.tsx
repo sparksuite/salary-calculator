@@ -38,9 +38,12 @@ const App: React.FC = () => {
 			<GlobalStyle />
 			<Gradient />
 			<Header />
-			<Choices />
-			<PositionDescription />
-			<Compensation />
+
+			<main>
+				<Choices />
+				<PositionDescription />
+				<Compensation />
+			</main>
 		</React.Fragment>
 	);
 };
