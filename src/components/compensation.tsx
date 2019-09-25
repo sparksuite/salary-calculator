@@ -20,17 +20,20 @@ const FlexDiv = styled.div`
 		text-align: center;
 
 		p {
+			margin: 0;
+			padding: 0;
+			margin-top: 1rem;
 			font-size: 0.9rem;
 			line-height: 1.15rem;
 			color: #757575;
 		}
 
-		&:first-child {
-			margin: 1rem 0;
-		}
-
 		@media (max-width: 768px) {
 			width: 100%;
+
+			&:first-child {
+				margin: 1rem 0 2rem;
+			}
 		}
 	}
 `;
