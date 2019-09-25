@@ -73,16 +73,16 @@ const Compensation: React.FC = () => {
 	// Determine base salary
 	let baseSalary = levelDetails.startingSalary;
 
-	const tenure = useSelector((state: AppState) => state.tenure);
+	const selectedTenure = useSelector((state: AppState) => state.tenure);
 	let loopCount = 0;
 
-	if (tenure === 'one to two years') {
+	if (selectedTenure === 'one to two years') {
 		loopCount = 1;
-	} else if (tenure === 'two to three years') {
+	} else if (selectedTenure === 'two to three years') {
 		loopCount = 2;
-	} else if (tenure === 'three to four years') {
+	} else if (selectedTenure === 'three to four years') {
 		loopCount = 3;
-	} else if (tenure === 'more than four years') {
+	} else if (selectedTenure === 'more than four years') {
 		loopCount = 4;
 	}
 
