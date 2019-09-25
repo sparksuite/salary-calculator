@@ -18,9 +18,19 @@ export default {
 	},
 };
 
-export const normal = () => (
+export const simple = () => (
 	<Choice
 		choices={['Option 1', 'Option 2']}
 		onChange={action('choice-changed')}
+	/>
+);
+
+export const grouped = () => (
+	<Choice
+		choices={{
+			'Group 1': ['Option 1', 'Option 2'],
+			'Group 2': ['Option 3', 'Option 4'],
+		}}
+		onChange={() => null}
 	/>
 );

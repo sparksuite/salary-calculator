@@ -1,10 +1,11 @@
 // Imports
 import React from 'react';
 import styled from 'styled-components/macro';
-import Choice from './choice';
-import positions from '../data/positions.json';
+import Choice, { ChoicesProp } from './choice';
+import data from '../data.json';
 import * as actions from '../redux/actions';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
+import { AppState } from '../redux/types';
 
 // Styled container
 const Container = styled.div`
@@ -33,12 +34,39 @@ const Choices: React.FC = () => {
 	// Use dispatch
 	const dispatch = useDispatch();
 
+	// Form an array of all position titles
+	let positions: ChoicesProp = {};
+
+	for (const field of data.fields) {
+		positions[field.name] = [];
+
+		for (const role of field.roles) {
+			for (const level of role.levels) {
+				positions[field.name].push(level.title);
+			}
+		}
+	}
+
+	// Get the currently-selected position's field descriptor
+	const selectedPosition = useSelector((state: AppState) => state.position);
+	let fieldDescriptor = '';
+
+	for (const field of data.fields) {
+		for (const role of field.roles) {
+			for (const level of role.levels) {
+				if (level.title === selectedPosition) {
+					fieldDescriptor = field.descriptor;
+				}
+			}
+		}
+	}
+
 	// Return JSX
 	return (
 		<Container>
 			<Text>I am a</Text>
 			<Choice
-				choices={positions.map((position) => position.title)}
+				choices={positions}
 				onChange={(value: string) => dispatch(actions.setPosition(value))}
 			/>
 			<Text>and, for health benefits, I</Text>
@@ -46,7 +74,10 @@ const Choices: React.FC = () => {
 				choices={['donʼt', 'do']}
 				onChange={(value: string) => dispatch(actions.setDependents(value))}
 			/>
-			<Text>have a spouse / dependents. Iʼve been with Sparksuite for</Text>
+			<Text>
+				have a spouse / dependents. Iʼve been {fieldDescriptor} in the
+				Sparksuite family for
+			</Text>
 			<Choice
 				choices={[
 					'less than one year',

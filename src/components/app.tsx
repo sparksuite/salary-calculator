@@ -26,7 +26,7 @@ const GlobalStyle = createGlobalStyle`
 	/* Other styles */
 	#root {
 		width: 90%;
-		max-width: 900px;
+		max-width: 850px;
 		margin: auto;
 	}
 `;

@@ -1,8 +1,7 @@
 // Imports
 import React from 'react';
 import styled from 'styled-components/macro';
-import roles from '../data/roles.json';
-import growthMatrix from '../data/growth-matrix.json';
+import data from '../data.json';
 import { AppState } from '../redux/types';
 import { useSelector } from 'react-redux';
 import Container from './container';
@@ -50,47 +49,30 @@ const Perks = styled.div`
 	}
 `;
 
-// Custom type guard
-function isKeyOf<T extends object>(
-	obj: T,
-	possibleKey: keyof any
-): possibleKey is keyof T {
-	return possibleKey in obj;
-}
-
 // Functional component
 const Compensation: React.FC = () => {
-	// Get the currently-selected role's details
-	const positionTitle = useSelector((state: AppState) => state.position);
-	const roleName = positionTitle.replace(/ [I]+$/, '').replace(/^Lead /, '');
-	let role = {
-		I: 0,
-		II: 0,
-		Lead: 0,
+	// Get the currently-selected position's full level details
+	const selectedPosition = useSelector((state: AppState) => state.position);
+	let levelDetails = {
+		title: '',
+		description: '',
+		startingSalary: 0,
+		annualRaises: [0],
 	};
 
-	if (isKeyOf(roles, roleName)) {
-		role = roles[roleName];
+	for (const field of data.fields) {
+		for (const role of field.roles) {
+			for (const level of role.levels) {
+				if (level.title === selectedPosition) {
+					levelDetails = level;
+				}
+			}
+		}
 	}
 
 	// Determine base salary
-	let baseSalary = role.I;
+	let baseSalary = levelDetails.startingSalary;
 
-	if (positionTitle.match(/ II$/)) {
-		baseSalary = role.II;
-	} else if (positionTitle.match(/^Lead /)) {
-		baseSalary = role.Lead;
-	}
-
-	// Determine HRA funding amount
-	const hasDependents = useSelector((state: AppState) => state.dependents);
-	let hraFunding = 4800;
-
-	if (hasDependents) {
-		hraFunding = 9600;
-	}
-
-	// Determine effect of tenure
 	const tenure = useSelector((state: AppState) => state.tenure);
 	let loopCount = 0;
 
@@ -104,18 +86,19 @@ const Compensation: React.FC = () => {
 		loopCount = 4;
 	}
 
-	let growthAmount = 0;
+	let raisePercentage = 0;
 
 	for (let i = 0; i < loopCount; i++) {
-		growthAmount = growthMatrix.I[i];
+		raisePercentage = levelDetails.annualRaises[i];
+		baseSalary = Math.round((baseSalary * (1 + raisePercentage)) / 100) * 100;
+	}
 
-		if (positionTitle.match(/ II$/)) {
-			growthAmount = growthMatrix.II[i];
-		} else if (positionTitle.match(/^Lead /)) {
-			growthAmount = growthMatrix.Lead[i];
-		}
+	// Determine HRA funding amount
+	const hasDependents = useSelector((state: AppState) => state.dependents);
+	let hraFunding = 4800;
 
-		baseSalary = Math.round((baseSalary * (1 + growthAmount)) / 100) * 100;
+	if (hasDependents) {
+		hraFunding = 9600;
 	}
 
 	// Return JSX
