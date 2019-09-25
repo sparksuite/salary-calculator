@@ -633,6 +633,7 @@ exports[`Storyshots Footer Normal 1`] = `
       </a>
     </div>
     <img
+      alt="Sparksuite logo"
       src="/logo.png"
     />
   </footer>
