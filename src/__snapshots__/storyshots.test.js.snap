@@ -13,6 +13,7 @@ exports[`Storyshots Choice Grouped 1`] = `
     className="choice__Wrapper-sc-1k1omlp-0 bghiPC"
   >
     <select
+      aria-label="ARIA label"
       className="choice__Select-sc-1k1omlp-1 bLBqKy"
       onChange={[Function]}
     >
@@ -54,6 +55,7 @@ exports[`Storyshots Choice Simple 1`] = `
     className="choice__Wrapper-sc-1k1omlp-0 bghiPC"
   >
     <select
+      aria-label="ARIA label"
       className="choice__Select-sc-1k1omlp-1 bLBqKy"
       onChange={[Function]}
     >
@@ -89,6 +91,7 @@ exports[`Storyshots Choices Normal 1`] = `
       className="choice__Wrapper-sc-1k1omlp-0 bghiPC"
     >
       <select
+        aria-label="Position"
         className="choice__Select-sc-1k1omlp-1 bLBqKy"
         onChange={[Function]}
       >
@@ -138,6 +141,7 @@ exports[`Storyshots Choices Normal 1`] = `
       className="choice__Wrapper-sc-1k1omlp-0 bghiPC"
     >
       <select
+        aria-label="Spouse or dependents"
         className="choice__Select-sc-1k1omlp-1 bLBqKy"
         onChange={[Function]}
       >
@@ -160,6 +164,7 @@ exports[`Storyshots Choices Normal 1`] = `
       className="choice__Wrapper-sc-1k1omlp-0 bghiPC"
     >
       <select
+        aria-label="Tenure"
         className="choice__Select-sc-1k1omlp-1 bLBqKy"
         onChange={[Function]}
       >
@@ -187,7 +192,7 @@ exports[`Storyshots Compensation Normal 1`] = `
   <div
     className="container__Container-sc-8aaowj-0 kvuGWV"
   >
-    <div
+    <figure
       style={
         Object {
           "fontSize": "1rem",
@@ -206,26 +211,26 @@ exports[`Storyshots Compensation Normal 1`] = `
       >
         $85,000
       </div>
-      <div
-        className="figure__Subtitle-sc-1fhptnd-2 coJNdF"
+      <figcaption
+        className="figure__Subtitle-sc-1fhptnd-2 ftqwVr"
       >
         BASE SALARY
-      </div>
-    </div>
+      </figcaption>
+    </figure>
     <div
       className="divider__LineBox-sc-1mhowia-0 gWpzuR"
     >
       <div
-        className="divider__Text-sc-1mhowia-1 eXDbat"
+        className="divider__Text-sc-1mhowia-1 ipOCbN"
       >
         plus
       </div>
     </div>
     <div
-      className="compensation__FlexDiv-sc-1127ja8-0 czZhCF"
+      className="compensation__FlexDiv-sc-1127ja8-0 fCyXQw"
     >
       <div>
-        <div
+        <figure
           style={
             Object {
               "fontSize": "0.8rem",
@@ -244,11 +249,12 @@ exports[`Storyshots Compensation Normal 1`] = `
           >
             $4,800
           </div>
-          <div
-            className="figure__Subtitle-sc-1fhptnd-2 coJNdF"
+          <figcaption
+            className="figure__Subtitle-sc-1fhptnd-2 ftqwVr"
           >
             TAX-FREE HRA FUNDS
             <a
+              aria-label="Learn more"
               href="https://handbook.sparksuite.com/benefits/health.html"
               rel="noopener noreferrer"
               target="_blank"
@@ -257,14 +263,14 @@ exports[`Storyshots Compensation Normal 1`] = `
                 className="far fa-info-circle"
               />
             </a>
-          </div>
-        </div>
+          </figcaption>
+        </figure>
         <p>
           Flexible funds that reimburse you for nearly any health-related expense, including insurance premiums, deductibles, copayments, coinsurance, eyeglasses, sunscreen, and so much more.
         </p>
       </div>
       <div>
-        <div
+        <figure
           style={
             Object {
               "fontSize": "0.8rem",
@@ -274,7 +280,7 @@ exports[`Storyshots Compensation Normal 1`] = `
           }
         >
           <div
-            className="figure__UpTo-sc-1fhptnd-0 cBsEyV"
+            className="figure__UpTo-sc-1fhptnd-0 bbqMgx"
           >
             UP TO
           </div>
@@ -288,11 +294,12 @@ exports[`Storyshots Compensation Normal 1`] = `
           >
             $3,400
           </div>
-          <div
-            className="figure__Subtitle-sc-1fhptnd-2 coJNdF"
+          <figcaption
+            className="figure__Subtitle-sc-1fhptnd-2 ftqwVr"
           >
             MATCHING 401(k) CONTRIBUTIONS
             <a
+              aria-label="Learn more"
               href="https://handbook.sparksuite.com/benefits/401(k).html"
               rel="noopener noreferrer"
               target="_blank"
@@ -301,8 +308,8 @@ exports[`Storyshots Compensation Normal 1`] = `
                 className="far fa-info-circle"
               />
             </a>
-          </div>
-        </div>
+          </figcaption>
+        </figure>
         <p>
           Company matching up to 4%, beginning with your first paycheck. Plus, your savings are invested through an ultra low-fee provider, which could net you hundreds of thousands of dollars more than typical 401(k) plans.
         </p>
@@ -312,7 +319,7 @@ exports[`Storyshots Compensation Normal 1`] = `
       className="divider__LineBox-sc-1mhowia-0 gWpzuR"
     >
       <div
-        className="divider__Text-sc-1mhowia-1 eXDbat"
+        className="divider__Text-sc-1mhowia-1 ipOCbN"
       >
         along with
       </div>
@@ -362,7 +369,7 @@ exports[`Storyshots Divider Longer 1`] = `
     className="divider__LineBox-sc-1mhowia-0 gWpzuR"
   >
     <div
-      className="divider__Text-sc-1mhowia-1 eXDbat"
+      className="divider__Text-sc-1mhowia-1 ipOCbN"
     >
       a much longer example
     </div>
@@ -383,7 +390,7 @@ exports[`Storyshots Divider Normal 1`] = `
     className="divider__LineBox-sc-1mhowia-0 gWpzuR"
   >
     <div
-      className="divider__Text-sc-1mhowia-1 eXDbat"
+      className="divider__Text-sc-1mhowia-1 ipOCbN"
     >
       example
     </div>
@@ -400,7 +407,7 @@ exports[`Storyshots Figure Basic 1`] = `
     }
   }
 >
-  <div
+  <figure
     style={
       Object {
         "fontSize": "1rem",
@@ -419,12 +426,12 @@ exports[`Storyshots Figure Basic 1`] = `
     >
       $123,456
     </div>
-    <div
-      className="figure__Subtitle-sc-1fhptnd-2 coJNdF"
+    <figcaption
+      className="figure__Subtitle-sc-1fhptnd-2 ftqwVr"
     >
       EXAMPLE SUBTITLE
-    </div>
-  </div>
+    </figcaption>
+  </figure>
 </div>
 `;
 
@@ -437,7 +444,7 @@ exports[`Storyshots Figure Custom Color 1`] = `
     }
   }
 >
-  <div
+  <figure
     style={
       Object {
         "fontSize": "1rem",
@@ -456,12 +463,12 @@ exports[`Storyshots Figure Custom Color 1`] = `
     >
       $123,456
     </div>
-    <div
-      className="figure__Subtitle-sc-1fhptnd-2 coJNdF"
+    <figcaption
+      className="figure__Subtitle-sc-1fhptnd-2 ftqwVr"
     >
       EXAMPLE SUBTITLE
-    </div>
-  </div>
+    </figcaption>
+  </figure>
 </div>
 `;
 
@@ -474,7 +481,7 @@ exports[`Storyshots Figure Info Icon 1`] = `
     }
   }
 >
-  <div
+  <figure
     style={
       Object {
         "fontSize": "1rem",
@@ -493,11 +500,12 @@ exports[`Storyshots Figure Info Icon 1`] = `
     >
       $123,456
     </div>
-    <div
-      className="figure__Subtitle-sc-1fhptnd-2 coJNdF"
+    <figcaption
+      className="figure__Subtitle-sc-1fhptnd-2 ftqwVr"
     >
       EXAMPLE SUBTITLE
       <a
+        aria-label="Learn more"
         href="https://www.sparksuite.com/"
         rel="noopener noreferrer"
         target="_blank"
@@ -506,8 +514,8 @@ exports[`Storyshots Figure Info Icon 1`] = `
           className="far fa-info-circle"
         />
       </a>
-    </div>
-  </div>
+    </figcaption>
+  </figure>
 </div>
 `;
 
@@ -520,7 +528,7 @@ exports[`Storyshots Figure Smaller 1`] = `
     }
   }
 >
-  <div
+  <figure
     style={
       Object {
         "fontSize": "0.8rem",
@@ -539,12 +547,12 @@ exports[`Storyshots Figure Smaller 1`] = `
     >
       $123,456
     </div>
-    <div
-      className="figure__Subtitle-sc-1fhptnd-2 coJNdF"
+    <figcaption
+      className="figure__Subtitle-sc-1fhptnd-2 ftqwVr"
     >
       EXAMPLE SUBTITLE
-    </div>
-  </div>
+    </figcaption>
+  </figure>
 </div>
 `;
 
@@ -557,7 +565,7 @@ exports[`Storyshots Figure Up To 1`] = `
     }
   }
 >
-  <div
+  <figure
     style={
       Object {
         "fontSize": "1rem",
@@ -567,7 +575,7 @@ exports[`Storyshots Figure Up To 1`] = `
     }
   >
     <div
-      className="figure__UpTo-sc-1fhptnd-0 cBsEyV"
+      className="figure__UpTo-sc-1fhptnd-0 bbqMgx"
     >
       UP TO
     </div>
@@ -581,12 +589,12 @@ exports[`Storyshots Figure Up To 1`] = `
     >
       $123,456
     </div>
-    <div
-      className="figure__Subtitle-sc-1fhptnd-2 coJNdF"
+    <figcaption
+      className="figure__Subtitle-sc-1fhptnd-2 ftqwVr"
     >
       EXAMPLE SUBTITLE
-    </div>
-  </div>
+    </figcaption>
+  </figure>
 </div>
 `;
 
@@ -614,16 +622,18 @@ exports[`Storyshots Header Normal 1`] = `
     }
   }
 >
-  <div
-    className="header__Title-vob98y-0 dbnGjZ"
-  >
-    Sparksuiteʼs Salary Calculator
-  </div>
-  <div
-    className="header__Subtitle-vob98y-1 jDVMfa"
-  >
-    Transparent, predictable, & holistic compensation
-  </div>
+  <header>
+    <h1
+      className="header__Title-vob98y-0 bfrEHj"
+    >
+      Sparksuiteʼs Salary Calculator
+    </h1>
+    <h2
+      className="header__Subtitle-vob98y-1 eWjXNk"
+    >
+      Transparent, predictable, & holistic compensation
+    </h2>
+  </header>
 </div>
 `;
 
