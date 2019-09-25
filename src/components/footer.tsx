@@ -24,6 +24,16 @@ const Container = styled.footer`
 		&:hover {
 			text-decoration: underline;
 		}
+
+		&:last-child {
+			margin: 0;
+		}
+	}
+
+	@media (max-width: 768px) {
+		a {
+			display: none;
+		}
 	}
 `;
 
