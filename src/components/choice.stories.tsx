@@ -22,6 +22,7 @@ export const simple = () => (
 	<Choice
 		choices={['Option 1', 'Option 2']}
 		onChange={action('choice-changed')}
+		ariaLabel='ARIA label'
 	/>
 );
 
@@ -32,5 +33,6 @@ export const grouped = () => (
 			'Group 2': ['Option 3', 'Option 4'],
 		}}
 		onChange={() => null}
+		ariaLabel='ARIA label'
 	/>
 );

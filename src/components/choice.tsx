@@ -57,6 +57,7 @@ interface GroupedChoices {
 type ChoiceProps = {
 	choices: GroupedChoices | string[];
 	onChange: Function;
+	ariaLabel: string;
 };
 
 // Define a type guard
@@ -65,10 +66,13 @@ const isGrouped = (object: any): object is GroupedChoices => {
 };
 
 // Functional component
-const Choices: React.FC<ChoiceProps> = ({ choices, onChange }) => {
+const Choices: React.FC<ChoiceProps> = ({ choices, onChange, ariaLabel }) => {
 	return (
 		<Wrapper>
-			<Select onChange={(event) => onChange(event.target.value)}>
+			<Select
+				onChange={(event) => onChange(event.target.value)}
+				aria-label={ariaLabel}
+			>
 				{isGrouped(choices)
 					? Object.keys(choices).map((groupName) => (
 							<optgroup key={groupName} label={groupName}>

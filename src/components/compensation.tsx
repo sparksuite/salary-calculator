@@ -22,7 +22,7 @@ const FlexDiv = styled.div`
 		p {
 			font-size: 0.9rem;
 			line-height: 1.15rem;
-			color: #828282;
+			color: #757575;
 		}
 
 		&:first-child {

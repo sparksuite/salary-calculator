@@ -16,6 +16,7 @@ it('renders shallowly without crashing (grouped)', () => {
 				'Group 2': ['Option 3', 'Option 4'],
 			}}
 			onChange={() => null}
+			ariaLabel='ARIA label'
 		/>
 	);
 });
