@@ -6,6 +6,7 @@ import Header from './header';
 import Choices from './choices';
 import PositionDescription from './position-description';
 import Compensation from './compensation';
+import Footer from './footer';
 
 // Global style
 const GlobalStyle = createGlobalStyle`
@@ -44,6 +45,8 @@ const App: React.FC = () => {
 				<PositionDescription />
 				<Compensation />
 			</main>
+
+			<Footer />
 		</React.Fragment>
 	);
 };

@@ -590,6 +590,55 @@ exports[`Storyshots Figure Up To 1`] = `
 </div>
 `;
 
+exports[`Storyshots Footer Normal 1`] = `
+<div
+  style={
+    Object {
+      "margin": "auto",
+      "maxWidth": "80%",
+    }
+  }
+>
+  <footer
+    className="footer__Container-j9er38-0 jJnbnb"
+  >
+    <div>
+      <a
+        href="https://www.sparksuite.com/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Company website
+      </a>
+      <a
+        href="https://blog.sparksuite.com/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Blog
+      </a>
+      <a
+        href="https://sparksuite.careers/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Careers
+      </a>
+      <a
+        href="https://handbook.sparksuite.com/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Employee handbook
+      </a>
+    </div>
+    <img
+      src="/logo.png"
+    />
+  </footer>
+</div>
+`;
+
 exports[`Storyshots Gradient Normal 1`] = `
 <div
   style={
