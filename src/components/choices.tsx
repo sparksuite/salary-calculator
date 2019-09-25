@@ -47,18 +47,43 @@ const Choices: React.FC = () => {
 		}
 	}
 
-	// Get the currently-selected position's field descriptor
+	// Get the currently-selected position's field descriptor and annual raises
 	const selectedPosition = useSelector((state: AppState) => state.position);
 	let fieldDescriptor = '';
+	let annualRaises = [0];
 
 	for (const field of data.fields) {
 		for (const role of field.roles) {
 			for (const level of role.levels) {
 				if (level.title === selectedPosition) {
 					fieldDescriptor = field.descriptor;
+					annualRaises = level.annualRaises;
 				}
 			}
 		}
+	}
+	
+	// Determine available tenures
+	let possibleExtraTenures = [
+		'one to two years',
+		'two to three years',
+		'three to four years',
+		'more than four years',
+	];
+	
+	let tenures = [
+		'less than one year',
+	];
+	
+	for (let i = 0; i < annualRaises.length; i++) {
+		tenures.push(possibleExtraTenures[i]);
+	}
+	
+	// Reset tenure if currently-selected one is unavailable
+	const selectedTenure = useSelector((state: AppState) => state.tenure);
+	
+	if (!tenures.includes(selectedTenure)) {
+		dispatch(actions.setTenure(tenures[0]));
 	}
 
 	// Return JSX
@@ -79,13 +104,7 @@ const Choices: React.FC = () => {
 				Sparksuite family for
 			</Text>
 			<Choice
-				choices={[
-					'less than one year',
-					'one to two years',
-					'two to three years',
-					'three to four years',
-					'more than four years',
-				]}
+				choices={tenures}
 				onChange={(value: string) => dispatch(actions.setTenure(value))}
 			/>
 		</Container>
