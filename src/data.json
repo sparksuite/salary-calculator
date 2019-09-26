@@ -1,4 +1,5 @@
 {
+	"tenures": ["less than one year", "one to two years", "two to three years", "three to four years", "four to five years", "five to six years", "more than six years"],
 	"fields": [
 		{
 			"name": "Engineering",

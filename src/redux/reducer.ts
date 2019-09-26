@@ -1,4 +1,5 @@
 // Imports
+import data from '../data.json';
 import {
 	AppState,
 	SET_POSITION,
@@ -9,9 +10,9 @@ import {
 
 // Define initial state
 const initialState: AppState = {
-	position: 'Front End Engineer I',
+	position: data.fields[0].roles[0].levels[0].title,
 	dependents: false,
-	tenure: 'less than one year',
+	tenure: data.tenures[0],
 };
 
 // The root reducer
