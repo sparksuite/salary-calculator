@@ -70,6 +70,36 @@ exports[`Storyshots Choice Simple 1`] = `
 </div>
 `;
 
+exports[`Storyshots Choice Some Disabled 1`] = `
+<div
+  style={
+    Object {
+      "margin": "auto",
+      "maxWidth": "80%",
+    }
+  }
+>
+  <div
+    className="choice__Wrapper-sc-1k1omlp-0 bghiPC"
+  >
+    <select
+      aria-label="ARIA label"
+      className="choice__Select-sc-1k1omlp-1 bLBqKy"
+      onChange={[Function]}
+    >
+      <option
+        disabled={true}
+      >
+        Option 1
+      </option>
+      <option>
+        Option 2
+      </option>
+    </select>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Choices Normal 1`] = `
 <div
   style={
@@ -167,12 +197,42 @@ exports[`Storyshots Choices Normal 1`] = `
         aria-label="Tenure"
         className="choice__Select-sc-1k1omlp-1 bLBqKy"
         onChange={[Function]}
+        value="less than one year"
       >
-        <option>
+        <option
+          disabled={false}
+        >
           less than one year
         </option>
-        <option>
+        <option
+          disabled={false}
+        >
           one to two years
+        </option>
+        <option
+          disabled={true}
+        >
+          two to three years
+        </option>
+        <option
+          disabled={true}
+        >
+          three to four years
+        </option>
+        <option
+          disabled={true}
+        >
+          four to five years
+        </option>
+        <option
+          disabled={true}
+        >
+          five to six years
+        </option>
+        <option
+          disabled={true}
+        >
+          more than six years
         </option>
       </select>
     </div>
