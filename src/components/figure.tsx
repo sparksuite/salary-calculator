@@ -36,8 +36,8 @@ const Subtitle = styled.figcaption`
 	}
 `;
 
-// Definition
-type FigureProps = {
+// Define the component props
+type Props = {
 	amount: number;
 	subtitle: string;
 	color?: string;
@@ -47,7 +47,7 @@ type FigureProps = {
 };
 
 // Functional component
-const Figure: React.FC<FigureProps> = ({
+const Figure: React.FC<Props> = ({
 	amount,
 	subtitle,
 	color,

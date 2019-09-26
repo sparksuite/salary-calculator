@@ -19,13 +19,13 @@ const Text = styled.div`
 	display: inline-block;
 `;
 
-// Definition
-type DividerProps = {
+// Define the component props
+type Props = {
 	text: string;
 };
 
 // Functional component
-const Divider: React.FC<DividerProps> = ({ text }) => {
+const Divider: React.FC<Props> = ({ text }) => {
 	return (
 		<LineBox>
 			<Text>{text}</Text>
