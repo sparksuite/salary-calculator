@@ -49,7 +49,6 @@ const Select = styled.select`
 	max-width: 50vw;
 `;
 
-
 // Define the component props
 type Props = {
 	onChange: Function;

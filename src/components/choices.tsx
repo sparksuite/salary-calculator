@@ -33,30 +33,30 @@ const Text = styled.span`
 const Choices: React.FC = () => {
 	// Use dispatch
 	const dispatch = useDispatch();
-	
+
 	// Form an array of all position titles
 	let fields = [];
-	
+
 	for (const field of data.fields) {
-		const group: { descriptor: string; positions: string[]; } = {
+		const group: { descriptor: string; positions: string[] } = {
 			descriptor: field.name,
 			positions: [],
 		};
-	
+
 		for (const role of field.roles) {
 			for (const level of role.levels) {
 				group.positions.push(level.title);
 			}
 		}
-	
+
 		fields.push(group);
 	}
-	
+
 	// Get the currently-selected position's field descriptor and annual raises
 	const selectedPosition = useSelector((state: AppState) => state.position);
 	let fieldDescriptor = '';
 	let annualRaises = [0];
-	
+
 	for (const field of data.fields) {
 		for (const role of field.roles) {
 			for (const level of role.levels) {
@@ -67,28 +67,32 @@ const Choices: React.FC = () => {
 			}
 		}
 	}
-	
+
 	// Build list of tenure choices
 	let tenures = [];
-	
+
 	for (let tenure of data.tenures) {
 		tenures.push({
 			descriptor: tenure,
 			disabled: false,
 		});
 	}
-	
+
 	for (let i = annualRaises.length + 1; i < tenures.length; i++) {
 		tenures[i].disabled = true;
 	}
-	
+
 	// Reset tenure if currently-selected one is unavailable
 	const selectedTenure = useSelector((state: AppState) => state.tenure);
-	
-	if (!tenures.map((tenure) => tenure.disabled ? null : tenure.descriptor).includes(selectedTenure)) {
+
+	if (
+		!tenures
+			.map((tenure) => (tenure.disabled ? null : tenure.descriptor))
+			.includes(selectedTenure)
+	) {
 		dispatch(actions.setTenure(data.tenures[0]));
 	}
-	
+
 	// Return JSX
 	return (
 		<Container>
@@ -109,10 +113,10 @@ const Choices: React.FC = () => {
 			<Choice
 				onChange={(value: string) => dispatch(actions.setDependents(value))}
 				ariaLabel='Spouse or dependents'
-				>
-					<option>donʼt</option>
-					<option>do</option>
-				</Choice>
+			>
+				<option>donʼt</option>
+				<option>do</option>
+			</Choice>
 			<Text>
 				have a spouse / dependents. Iʼve been {fieldDescriptor} in the
 				Sparksuite family for
@@ -121,9 +125,13 @@ const Choices: React.FC = () => {
 				onChange={(value: string) => dispatch(actions.setTenure(value))}
 				ariaLabel='Tenure'
 				value={selectedTenure}
-				>
-					{tenures.map((tenure) => <option key={tenure.descriptor} disabled={tenure.disabled}>{tenure.descriptor}</option>)}
-				</Choice>
+			>
+				{tenures.map((tenure) => (
+					<option key={tenure.descriptor} disabled={tenure.disabled}>
+						{tenure.descriptor}
+					</option>
+				))}
+			</Choice>
 		</Container>
 	);
 };

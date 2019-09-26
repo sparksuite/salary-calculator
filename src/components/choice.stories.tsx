@@ -19,38 +19,29 @@ export default {
 };
 
 export const simple = () => (
-	<Choice
-		onChange={action('choice-changed')}
-		ariaLabel='ARIA label'
-	>
-        <option>Option 1</option>
-        <option>Option 2</option>
-    </Choice>
+	<Choice onChange={action('choice-changed')} ariaLabel='ARIA label'>
+		<option>Option 1</option>
+		<option>Option 2</option>
+	</Choice>
 );
 
 export const grouped = () => (
-	<Choice
-		onChange={() => null}
-		ariaLabel='ARIA label'
-        >
-            <optgroup label='Group 1'>
-            <option>Option 1</option>
-            <option>Option 2</option>
-            </optgroup>
-            
-            <optgroup label='Group 2'>
-            <option>Option 3</option>
-            <option>Option 4</option>
-            </optgroup>
-        </Choice>
+	<Choice onChange={() => null} ariaLabel='ARIA label'>
+		<optgroup label='Group 1'>
+			<option>Option 1</option>
+			<option>Option 2</option>
+		</optgroup>
+
+		<optgroup label='Group 2'>
+			<option>Option 3</option>
+			<option>Option 4</option>
+		</optgroup>
+	</Choice>
 );
 
 export const someDisabled = () => (
-	<Choice
-		onChange={() => null}
-		ariaLabel='ARIA label'
-        >
-            <option disabled>Option 1</option>
-            <option>Option 2</option>
-        </Choice>
+	<Choice onChange={() => null} ariaLabel='ARIA label'>
+		<option disabled>Option 1</option>
+		<option>Option 2</option>
+	</Choice>
 );
