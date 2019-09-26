@@ -5,18 +5,35 @@ import Choice from './choice';
 
 // Tests
 it('renders shallowly without crashing (simple)', () => {
-	shallow(<Choice choices={['Option 1', 'Option 2']} onChange={() => null} />);
+	shallow(
+		<Choice onChange={() => null} ariaLabel='ARIA label'>
+			<option>Option 1</option>
+			<option>Option 2</option>
+		</Choice>
+	);
 });
 
 it('renders shallowly without crashing (grouped)', () => {
 	shallow(
-		<Choice
-			choices={{
-				'Group 1': ['Option 1', 'Option 2'],
-				'Group 2': ['Option 3', 'Option 4'],
-			}}
-			onChange={() => null}
-			ariaLabel='ARIA label'
-		/>
+		<Choice onChange={() => null} ariaLabel='ARIA label'>
+			<optgroup label='Group 1'>
+				<option>Option 1</option>
+				<option>Option 2</option>
+			</optgroup>
+
+			<optgroup label='Group 2'>
+				<option>Option 3</option>
+				<option>Option 4</option>
+			</optgroup>
+		</Choice>
+	);
+});
+
+it('renders shallowly without crashing (some disabled)', () => {
+	shallow(
+		<Choice onChange={() => null} ariaLabel='ARIA label'>
+			<option disabled>Option 1</option>
+			<option>Option 2</option>
+		</Choice>
 	);
 });

@@ -1,4 +1,13 @@
 {
+	"tenures": [
+		"less than one year",
+		"one to two years",
+		"two to three years",
+		"three to four years",
+		"four to five years",
+		"five to six years",
+		"more than six years"
+	],
 	"fields": [
 		{
 			"name": "Engineering",
@@ -17,13 +26,13 @@
 							"title": "Front End Engineer II",
 							"description": "A level II front end engineer has relevant professional experience and a solid understanding of front end engineering fundamentals. They require less direction to accomplish tasks.",
 							"startingSalary": 95000,
-							"annualRaises": [0.075, 0.05, 0.03, 0.03]
+							"annualRaises": [0.075, 0.05, 0.03, 0.025, 0.02, 0.02]
 						},
 						{
 							"title": "Lead Front End Engineer",
 							"description": "A lead front end engineer is a highly experienced individual contributor whoʼs been given leadership responsibilities. Lead engineers generally have others reporting to them and have more input over the design and direction of the product.",
 							"startingSalary": 110000,
-							"annualRaises": [0.05, 0.035, 0.03, 0.03]
+							"annualRaises": [0.05, 0.035, 0.03, 0.025, 0.02, 0.02]
 						}
 					]
 				},
@@ -40,13 +49,13 @@
 							"title": "Back End Engineer II",
 							"description": "A level II back end engineer has relevant professional experience and a solid understanding of back end engineering fundamentals. They require less direction to accomplish tasks.",
 							"startingSalary": 87500,
-							"annualRaises": [0.075, 0.05, 0.03, 0.03]
+							"annualRaises": [0.075, 0.05, 0.03, 0.025, 0.02, 0.02]
 						},
 						{
 							"title": "Lead Back End Engineer",
 							"description": "A lead back end engineer is a highly experienced individual contributor whoʼs been given leadership responsibilities. Lead engineers generally have others reporting to them and have more input over the design and direction of the product.",
 							"startingSalary": 102500,
-							"annualRaises": [0.05, 0.035, 0.03, 0.03]
+							"annualRaises": [0.05, 0.035, 0.03, 0.025, 0.02, 0.02]
 						}
 					]
 				}
@@ -69,13 +78,13 @@
 							"title": "Customer Success Champion II",
 							"description": "A level II customer success champion has extensive work experience in customer success roles, has excellent communication skills, is very personable, and has a strong grasp of technology.",
 							"startingSalary": 49000,
-							"annualRaises": [0.075, 0.05, 0.03, 0.03]
+							"annualRaises": [0.075, 0.05, 0.03, 0.025, 0.02, 0.02]
 						},
 						{
 							"title": "Lead Customer Success Champion",
 							"description": "A lead customer success champion is as talented as a level II customer success champion, but also has leadership responsibilities. Among other things, this includes reviewing the performance of others who report to them, taking an active role in the hiring process, and ensuring team goals are achieved.",
 							"startingSalary": 54500,
-							"annualRaises": [0.05, 0.035, 0.03, 0.03]
+							"annualRaises": [0.05, 0.035, 0.03, 0.025, 0.02, 0.02]
 						}
 					]
 				}

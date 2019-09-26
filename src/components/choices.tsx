@@ -1,7 +1,7 @@
 // Imports
 import React from 'react';
 import styled from 'styled-components/macro';
-import Choice, { ChoicesProp } from './choice';
+import Choice from './choice';
 import data from '../data.json';
 import * as actions from '../redux/actions';
 import { useDispatch, useSelector } from 'react-redux';
@@ -35,16 +35,21 @@ const Choices: React.FC = () => {
 	const dispatch = useDispatch();
 
 	// Form an array of all position titles
-	let positions: ChoicesProp = {};
+	let fields = [];
 
 	for (const field of data.fields) {
-		positions[field.name] = [];
+		const group: { descriptor: string; positions: string[] } = {
+			descriptor: field.name,
+			positions: [],
+		};
 
 		for (const role of field.roles) {
 			for (const level of role.levels) {
-				positions[field.name].push(level.title);
+				group.positions.push(level.title);
 			}
 		}
+
+		fields.push(group);
 	}
 
 	// Get the currently-selected position's field descriptor and annual raises
@@ -63,25 +68,29 @@ const Choices: React.FC = () => {
 		}
 	}
 
-	// Determine available tenures
-	let possibleExtraTenures = [
-		'one to two years',
-		'two to three years',
-		'three to four years',
-		'more than four years',
-	];
+	// Build list of tenure choices
+	let tenures = [];
 
-	let tenures = ['less than one year'];
+	for (let tenure of data.tenures) {
+		tenures.push({
+			descriptor: tenure,
+			disabled: false,
+		});
+	}
 
-	for (let i = 0; i < annualRaises.length; i++) {
-		tenures.push(possibleExtraTenures[i]);
+	for (let i = annualRaises.length + 1; i < tenures.length; i++) {
+		tenures[i].disabled = true;
 	}
 
 	// Reset tenure if currently-selected one is unavailable
 	const selectedTenure = useSelector((state: AppState) => state.tenure);
 
-	if (!tenures.includes(selectedTenure)) {
-		dispatch(actions.setTenure(tenures[0]));
+	if (
+		!tenures
+			.map((tenure) => (tenure.disabled ? null : tenure.descriptor))
+			.includes(selectedTenure)
+	) {
+		dispatch(actions.setTenure(data.tenures[0]));
 	}
 
 	// Return JSX
@@ -89,25 +98,40 @@ const Choices: React.FC = () => {
 		<Container>
 			<Text>I am a</Text>
 			<Choice
-				choices={positions}
 				onChange={(value: string) => dispatch(actions.setPosition(value))}
 				ariaLabel='Position'
-			/>
+			>
+				{fields.map((field) => (
+					<optgroup key={field.descriptor} label={field.descriptor}>
+						{field.positions.map((position) => (
+							<option key={position}>{position}</option>
+						))}
+					</optgroup>
+				))}
+			</Choice>
 			<Text>and, for health benefits, I</Text>
 			<Choice
-				choices={['donʼt', 'do']}
 				onChange={(value: string) => dispatch(actions.setDependents(value))}
 				ariaLabel='Spouse or dependents'
-			/>
+			>
+				<option>donʼt</option>
+				<option>do</option>
+			</Choice>
 			<Text>
 				have a spouse / dependents. Iʼve been {fieldDescriptor} in the
 				Sparksuite family for
 			</Text>
 			<Choice
-				choices={tenures}
 				onChange={(value: string) => dispatch(actions.setTenure(value))}
 				ariaLabel='Tenure'
-			/>
+				value={selectedTenure}
+			>
+				{tenures.map((tenure) => (
+					<option key={tenure.descriptor} disabled={tenure.disabled}>
+						{tenure.descriptor}
+					</option>
+				))}
+			</Choice>
 		</Container>
 	);
 };
