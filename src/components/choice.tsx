@@ -49,45 +49,27 @@ const Select = styled.select`
 	max-width: 50vw;
 `;
 
-interface GroupedChoices {
-	[key: string]: string[];
-}
 
-// Definition
-type ChoiceProps = {
-	choices: GroupedChoices | string[];
+// Define the component props
+type Props = {
 	onChange: Function;
-	ariaLabel: string;
-};
-
-// Define a type guard
-const isGrouped = (object: any): object is GroupedChoices => {
-	return object[0] === undefined;
+	ariaLabel?: string;
+	value?: string;
 };
 
 // Functional component
-const Choices: React.FC<ChoiceProps> = ({ choices, onChange, ariaLabel }) => {
+const Choice: React.FC<Props> = ({ onChange, ariaLabel, value, children }) => {
 	return (
 		<Wrapper>
 			<Select
 				onChange={(event) => onChange(event.target.value)}
 				aria-label={ariaLabel}
+				value={value}
 			>
-				{isGrouped(choices)
-					? Object.keys(choices).map((groupName) => (
-							<optgroup key={groupName} label={groupName}>
-								{choices[groupName].map((choice) => (
-									<option key={choice}>{choice}</option>
-								))}
-							</optgroup>
-					  ))
-					: choices.map((choice) => <option key={choice}>{choice}</option>)}
+				{children}
 			</Select>
 		</Wrapper>
 	);
 };
 
-export default Choices;
-
-// Export the type of choices prop
-export type ChoicesProp = GroupedChoices | string[];
+export default Choice;

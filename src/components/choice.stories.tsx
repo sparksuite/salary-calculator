@@ -20,19 +20,37 @@ export default {
 
 export const simple = () => (
 	<Choice
-		choices={['Option 1', 'Option 2']}
 		onChange={action('choice-changed')}
 		ariaLabel='ARIA label'
-	/>
+	>
+        <option>Option 1</option>
+        <option>Option 2</option>
+    </Choice>
 );
 
 export const grouped = () => (
 	<Choice
-		choices={{
-			'Group 1': ['Option 1', 'Option 2'],
-			'Group 2': ['Option 3', 'Option 4'],
-		}}
 		onChange={() => null}
 		ariaLabel='ARIA label'
-	/>
+        >
+            <optgroup label='Group 1'>
+            <option>Option 1</option>
+            <option>Option 2</option>
+            </optgroup>
+            
+            <optgroup label='Group 2'>
+            <option>Option 3</option>
+            <option>Option 4</option>
+            </optgroup>
+        </Choice>
+);
+
+export const someDisabled = () => (
+	<Choice
+		onChange={() => null}
+		ariaLabel='ARIA label'
+        >
+            <option disabled>Option 1</option>
+            <option>Option 2</option>
+        </Choice>
 );
