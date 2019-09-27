@@ -7,6 +7,7 @@ import { useSelector } from 'react-redux';
 import Container from './container';
 import Figure from './figure';
 import Divider from './divider';
+import { calculateSalary } from '../utils/salary';
 
 // Styled elements
 const FlexDiv = styled.div`
@@ -74,17 +75,12 @@ const Compensation: React.FC = () => {
 	}
 
 	// Determine base salary
-	let baseSalary = levelDetails.startingSalary;
-
 	const selectedTenure = useSelector((state: AppState) => state.tenure);
-	let loopCount = data.tenures.indexOf(selectedTenure);
-
-	let raisePercentage = 0;
-
-	for (let i = 0; i < loopCount; i++) {
-		raisePercentage = levelDetails.annualRaises[i];
-		baseSalary = Math.round((baseSalary * (1 + raisePercentage)) / 100) * 100;
-	}
+	const baseSalary = calculateSalary(
+		levelDetails.startingSalary,
+		levelDetails.annualRaises,
+		selectedTenure
+	);
 
 	// Determine HRA funding amount
 	const hasDependents = useSelector((state: AppState) => state.dependents);
