@@ -3,7 +3,7 @@ import styled from 'styled-components/macro';
 
 // Styled gradient in the background
 const Gradient = styled.div`
-	width: 100vw;
+	width: 100%;
 	height: 55rem;
 	transform: skewY(-5deg);
 	transform-origin: -100%;

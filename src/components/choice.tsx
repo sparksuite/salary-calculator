@@ -47,6 +47,24 @@ const Select = styled.select`
 	cursor: pointer;
 	text-overflow: ellipsis;
 	max-width: 50vw;
+
+	/* For Windows */
+	option,
+	optgroup {
+		color: black;
+	}
+
+	option {
+		font-weight: normal;
+	}
+
+	optgroup {
+		font-weight: bold;
+	}
+
+	option:disabled {
+		color: graytext;
+	}
 `;
 
 // Define the component props
