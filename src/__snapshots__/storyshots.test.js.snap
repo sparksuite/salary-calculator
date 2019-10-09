@@ -14,7 +14,7 @@ exports[`Storyshots Choice Grouped 1`] = `
   >
     <select
       aria-label="ARIA label"
-      className="choice__Select-sc-1k1omlp-1 bLBqKy"
+      className="choice__Select-sc-1k1omlp-1 pHIZz"
       onChange={[Function]}
     >
       <optgroup
@@ -56,7 +56,7 @@ exports[`Storyshots Choice Simple 1`] = `
   >
     <select
       aria-label="ARIA label"
-      className="choice__Select-sc-1k1omlp-1 bLBqKy"
+      className="choice__Select-sc-1k1omlp-1 pHIZz"
       onChange={[Function]}
     >
       <option>
@@ -84,7 +84,7 @@ exports[`Storyshots Choice Some Disabled 1`] = `
   >
     <select
       aria-label="ARIA label"
-      className="choice__Select-sc-1k1omlp-1 bLBqKy"
+      className="choice__Select-sc-1k1omlp-1 pHIZz"
       onChange={[Function]}
     >
       <option
@@ -122,7 +122,7 @@ exports[`Storyshots Choices Normal 1`] = `
     >
       <select
         aria-label="Position"
-        className="choice__Select-sc-1k1omlp-1 bLBqKy"
+        className="choice__Select-sc-1k1omlp-1 pHIZz"
         onChange={[Function]}
       >
         <optgroup
@@ -194,7 +194,7 @@ exports[`Storyshots Choices Normal 1`] = `
     >
       <select
         aria-label="Spouse or dependents"
-        className="choice__Select-sc-1k1omlp-1 bLBqKy"
+        className="choice__Select-sc-1k1omlp-1 pHIZz"
         onChange={[Function]}
       >
         <option>
@@ -217,7 +217,7 @@ exports[`Storyshots Choices Normal 1`] = `
     >
       <select
         aria-label="Tenure"
-        className="choice__Select-sc-1k1omlp-1 bLBqKy"
+        className="choice__Select-sc-1k1omlp-1 pHIZz"
         onChange={[Function]}
         value="less than one year"
       >
