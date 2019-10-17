@@ -65,5 +65,8 @@
 		"prettier": "1.18.2",
 		"redux-logger": "^3.0.6",
 		"require-context.macro": "^1.2.1"
+	},
+	"babelMacros": {
+		"styledComponents": {}
 	}
 }
