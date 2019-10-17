@@ -6,4 +6,4 @@ If this project has helped your team out, or if you simply admire it, weʼd love
 
 ### Tech stack
 
-If youʼre curious, this project was built with Create React App, TypeScript, Redux, styled-components, Storybook, ESLint, Prettier, Jest, Enzyme, Codecov, and Travis CI.
+If youʼre curious, this project was built with Create React App, TypeScript, Redux, styled-components, Storybook, ESLint, Prettier, Jest, Enzyme, Codecov, Travis CI, and Cloudflare Workers Sites.
