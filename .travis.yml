@@ -35,5 +35,5 @@ jobs:
         - npm run build
       deploy:
         provider: script
-        script: bash deploy.sh
+        script: npx @cloudflare/wrangler publish --env production
         skip_cleanup: true
