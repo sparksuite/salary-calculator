@@ -182,6 +182,13 @@ exports[`Storyshots Choices Normal 1`] = `
             Lead Customer Success Champion
           </option>
         </optgroup>
+        <optgroup
+          label="Administration"
+        >
+          <option>
+            Office assistant
+          </option>
+        </optgroup>
       </select>
     </div>
     <span
