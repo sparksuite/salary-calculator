@@ -4,6 +4,6 @@ import { shallow } from 'enzyme';
 import Header from './header';
 
 // Tests
-it('renders shallowly without crashing', () => {
+it('renders shallowly', () => {
 	shallow(<Header />);
 });

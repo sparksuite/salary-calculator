@@ -4,7 +4,7 @@ import { shallow } from 'enzyme';
 import Choice from './choice';
 
 // Tests
-it('renders shallowly without crashing (simple)', () => {
+it('renders shallowly (simple)', () => {
 	shallow(
 		<Choice onChange={() => null} ariaLabel='ARIA label'>
 			<option>Option 1</option>
@@ -13,7 +13,7 @@ it('renders shallowly without crashing (simple)', () => {
 	);
 });
 
-it('renders shallowly without crashing (grouped)', () => {
+it('renders shallowly (grouped)', () => {
 	shallow(
 		<Choice onChange={() => null} ariaLabel='ARIA label'>
 			<optgroup label='Group 1'>
@@ -29,7 +29,7 @@ it('renders shallowly without crashing (grouped)', () => {
 	);
 });
 
-it('renders shallowly without crashing (some disabled)', () => {
+it('renders shallowly (some disabled)', () => {
 	shallow(
 		<Choice onChange={() => null} ariaLabel='ARIA label'>
 			<option disabled>Option 1</option>

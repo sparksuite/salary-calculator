@@ -4,29 +4,29 @@ import { shallow } from 'enzyme';
 import Figure from './figure';
 
 // Tests
-it('renders shallowly without crashing (basic)', () => {
+it('renders shallowly (basic)', () => {
 	shallow(<Figure amount={123456} subtitle='EXAMPLE SUBTITLE' />);
 });
 
-it('renders shallowly without crashing (custom color)', () => {
+it('renders shallowly (custom color)', () => {
 	shallow(
 		<Figure amount={123456} subtitle='EXAMPLE SUBTITLE' color={'#f00'} />
 	);
 });
 
-it('renders shallowly without crashing (smaller)', () => {
+it('renders shallowly (smaller)', () => {
 	shallow(
 		<Figure amount={123456} subtitle='EXAMPLE SUBTITLE' smaller={true} />
 	);
 });
 
-it('renders shallowly without crashing (with up to)', () => {
+it('renders shallowly (with up to)', () => {
 	shallow(
 		<Figure amount={123456} subtitle='EXAMPLE SUBTITLE' showUpTo={true} />
 	);
 });
 
-it('renders shallowly without crashing (with info icon)', () => {
+it('renders shallowly (with info icon)', () => {
 	shallow(
 		<Figure
 			amount={123456}
