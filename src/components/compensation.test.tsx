@@ -1,15 +1,17 @@
 // Imports
 import React from 'react';
-import { shallow } from 'enzyme';
+import ReactDOM from 'react-dom';
 import Compensation from './compensation';
 import store from '../redux/store';
 import { Provider } from 'react-redux';
 
 // Tests
-it('renders shallowly', () => {
-	shallow(
+it('renders', () => {
+	const div = document.createElement('div');
+	ReactDOM.render(
 		<Provider store={store}>
 			<Compensation />
-		</Provider>
+		</Provider>,
+		div
 	);
 });
