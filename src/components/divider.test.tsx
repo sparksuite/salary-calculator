@@ -4,6 +4,6 @@ import { shallow } from 'enzyme';
 import Divider from './divider';
 
 // Tests
-it('renders shallowly without crashing', () => {
+it('renders shallowly', () => {
 	shallow(<Divider text='example' />);
 });

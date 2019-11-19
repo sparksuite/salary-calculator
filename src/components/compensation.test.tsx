@@ -6,7 +6,7 @@ import store from '../redux/store';
 import { Provider } from 'react-redux';
 
 // Tests
-it('renders shallowly without crashing', () => {
+it('renders shallowly', () => {
 	shallow(
 		<Provider store={store}>
 			<Compensation />

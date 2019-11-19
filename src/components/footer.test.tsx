@@ -4,6 +4,6 @@ import { shallow } from 'enzyme';
 import Footer from './footer';
 
 // Tests
-it('renders shallowly without crashing', () => {
+it('renders shallowly', () => {
 	shallow(<Footer />);
 });

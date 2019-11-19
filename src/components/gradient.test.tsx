@@ -4,6 +4,6 @@ import { shallow } from 'enzyme';
 import Gradient from './gradient';
 
 // Tests
-it('renders shallowly without crashing', () => {
+it('renders shallowly', () => {
 	shallow(<Gradient />);
 });
