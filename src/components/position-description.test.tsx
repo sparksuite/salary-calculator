@@ -1,15 +1,17 @@
 // Imports
 import React from 'react';
-import { shallow } from 'enzyme';
+import ReactDOM from 'react-dom';
 import PositionDescription from './position-description';
 import store from '../redux/store';
 import { Provider } from 'react-redux';
 
 // Tests
 it('renders shallowly', () => {
-	shallow(
+	const div = document.createElement('div');
+	ReactDOM.render(
 		<Provider store={store}>
 			<PositionDescription />
-		</Provider>
+		</Provider>,
+		div
 	);
 });
