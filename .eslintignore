@@ -1,4 +1,4 @@
-build/*
-coverage/*
-workers-site/*
-dist/*
+build/
+coverage/
+workers-site/
+dist/
