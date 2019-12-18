@@ -14,25 +14,25 @@ jobs:
       name: Lint code
       node_js: lts/*
       script:
-        - npm run lint
+        - yarn lint
     - stage: test
       name: Verify build
       node_js: lts/*
       script:
-        - npm run build
+        - yarn build
     - stage: test
       name: Run tests
       node_js: lts/*
       script:
-        - npm install -g codecov
-        - npm test -- --coverage
+        - yarn global add codecov
+        - yarn test --coverage
         - codecov
     - stage: deploy
       if: type = push
       name: Deploy to Cloudflare Workers Sites
       node_js: lts/*
       script:
-        - npm run build
+        - yarn build
       deploy:
         provider: script
         script: npx @cloudflare/wrangler publish --env production
