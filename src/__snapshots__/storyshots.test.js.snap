@@ -205,7 +205,7 @@ exports[`Storyshots Choices Normal 1`] = `
         onChange={[Function]}
       >
         <option>
-          donʼt
+          don’t
         </option>
         <option>
           do
@@ -215,7 +215,7 @@ exports[`Storyshots Choices Normal 1`] = `
     <span
       className="choices__Text-sc-800kf9-1 eQJQMD"
     >
-      have a spouse / dependents. Iʼve been 
+      have a spouse / dependents. I’ve been 
       an engineer
        in the Sparksuite family for
     </span>
@@ -757,7 +757,7 @@ exports[`Storyshots Header Normal 1`] = `
     <h1
       className="header__Title-vob98y-0 bfrEHj"
     >
-      Sparksuiteʼs Salary Calculator
+      Sparksuite’s Salary Calculator
     </h1>
     <h2
       className="header__Subtitle-vob98y-1 eWjXNk"
