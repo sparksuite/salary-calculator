@@ -114,11 +114,11 @@ const Choices: React.FC = () => {
 				onChange={(value: string) => dispatch(actions.setDependents(value))}
 				ariaLabel='Spouse or dependents'
 			>
-				<option>donʼt</option>
+				<option>don’t</option>
 				<option>do</option>
 			</Choice>
 			<Text>
-				have a spouse / dependents. Iʼve been {fieldDescriptor} in the
+				have a spouse / dependents. I’ve been {fieldDescriptor} in the
 				Sparksuite family for
 			</Text>
 			<Choice

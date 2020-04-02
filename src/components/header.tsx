@@ -27,7 +27,7 @@ const Subtitle = styled.h2`
 const Header: React.FC = () => {
 	return (
 		<header>
-			<Title>Sparksuiteʼs Salary Calculator</Title>
+			<Title>Sparksuite’s Salary Calculator</Title>
 			<Subtitle>Transparent, predictable, &amp; holistic compensation</Subtitle>
 		</header>
 	);
