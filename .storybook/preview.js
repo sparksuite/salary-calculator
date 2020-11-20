@@ -6,7 +6,11 @@ import store from 'redux/store';
 import { Provider } from 'react-redux';
 
 // Give every story access to the React Redux store
-addDecorator((Story) => <Provider store={store}><Story /></Provider>);
+addDecorator((Story) => (
+	<Provider store={store}>
+		<Story />
+	</Provider>
+));
 
 // Inject global styles
 addDecorator((Story) => (
