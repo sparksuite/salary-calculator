@@ -5,7 +5,7 @@ import styled from 'styled-components/macro';
 // Styled elements
 const Container = styled.figure`
 	margin: 0;
-	padding: 0;
+	padding: 0 0.5em;
 	text-align: center;
 	position: relative;
 `;
