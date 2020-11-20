@@ -1,9 +1,9 @@
 // Imports
 import React from 'react';
-import { shallow } from 'enzyme';
+import { render } from '@testing-library/react';
 import Divider from './divider';
 
 // Tests
-it('renders shallowly', () => {
-	shallow(<Divider text='example' />);
+it('Renders', () => {
+	render(<Divider text='example' />);
 });

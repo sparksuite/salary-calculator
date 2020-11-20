@@ -1,9 +1,9 @@
 // Imports
 import React from 'react';
-import { shallow } from 'enzyme';
+import { render } from '@testing-library/react';
 import Header from './header';
 
 // Tests
-it('renders shallowly', () => {
-	shallow(<Header />);
+it('Renders', () => {
+	render(<Header />);
 });

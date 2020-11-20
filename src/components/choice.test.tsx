@@ -1,11 +1,11 @@
 // Imports
 import React from 'react';
-import { shallow } from 'enzyme';
+import { render } from '@testing-library/react';
 import Choice from './choice';
 
 // Tests
-it('renders shallowly (simple)', () => {
-	shallow(
+it('Renders (simple)', () => {
+	render(
 		<Choice onChange={() => null} ariaLabel='ARIA label'>
 			<option>Option 1</option>
 			<option>Option 2</option>
@@ -13,8 +13,8 @@ it('renders shallowly (simple)', () => {
 	);
 });
 
-it('renders shallowly (grouped)', () => {
-	shallow(
+it('Renders (grouped)', () => {
+	render(
 		<Choice onChange={() => null} ariaLabel='ARIA label'>
 			<optgroup label='Group 1'>
 				<option>Option 1</option>
@@ -29,8 +29,8 @@ it('renders shallowly (grouped)', () => {
 	);
 });
 
-it('renders shallowly (some disabled)', () => {
-	shallow(
+it('Renders (some disabled)', () => {
+	render(
 		<Choice onChange={() => null} ariaLabel='ARIA label'>
 			<option disabled>Option 1</option>
 			<option>Option 2</option>

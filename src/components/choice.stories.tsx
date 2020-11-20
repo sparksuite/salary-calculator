@@ -8,13 +8,10 @@ export default {
 	component: Choice,
 	title: 'Choice',
 	parameters: {
-		backgrounds: [
-			{
-				name: 'Default',
-				value: '#8acc5e',
-				default: true,
-			},
-		],
+		backgrounds: {
+			default: 'default',
+			values: [{ name: 'default', value: '#8acc5e' }],
+		},
 	},
 };
 

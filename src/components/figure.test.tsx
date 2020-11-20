@@ -1,33 +1,29 @@
 // Imports
 import React from 'react';
-import { shallow } from 'enzyme';
+import { render } from '@testing-library/react';
 import Figure from './figure';
 
 // Tests
-it('renders shallowly (basic)', () => {
-	shallow(<Figure amount={123456} subtitle='EXAMPLE SUBTITLE' />);
+it('Renders (basic)', () => {
+	render(<Figure amount={123456} subtitle='EXAMPLE SUBTITLE' />);
 });
 
-it('renders shallowly (custom color)', () => {
-	shallow(
-		<Figure amount={123456} subtitle='EXAMPLE SUBTITLE' color={'#f00'} />
-	);
+it('Renders (custom color)', () => {
+	render(<Figure amount={123456} subtitle='EXAMPLE SUBTITLE' color={'#f00'} />);
 });
 
-it('renders shallowly (smaller)', () => {
-	shallow(
-		<Figure amount={123456} subtitle='EXAMPLE SUBTITLE' smaller={true} />
-	);
+it('Renders (smaller)', () => {
+	render(<Figure amount={123456} subtitle='EXAMPLE SUBTITLE' smaller={true} />);
 });
 
-it('renders shallowly (with up to)', () => {
-	shallow(
+it('Renders (with up to)', () => {
+	render(
 		<Figure amount={123456} subtitle='EXAMPLE SUBTITLE' showUpTo={true} />
 	);
 });
 
-it('renders shallowly (with info icon)', () => {
-	shallow(
+it('Renders (with info icon)', () => {
+	render(
 		<Figure
 			amount={123456}
 			subtitle='EXAMPLE SUBTITLE'

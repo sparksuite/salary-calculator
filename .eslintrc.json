@@ -2,11 +2,17 @@
 	"extends": ["react-app", "plugin:jsx-a11y/recommended", "prettier"],
 	"plugins": ["jsx-a11y"],
 	"rules": {
-		"no-unused-vars": [
+		"@typescript-eslint/no-unused-vars": [
 			"error",
 			{
 				"vars": "all",
 				"args": "after-used"
+			}
+		],
+		"import/no-anonymous-default-export": [
+			"error",
+			{
+				"allowObject": true
 			}
 		]
 	}
