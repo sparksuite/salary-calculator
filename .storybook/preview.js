@@ -6,13 +6,13 @@ import store from 'redux/store';
 import { Provider } from 'react-redux';
 
 // Give every story access to the React Redux store
-addDecorator((storyFn) => <Provider store={store}>{storyFn()}</Provider>);
+addDecorator((Story) => <Provider store={store}><Story /></Provider>);
 
 // Inject global styles
-addDecorator((storyFn) => (
+addDecorator((Story) => (
 	<React.Fragment>
 		<GlobalStyle />
-		{storyFn()}
+		<Story />
 	</React.Fragment>
 ));
 
