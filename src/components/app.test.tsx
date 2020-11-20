@@ -1,9 +1,15 @@
 // Imports
 import React from 'react';
-import { shallow } from 'enzyme';
+import { render } from '@testing-library/react';
 import App from './app';
+import store from '../redux/store';
+import { Provider } from 'react-redux';
 
 // Tests
-it('renders shallowly', () => {
-	shallow(<App />);
+it('Renders', () => {
+	render(
+		<Provider store={store}>
+			<App />
+		</Provider>
+	);
 });

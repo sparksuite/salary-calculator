@@ -2,785 +2,632 @@
 
 exports[`Storyshots Choice Grouped 1`] = `
 <div
-  style={
-    Object {
-      "margin": "auto",
-      "maxWidth": "80%",
-    }
-  }
+  className="choice__Wrapper-sc-1k1omlp-0 csOUzD"
 >
-  <div
-    className="choice__Wrapper-sc-1k1omlp-0 bghiPC"
+  <select
+    aria-label="ARIA label"
+    className="choice__Select-sc-1k1omlp-1 cBdpEX"
+    onChange={[Function]}
   >
-    <select
-      aria-label="ARIA label"
-      className="choice__Select-sc-1k1omlp-1 pHIZz"
-      onChange={[Function]}
+    <optgroup
+      label="Group 1"
     >
-      <optgroup
-        label="Group 1"
-      >
-        <option>
-          Option 1
-        </option>
-        <option>
-          Option 2
-        </option>
-      </optgroup>
-      <optgroup
-        label="Group 2"
-      >
-        <option>
-          Option 3
-        </option>
-        <option>
-          Option 4
-        </option>
-      </optgroup>
-    </select>
-  </div>
+      <option>
+        Option 1
+      </option>
+      <option>
+        Option 2
+      </option>
+    </optgroup>
+    <optgroup
+      label="Group 2"
+    >
+      <option>
+        Option 3
+      </option>
+      <option>
+        Option 4
+      </option>
+    </optgroup>
+  </select>
 </div>
 `;
 
 exports[`Storyshots Choice Simple 1`] = `
 <div
-  style={
-    Object {
-      "margin": "auto",
-      "maxWidth": "80%",
-    }
-  }
+  className="choice__Wrapper-sc-1k1omlp-0 csOUzD"
 >
-  <div
-    className="choice__Wrapper-sc-1k1omlp-0 bghiPC"
+  <select
+    aria-label="ARIA label"
+    className="choice__Select-sc-1k1omlp-1 cBdpEX"
+    onChange={[Function]}
   >
-    <select
-      aria-label="ARIA label"
-      className="choice__Select-sc-1k1omlp-1 pHIZz"
-      onChange={[Function]}
-    >
-      <option>
-        Option 1
-      </option>
-      <option>
-        Option 2
-      </option>
-    </select>
-  </div>
+    <option>
+      Option 1
+    </option>
+    <option>
+      Option 2
+    </option>
+  </select>
 </div>
 `;
 
 exports[`Storyshots Choice Some Disabled 1`] = `
 <div
-  style={
-    Object {
-      "margin": "auto",
-      "maxWidth": "80%",
-    }
-  }
+  className="choice__Wrapper-sc-1k1omlp-0 csOUzD"
 >
-  <div
-    className="choice__Wrapper-sc-1k1omlp-0 bghiPC"
+  <select
+    aria-label="ARIA label"
+    className="choice__Select-sc-1k1omlp-1 cBdpEX"
+    onChange={[Function]}
   >
-    <select
-      aria-label="ARIA label"
-      className="choice__Select-sc-1k1omlp-1 pHIZz"
-      onChange={[Function]}
+    <option
+      disabled={true}
     >
-      <option
-        disabled={true}
-      >
-        Option 1
-      </option>
-      <option>
-        Option 2
-      </option>
-    </select>
-  </div>
+      Option 1
+    </option>
+    <option>
+      Option 2
+    </option>
+  </select>
 </div>
 `;
 
 exports[`Storyshots Choices Normal 1`] = `
 <div
-  style={
-    Object {
-      "margin": "auto",
-      "maxWidth": "80%",
-    }
-  }
+  className="choices__Container-sc-800kf9-0 dJhxcL"
 >
-  <div
-    className="choices__Container-sc-800kf9-0 hmyeUu"
+  <span
+    className="choices__Text-sc-800kf9-1 bhMwJj"
   >
-    <span
-      className="choices__Text-sc-800kf9-1 eQJQMD"
+    I am a
+  </span>
+  <div
+    className="choice__Wrapper-sc-1k1omlp-0 csOUzD"
+  >
+    <select
+      aria-label="Position"
+      className="choice__Select-sc-1k1omlp-1 cBdpEX"
+      onChange={[Function]}
     >
-      I am a
-    </span>
-    <div
-      className="choice__Wrapper-sc-1k1omlp-0 bghiPC"
-    >
-      <select
-        aria-label="Position"
-        className="choice__Select-sc-1k1omlp-1 pHIZz"
-        onChange={[Function]}
-      >
-        <optgroup
-          label="Engineering"
-        >
-          <option>
-            Front End Engineer I
-          </option>
-          <option>
-            Front End Engineer II
-          </option>
-          <option>
-            Lead Front End Engineer
-          </option>
-          <option>
-            Back End Engineer I
-          </option>
-          <option>
-            Back End Engineer II
-          </option>
-          <option>
-            Lead Back End Engineer
-          </option>
-          <option>
-            Mobile Engineer I
-          </option>
-          <option>
-            Mobile Engineer II
-          </option>
-          <option>
-            Lead Mobile Engineer
-          </option>
-        </optgroup>
-        <optgroup
-          label="Design"
-        >
-          <option>
-            UI Designer I
-          </option>
-          <option>
-            UI Designer II
-          </option>
-          <option>
-            Lead UI Designer
-          </option>
-        </optgroup>
-        <optgroup
-          label="Customer Success"
-        >
-          <option>
-            Customer Success Champion I
-          </option>
-          <option>
-            Customer Success Champion II
-          </option>
-          <option>
-            Lead Customer Success Champion
-          </option>
-        </optgroup>
-        <optgroup
-          label="Administration"
-        >
-          <option>
-            Office assistant
-          </option>
-        </optgroup>
-      </select>
-    </div>
-    <span
-      className="choices__Text-sc-800kf9-1 eQJQMD"
-    >
-      and, for health benefits, I
-    </span>
-    <div
-      className="choice__Wrapper-sc-1k1omlp-0 bghiPC"
-    >
-      <select
-        aria-label="Spouse or dependents"
-        className="choice__Select-sc-1k1omlp-1 pHIZz"
-        onChange={[Function]}
+      <optgroup
+        label="Engineering"
       >
         <option>
-          don’t
+          Front End Engineer I
         </option>
         <option>
-          do
+          Front End Engineer II
         </option>
-      </select>
-    </div>
-    <span
-      className="choices__Text-sc-800kf9-1 eQJQMD"
-    >
-      have a spouse / dependents. I’ve been 
-      an engineer
-       in the Sparksuite family for
-    </span>
-    <div
-      className="choice__Wrapper-sc-1k1omlp-0 bghiPC"
-    >
-      <select
-        aria-label="Tenure"
-        className="choice__Select-sc-1k1omlp-1 pHIZz"
-        onChange={[Function]}
-        value="less than one year"
+        <option>
+          Lead Front End Engineer
+        </option>
+        <option>
+          Back End Engineer I
+        </option>
+        <option>
+          Back End Engineer II
+        </option>
+        <option>
+          Lead Back End Engineer
+        </option>
+        <option>
+          Mobile Engineer I
+        </option>
+        <option>
+          Mobile Engineer II
+        </option>
+        <option>
+          Lead Mobile Engineer
+        </option>
+      </optgroup>
+      <optgroup
+        label="Design"
       >
-        <option
-          disabled={false}
-        >
-          less than one year
+        <option>
+          UI Designer I
         </option>
-        <option
-          disabled={false}
-        >
-          one to two years
+        <option>
+          UI Designer II
         </option>
-        <option
-          disabled={true}
-        >
-          two to three years
+        <option>
+          Lead UI Designer
         </option>
-        <option
-          disabled={true}
-        >
-          three to four years
+      </optgroup>
+      <optgroup
+        label="Customer Success"
+      >
+        <option>
+          Customer Success Champion I
         </option>
-        <option
-          disabled={true}
-        >
-          four to five years
+        <option>
+          Customer Success Champion II
         </option>
-        <option
-          disabled={true}
-        >
-          five to six years
+        <option>
+          Lead Customer Success Champion
         </option>
-        <option
-          disabled={true}
-        >
-          more than six years
+      </optgroup>
+      <optgroup
+        label="Administration"
+      >
+        <option>
+          Office assistant
         </option>
-      </select>
-    </div>
+      </optgroup>
+    </select>
+  </div>
+  <span
+    className="choices__Text-sc-800kf9-1 bhMwJj"
+  >
+    and, for health benefits, I
+  </span>
+  <div
+    className="choice__Wrapper-sc-1k1omlp-0 csOUzD"
+  >
+    <select
+      aria-label="Spouse or dependents"
+      className="choice__Select-sc-1k1omlp-1 cBdpEX"
+      onChange={[Function]}
+    >
+      <option>
+        don’t
+      </option>
+      <option>
+        do
+      </option>
+    </select>
+  </div>
+  <span
+    className="choices__Text-sc-800kf9-1 bhMwJj"
+  >
+    have a spouse / dependents. I’ve been 
+    an engineer
+     in the Sparksuite family for
+  </span>
+  <div
+    className="choice__Wrapper-sc-1k1omlp-0 csOUzD"
+  >
+    <select
+      aria-label="Tenure"
+      className="choice__Select-sc-1k1omlp-1 cBdpEX"
+      onChange={[Function]}
+      value="less than one year"
+    >
+      <option
+        disabled={false}
+      >
+        less than one year
+      </option>
+      <option
+        disabled={false}
+      >
+        one to two years
+      </option>
+      <option
+        disabled={true}
+      >
+        two to three years
+      </option>
+      <option
+        disabled={true}
+      >
+        three to four years
+      </option>
+      <option
+        disabled={true}
+      >
+        four to five years
+      </option>
+      <option
+        disabled={true}
+      >
+        five to six years
+      </option>
+      <option
+        disabled={true}
+      >
+        more than six years
+      </option>
+    </select>
   </div>
 </div>
 `;
 
 exports[`Storyshots Compensation Normal 1`] = `
 <div
-  style={
-    Object {
-      "margin": "auto",
-      "maxWidth": "80%",
-    }
-  }
+  className="container__Container-sc-8aaowj-0 bfnNcc"
 >
-  <div
-    className="container__Container-sc-8aaowj-0 kvuGWV"
+  <figure
+    className="figure__Container-sc-1fhptnd-0 kfKLc"
+    style={
+      Object {
+        "fontSize": "1rem",
+      }
+    }
   >
-    <figure
-      className="figure__Container-sc-1fhptnd-0 gDCPtV"
+    <div
+      className="figure__Amount-sc-1fhptnd-2 jVeOqW"
       style={
         Object {
-          "fontSize": "1rem",
+          "color": undefined,
         }
       }
     >
-      <div
-        className="figure__Amount-sc-1fhptnd-2 iVgVzS"
+      $85,000
+    </div>
+    <figcaption
+      className="figure__Subtitle-sc-1fhptnd-3 bfewYL"
+    >
+      BASE SALARY
+    </figcaption>
+  </figure>
+  <div
+    className="divider__LineBox-sc-1mhowia-0 cbAUvB"
+  >
+    <div
+      className="divider__Text-sc-1mhowia-1 iWWUCr"
+    >
+      plus
+    </div>
+  </div>
+  <div
+    className="compensation__FlexDiv-sc-1127ja8-0 ciacxP"
+  >
+    <div>
+      <figure
+        className="figure__Container-sc-1fhptnd-0 kfKLc"
         style={
           Object {
-            "color": undefined,
+            "fontSize": "0.8rem",
           }
         }
       >
-        $85,000
-      </div>
-      <figcaption
-        className="figure__Subtitle-sc-1fhptnd-3 bGhMwz"
-      >
-        BASE SALARY
-      </figcaption>
-    </figure>
-    <div
-      className="divider__LineBox-sc-1mhowia-0 gWpzuR"
-    >
-      <div
-        className="divider__Text-sc-1mhowia-1 ipOCbN"
-      >
-        plus
-      </div>
-    </div>
-    <div
-      className="compensation__FlexDiv-sc-1127ja8-0 gBVxiL"
-    >
-      <div>
-        <figure
-          className="figure__Container-sc-1fhptnd-0 gDCPtV"
+        <div
+          className="figure__Amount-sc-1fhptnd-2 jVeOqW"
           style={
             Object {
-              "fontSize": "0.8rem",
+              "color": "#67b1d6",
             }
           }
         >
-          <div
-            className="figure__Amount-sc-1fhptnd-2 iVgVzS"
-            style={
-              Object {
-                "color": "#67b1d6",
-              }
-            }
+          $4,800
+        </div>
+        <figcaption
+          className="figure__Subtitle-sc-1fhptnd-3 bfewYL"
+        >
+          TAX-FREE HRA FUNDS
+          <a
+            aria-label="Learn more"
+            href="https://handbook.sparksuite.com/benefits/health.html"
+            rel="noopener noreferrer"
+            target="_blank"
           >
-            $4,800
-          </div>
-          <figcaption
-            className="figure__Subtitle-sc-1fhptnd-3 bGhMwz"
-          >
-            TAX-FREE HRA FUNDS
-            <a
-              aria-label="Learn more"
-              href="https://handbook.sparksuite.com/benefits/health.html"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <i
-                className="far fa-info-circle"
-              />
-            </a>
-          </figcaption>
-        </figure>
-        <p>
-          Flexible funds that reimburse you for nearly any health-related expense, including insurance premiums, deductibles, copayments, coinsurance, eyeglasses, sunscreen, and so much more.
-        </p>
-      </div>
-      <div>
-        <figure
-          className="figure__Container-sc-1fhptnd-0 gDCPtV"
+            <i
+              className="far fa-info-circle"
+            />
+          </a>
+        </figcaption>
+      </figure>
+      <p>
+        Flexible funds that reimburse you for nearly any health-related expense, including insurance premiums, deductibles, copayments, coinsurance, eyeglasses, sunscreen, and so much more.
+      </p>
+    </div>
+    <div>
+      <figure
+        className="figure__Container-sc-1fhptnd-0 kfKLc"
+        style={
+          Object {
+            "fontSize": "0.8rem",
+          }
+        }
+      >
+        <div
+          className="figure__UpTo-sc-1fhptnd-1 dJqhYV"
+        >
+          UP TO
+        </div>
+        <div
+          className="figure__Amount-sc-1fhptnd-2 jVeOqW"
           style={
             Object {
-              "fontSize": "0.8rem",
+              "color": "#67b1d6",
             }
           }
         >
-          <div
-            className="figure__UpTo-sc-1fhptnd-1 jFdPgY"
+          $3,400
+        </div>
+        <figcaption
+          className="figure__Subtitle-sc-1fhptnd-3 bfewYL"
+        >
+          MATCHING 401(k) CONTRIBUTIONS
+          <a
+            aria-label="Learn more"
+            href="https://handbook.sparksuite.com/benefits/401(k).html"
+            rel="noopener noreferrer"
+            target="_blank"
           >
-            UP TO
-          </div>
-          <div
-            className="figure__Amount-sc-1fhptnd-2 iVgVzS"
-            style={
-              Object {
-                "color": "#67b1d6",
-              }
-            }
-          >
-            $3,400
-          </div>
-          <figcaption
-            className="figure__Subtitle-sc-1fhptnd-3 bGhMwz"
-          >
-            MATCHING 401(k) CONTRIBUTIONS
-            <a
-              aria-label="Learn more"
-              href="https://handbook.sparksuite.com/benefits/401(k).html"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <i
-                className="far fa-info-circle"
-              />
-            </a>
-          </figcaption>
-        </figure>
-        <p>
-          Company matching up to 4%, beginning with your first paycheck. Plus, your savings are invested through an ultra low-fee provider, which could net you hundreds of thousands of dollars more than typical 401(k) plans.
-        </p>
-      </div>
+            <i
+              className="far fa-info-circle"
+            />
+          </a>
+        </figcaption>
+      </figure>
+      <p>
+        Company matching up to 4%, beginning with your first paycheck. Plus, your savings are invested through an ultra low-fee provider, which could net you hundreds of thousands of dollars more than typical 401(k) plans.
+      </p>
     </div>
+  </div>
+  <div
+    className="divider__LineBox-sc-1mhowia-0 cbAUvB"
+  >
     <div
-      className="divider__LineBox-sc-1mhowia-0 gWpzuR"
+      className="divider__Text-sc-1mhowia-1 iWWUCr"
     >
-      <div
-        className="divider__Text-sc-1mhowia-1 ipOCbN"
-      >
-        along with
-      </div>
+      along with
     </div>
-    <div
-      className="compensation__Perks-sc-1127ja8-1 dOpgVL"
+  </div>
+  <div
+    className="compensation__Perks-sc-1127ja8-1 eyDTrZ"
+  >
+    Flexible office hours, free-lunch Fridays, generous paid time off, healthy work-life balance, great snacks, and all these other
+     
+    <a
+      href="https://handbook.sparksuite.com"
+      rel="noopener noreferrer"
+      target="_blank"
     >
-      Flexible office hours, free-lunch Fridays, generous paid time off, healthy work-life balance, great snacks, and all these other
-       
-      <a
-        href="https://handbook.sparksuite.com"
-        rel="noopener noreferrer"
-        target="_blank"
-      >
-        awesome benefits & perks
-      </a>
-    </div>
+      awesome benefits & perks
+    </a>
   </div>
 </div>
 `;
 
 exports[`Storyshots Container Normal 1`] = `
 <div
-  style={
-    Object {
-      "margin": "auto",
-      "maxWidth": "80%",
-    }
-  }
->
-  <div
-    className="container__Container-sc-8aaowj-0 kvuGWV"
-  />
-</div>
+  className="container__Container-sc-8aaowj-0 bfnNcc"
+/>
 `;
 
 exports[`Storyshots Divider Longer 1`] = `
 <div
-  style={
-    Object {
-      "margin": "auto",
-      "maxWidth": "80%",
-    }
-  }
+  className="divider__LineBox-sc-1mhowia-0 cbAUvB"
 >
   <div
-    className="divider__LineBox-sc-1mhowia-0 gWpzuR"
+    className="divider__Text-sc-1mhowia-1 iWWUCr"
   >
-    <div
-      className="divider__Text-sc-1mhowia-1 ipOCbN"
-    >
-      a much longer example
-    </div>
+    a much longer example
   </div>
 </div>
 `;
 
 exports[`Storyshots Divider Normal 1`] = `
 <div
-  style={
-    Object {
-      "margin": "auto",
-      "maxWidth": "80%",
-    }
-  }
+  className="divider__LineBox-sc-1mhowia-0 cbAUvB"
 >
   <div
-    className="divider__LineBox-sc-1mhowia-0 gWpzuR"
+    className="divider__Text-sc-1mhowia-1 iWWUCr"
   >
-    <div
-      className="divider__Text-sc-1mhowia-1 ipOCbN"
-    >
-      example
-    </div>
+    example
   </div>
 </div>
 `;
 
 exports[`Storyshots Figure Basic 1`] = `
-<div
+<figure
+  className="figure__Container-sc-1fhptnd-0 kfKLc"
   style={
     Object {
-      "margin": "auto",
-      "maxWidth": "80%",
+      "fontSize": "1rem",
     }
   }
 >
-  <figure
-    className="figure__Container-sc-1fhptnd-0 gDCPtV"
+  <div
+    className="figure__Amount-sc-1fhptnd-2 jVeOqW"
     style={
       Object {
-        "fontSize": "1rem",
+        "color": undefined,
       }
     }
   >
-    <div
-      className="figure__Amount-sc-1fhptnd-2 iVgVzS"
-      style={
-        Object {
-          "color": undefined,
-        }
-      }
-    >
-      $123,456
-    </div>
-    <figcaption
-      className="figure__Subtitle-sc-1fhptnd-3 bGhMwz"
-    >
-      EXAMPLE SUBTITLE
-    </figcaption>
-  </figure>
-</div>
+    $123,456
+  </div>
+  <figcaption
+    className="figure__Subtitle-sc-1fhptnd-3 bfewYL"
+  >
+    EXAMPLE SUBTITLE
+  </figcaption>
+</figure>
 `;
 
 exports[`Storyshots Figure Custom Color 1`] = `
-<div
+<figure
+  className="figure__Container-sc-1fhptnd-0 kfKLc"
   style={
     Object {
-      "margin": "auto",
-      "maxWidth": "80%",
+      "fontSize": "1rem",
     }
   }
 >
-  <figure
-    className="figure__Container-sc-1fhptnd-0 gDCPtV"
+  <div
+    className="figure__Amount-sc-1fhptnd-2 jVeOqW"
     style={
       Object {
-        "fontSize": "1rem",
+        "color": "#f00",
       }
     }
   >
-    <div
-      className="figure__Amount-sc-1fhptnd-2 iVgVzS"
-      style={
-        Object {
-          "color": "#f00",
-        }
-      }
-    >
-      $123,456
-    </div>
-    <figcaption
-      className="figure__Subtitle-sc-1fhptnd-3 bGhMwz"
-    >
-      EXAMPLE SUBTITLE
-    </figcaption>
-  </figure>
-</div>
+    $123,456
+  </div>
+  <figcaption
+    className="figure__Subtitle-sc-1fhptnd-3 bfewYL"
+  >
+    EXAMPLE SUBTITLE
+  </figcaption>
+</figure>
 `;
 
 exports[`Storyshots Figure Info Icon 1`] = `
-<div
+<figure
+  className="figure__Container-sc-1fhptnd-0 kfKLc"
   style={
     Object {
-      "margin": "auto",
-      "maxWidth": "80%",
+      "fontSize": "1rem",
     }
   }
 >
-  <figure
-    className="figure__Container-sc-1fhptnd-0 gDCPtV"
+  <div
+    className="figure__Amount-sc-1fhptnd-2 jVeOqW"
     style={
       Object {
-        "fontSize": "1rem",
+        "color": undefined,
       }
     }
   >
-    <div
-      className="figure__Amount-sc-1fhptnd-2 iVgVzS"
-      style={
-        Object {
-          "color": undefined,
-        }
-      }
+    $123,456
+  </div>
+  <figcaption
+    className="figure__Subtitle-sc-1fhptnd-3 bfewYL"
+  >
+    EXAMPLE SUBTITLE
+    <a
+      aria-label="Learn more"
+      href="https://www.sparksuite.com/"
+      rel="noopener noreferrer"
+      target="_blank"
     >
-      $123,456
-    </div>
-    <figcaption
-      className="figure__Subtitle-sc-1fhptnd-3 bGhMwz"
-    >
-      EXAMPLE SUBTITLE
-      <a
-        aria-label="Learn more"
-        href="https://www.sparksuite.com/"
-        rel="noopener noreferrer"
-        target="_blank"
-      >
-        <i
-          className="far fa-info-circle"
-        />
-      </a>
-    </figcaption>
-  </figure>
-</div>
+      <i
+        className="far fa-info-circle"
+      />
+    </a>
+  </figcaption>
+</figure>
 `;
 
 exports[`Storyshots Figure Smaller 1`] = `
-<div
+<figure
+  className="figure__Container-sc-1fhptnd-0 kfKLc"
   style={
     Object {
-      "margin": "auto",
-      "maxWidth": "80%",
+      "fontSize": "0.8rem",
     }
   }
 >
-  <figure
-    className="figure__Container-sc-1fhptnd-0 gDCPtV"
+  <div
+    className="figure__Amount-sc-1fhptnd-2 jVeOqW"
     style={
       Object {
-        "fontSize": "0.8rem",
+        "color": undefined,
       }
     }
   >
-    <div
-      className="figure__Amount-sc-1fhptnd-2 iVgVzS"
-      style={
-        Object {
-          "color": undefined,
-        }
-      }
-    >
-      $123,456
-    </div>
-    <figcaption
-      className="figure__Subtitle-sc-1fhptnd-3 bGhMwz"
-    >
-      EXAMPLE SUBTITLE
-    </figcaption>
-  </figure>
-</div>
+    $123,456
+  </div>
+  <figcaption
+    className="figure__Subtitle-sc-1fhptnd-3 bfewYL"
+  >
+    EXAMPLE SUBTITLE
+  </figcaption>
+</figure>
 `;
 
 exports[`Storyshots Figure Up To 1`] = `
-<div
+<figure
+  className="figure__Container-sc-1fhptnd-0 kfKLc"
   style={
     Object {
-      "margin": "auto",
-      "maxWidth": "80%",
+      "fontSize": "1rem",
     }
   }
 >
-  <figure
-    className="figure__Container-sc-1fhptnd-0 gDCPtV"
+  <div
+    className="figure__UpTo-sc-1fhptnd-1 dJqhYV"
+  >
+    UP TO
+  </div>
+  <div
+    className="figure__Amount-sc-1fhptnd-2 jVeOqW"
     style={
       Object {
-        "fontSize": "1rem",
+        "color": undefined,
       }
     }
   >
-    <div
-      className="figure__UpTo-sc-1fhptnd-1 jFdPgY"
-    >
-      UP TO
-    </div>
-    <div
-      className="figure__Amount-sc-1fhptnd-2 iVgVzS"
-      style={
-        Object {
-          "color": undefined,
-        }
-      }
-    >
-      $123,456
-    </div>
-    <figcaption
-      className="figure__Subtitle-sc-1fhptnd-3 bGhMwz"
-    >
-      EXAMPLE SUBTITLE
-    </figcaption>
-  </figure>
-</div>
+    $123,456
+  </div>
+  <figcaption
+    className="figure__Subtitle-sc-1fhptnd-3 bfewYL"
+  >
+    EXAMPLE SUBTITLE
+  </figcaption>
+</figure>
 `;
 
 exports[`Storyshots Footer Normal 1`] = `
-<div
-  style={
-    Object {
-      "margin": "auto",
-      "maxWidth": "80%",
-    }
-  }
+<footer
+  className="footer__Container-j9er38-0 gSLoki"
 >
-  <footer
-    className="footer__Container-j9er38-0 JIeZd"
-  >
-    <div>
-      <a
-        href="https://www.sparksuite.com/"
-        rel="noopener noreferrer"
-        target="_blank"
-      >
-        Company website
-      </a>
-      <a
-        href="https://blog.sparksuite.com/"
-        rel="noopener noreferrer"
-        target="_blank"
-      >
-        Blog
-      </a>
-      <a
-        href="https://sparksuite.careers/"
-        rel="noopener noreferrer"
-        target="_blank"
-      >
-        Careers
-      </a>
-      <a
-        href="https://handbook.sparksuite.com/"
-        rel="noopener noreferrer"
-        target="_blank"
-      >
-        Employee handbook
-      </a>
-    </div>
-    <img
-      alt="Sparksuite logo"
-      src="/logo.png"
-    />
-  </footer>
-</div>
+  <div>
+    <a
+      href="https://www.sparksuite.com/"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Company website
+    </a>
+    <a
+      href="https://blog.sparksuite.com/"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Blog
+    </a>
+    <a
+      href="https://sparksuite.careers/"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Careers
+    </a>
+    <a
+      href="https://handbook.sparksuite.com/"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Employee handbook
+    </a>
+  </div>
+  <img
+    alt="Sparksuite logo"
+    src="/logo.png"
+  />
+</footer>
 `;
 
 exports[`Storyshots Gradient Normal 1`] = `
 <div
-  style={
-    Object {
-      "margin": "auto",
-      "maxWidth": "80%",
-    }
-  }
->
-  <div
-    className="gradient__Gradient-zihgh-0 yoBIK"
-  />
-</div>
+  className="gradient__Gradient-zihgh-0 hfiInQ"
+/>
 `;
 
 exports[`Storyshots Header Normal 1`] = `
-<div
-  style={
-    Object {
-      "margin": "auto",
-      "maxWidth": "80%",
-    }
-  }
->
-  <header>
-    <h1
-      className="header__Title-vob98y-0 bfrEHj"
-    >
-      Sparksuite’s Salary Calculator
-    </h1>
-    <h2
-      className="header__Subtitle-vob98y-1 eWjXNk"
-    >
-      Transparent, predictable, & holistic compensation
-    </h2>
-  </header>
-</div>
+<header>
+  <h1
+    className="header__Title-vob98y-0 iYxVKp"
+  >
+    Sparksuite’s Salary Calculator
+  </h1>
+  <h2
+    className="header__Subtitle-vob98y-1 dpDWMf"
+  >
+    Transparent, predictable, & holistic compensation
+  </h2>
+</header>
 `;
 
 exports[`Storyshots Position description Normal 1`] = `
 <div
-  style={
-    Object {
-      "margin": "auto",
-      "maxWidth": "80%",
-    }
-  }
+  className="container__Container-sc-8aaowj-0 bfnNcc"
 >
-  <div
-    className="container__Container-sc-8aaowj-0 kvuGWV"
-  >
-    A level one front end engineer is just beginning their professional career in front end software engineering and is working toward a strong foundational knowledge of the fundamentals.
-  </div>
+  A level one front end engineer is just beginning their professional career in front end software engineering and is working toward a strong foundational knowledge of the fundamentals.
 </div>
 `;

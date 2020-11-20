@@ -7,13 +7,10 @@ export default {
 	component: Header,
 	title: 'Header',
 	parameters: {
-		backgrounds: [
-			{
-				name: 'Default',
-				value: '#67B1D6',
-				default: true,
-			},
-		],
+		backgrounds: {
+			default: 'default',
+			values: [{ name: 'default', value: '#67B1D6' }],
+		},
 	},
 };
 

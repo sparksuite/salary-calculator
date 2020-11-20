@@ -1,9 +1,9 @@
 // Imports
 import React from 'react';
-import { shallow } from 'enzyme';
+import { render } from '@testing-library/react';
 import Gradient from './gradient';
 
 // Tests
-it('renders shallowly', () => {
-	shallow(<Gradient />);
+it('Renders', () => {
+	render(<Gradient />);
 });

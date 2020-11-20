@@ -9,7 +9,7 @@ import Compensation from './compensation';
 import Footer from './footer';
 
 // Global style
-const GlobalStyle = createGlobalStyle`
+export const GlobalStyle = createGlobalStyle`
 	/* Duplicated in preview-head.html */
 	body {
 		margin: 0;
