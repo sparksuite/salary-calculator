@@ -238,7 +238,7 @@ exports[`Storyshots Compensation Normal 1`] = `
   className="container__Container-sc-8aaowj-0 bfnNcc"
 >
   <figure
-    className="figure__Container-sc-1fhptnd-0 kfKLc"
+    className="figure__Container-sc-1fhptnd-0 bpKHsn"
     style={
       Object {
         "fontSize": "1rem",
@@ -275,7 +275,7 @@ exports[`Storyshots Compensation Normal 1`] = `
   >
     <div>
       <figure
-        className="figure__Container-sc-1fhptnd-0 kfKLc"
+        className="figure__Container-sc-1fhptnd-0 bpKHsn"
         style={
           Object {
             "fontSize": "0.8rem",
@@ -314,7 +314,7 @@ exports[`Storyshots Compensation Normal 1`] = `
     </div>
     <div>
       <figure
-        className="figure__Container-sc-1fhptnd-0 kfKLc"
+        className="figure__Container-sc-1fhptnd-0 bpKHsn"
         style={
           Object {
             "fontSize": "0.8rem",
@@ -414,7 +414,7 @@ exports[`Storyshots Divider Normal 1`] = `
 
 exports[`Storyshots Figure Basic 1`] = `
 <figure
-  className="figure__Container-sc-1fhptnd-0 kfKLc"
+  className="figure__Container-sc-1fhptnd-0 bpKHsn"
   style={
     Object {
       "fontSize": "1rem",
@@ -441,7 +441,7 @@ exports[`Storyshots Figure Basic 1`] = `
 
 exports[`Storyshots Figure Custom Color 1`] = `
 <figure
-  className="figure__Container-sc-1fhptnd-0 kfKLc"
+  className="figure__Container-sc-1fhptnd-0 bpKHsn"
   style={
     Object {
       "fontSize": "1rem",
@@ -468,7 +468,7 @@ exports[`Storyshots Figure Custom Color 1`] = `
 
 exports[`Storyshots Figure Info Icon 1`] = `
 <figure
-  className="figure__Container-sc-1fhptnd-0 kfKLc"
+  className="figure__Container-sc-1fhptnd-0 bpKHsn"
   style={
     Object {
       "fontSize": "1rem",
@@ -505,7 +505,7 @@ exports[`Storyshots Figure Info Icon 1`] = `
 
 exports[`Storyshots Figure Smaller 1`] = `
 <figure
-  className="figure__Container-sc-1fhptnd-0 kfKLc"
+  className="figure__Container-sc-1fhptnd-0 bpKHsn"
   style={
     Object {
       "fontSize": "0.8rem",
@@ -532,7 +532,7 @@ exports[`Storyshots Figure Smaller 1`] = `
 
 exports[`Storyshots Figure Up To 1`] = `
 <figure
-  className="figure__Container-sc-1fhptnd-0 kfKLc"
+  className="figure__Container-sc-1fhptnd-0 bpKHsn"
   style={
     Object {
       "fontSize": "1rem",
