@@ -58,58 +58,6 @@
 							"annualRaises": [0.05, 0.035, 0.03, 0.025, 0.02, 0.02]
 						}
 					]
-				},
-				{
-					"name": "Mobile Engineer",
-					"levels": [
-						{
-							"title": "Mobile Engineer I",
-							"description": "A level one mobile engineer is just beginning their professional career in mobile software engineering and is working toward a strong foundational knowledge of the fundamentals.",
-							"startingSalary": 82500,
-							"annualRaises": [0.1]
-						},
-						{
-							"title": "Mobile Engineer II",
-							"description": "A level two mobile engineer has relevant professional experience and a solid understanding of mobile engineering fundamentals. They require less direction to accomplish tasks.",
-							"startingSalary": 92500,
-							"annualRaises": [0.075, 0.05, 0.03, 0.025, 0.02, 0.02]
-						},
-						{
-							"title": "Lead Mobile Engineer",
-							"description": "A lead mobile engineer is a highly experienced individual contributor who’s been given leadership responsibilities. Lead engineers generally have others reporting to them and have more input over the design and direction of our products.",
-							"startingSalary": 107500,
-							"annualRaises": [0.05, 0.035, 0.03, 0.025, 0.02, 0.02]
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Design",
-			"descriptor": "a designer",
-			"roles": [
-				{
-					"name": "UI Designer",
-					"levels": [
-						{
-							"title": "UI Designer I",
-							"description": "A level one UI designer is just beginning their professional career in product design and is working toward developing a more complete and experienced skillset in the field.",
-							"startingSalary": 70000,
-							"annualRaises": [0.1]
-						},
-						{
-							"title": "UI Designer II",
-							"description": "A level two UI designer has relevant professional experience and is well versed in designing engaging and thoughtful user interfaces for a variety of use cases.",
-							"startingSalary": 80000,
-							"annualRaises": [0.075, 0.05, 0.03, 0.025, 0.02, 0.02]
-						},
-						{
-							"title": "Lead UI Designer",
-							"description": "A lead UI designer is a highly experienced individual contributor who’s been given leadership responsibilities. Lead designers generally have others reporting to them and have more input over the design and direction of our products.",
-							"startingSalary": 95000,
-							"annualRaises": [0.05, 0.035, 0.03, 0.025, 0.02, 0.02]
-						}
-					]
 				}
 			]
 		},
