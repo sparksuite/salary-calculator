@@ -1,4 +1,7 @@
 language: node_js
+cache:
+  npm: true
+  yarn: true
 branches:
   only:
     - master
