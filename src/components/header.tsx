@@ -7,11 +7,13 @@ const Title = styled.h1`
 	margin: 0;
 	padding: 0;
 	margin-top: 3.5rem;
+	margin-bottom: 0.1em;
 	color: #fff;
 	font-family: Playfair Display, serif;
 	font-weight: 700;
 	font-size: 2.5rem;
 	text-shadow: 0.1rem 0.1rem 0.25rem rgba(0, 0, 0, 0.1);
+	line-height: 1.1;
 `;
 
 const Subtitle = styled.h2`
