@@ -14,6 +14,9 @@
 # storybook
 /storybook-static
 
+# eslint
+.eslintcache
+
 # misc
 .DS_Store
 .env.local
