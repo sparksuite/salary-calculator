@@ -100,6 +100,12 @@ exports[`Storyshots Choices Normal 1`] = `
           Front End Engineer II
         </option>
         <option>
+          Front End Engineer III
+        </option>
+        <option>
+          Senior Front End Engineer
+        </option>
+        <option>
           Lead Front End Engineer
         </option>
         <option>
@@ -107,6 +113,12 @@ exports[`Storyshots Choices Normal 1`] = `
         </option>
         <option>
           Back End Engineer II
+        </option>
+        <option>
+          Back End Engineer III
+        </option>
+        <option>
+          Senior Back End Engineer
         </option>
         <option>
           Lead Back End Engineer
@@ -606,6 +618,6 @@ exports[`Storyshots Position description Normal 1`] = `
 <div
   className="container__Container-sc-8aaowj-0 bfnNcc"
 >
-  A level one front end engineer is just beginning their professional career in front end software engineering and is working toward a strong foundational knowledge of the fundamentals.
+  A level one front end engineer is usually just beginning their professional career in front end software engineering and is developing a strong foundational knowledge of the fundamentals and familiarity with the technologies they use. They’re capable of completing tasks given to them with some direction and oversight. Reviews typically require more iterations to achieve high quality, intuitive, and polished code contributions.
 </div>
 `;
