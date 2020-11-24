@@ -136,7 +136,7 @@ const Compensation: React.FC = () => {
 			<Divider text='along with' />
 
 			<Perks>
-				Flexible office hours, free-lunch Fridays, generous paid time off,
+				Flexible working hours, free-lunch Fridays, generous paid time off,
 				healthy work-life balance, great snacks, and all these other{' '}
 				<a
 					href='https://handbook.sparksuite.com'
