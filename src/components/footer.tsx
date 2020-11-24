@@ -70,6 +70,13 @@ const Footer: React.FC = () => {
 				>
 					Employee handbook
 				</a>
+				<a
+					href='https://github.com/sparksuite/salary-calculator'
+					target='_blank'
+					rel='noopener noreferrer'
+				>
+					GitHub repo
+				</a>
 			</div>
 
 			<img src='/logo.png' alt='Sparksuite logo' />
