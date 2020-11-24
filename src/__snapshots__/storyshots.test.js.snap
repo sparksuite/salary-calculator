@@ -585,6 +585,13 @@ exports[`Storyshots Footer Normal 1`] = `
     >
       Employee handbook
     </a>
+    <a
+      href="https://github.com/sparksuite/salary-calculator"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      GitHub repo
+    </a>
   </div>
   <img
     alt="Sparksuite logo"
