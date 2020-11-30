@@ -94,19 +94,25 @@
 					"levels": [
 						{
 							"title": "Customer Success Champion I",
-							"description": "A level one customer success champion has relevant work experience in customer service oriented roles, is a strong communicator, is personable, and is tech-savvy enough to understand new technologies quickly.",
+							"description": "A level one customer success champion has relevant work experience in customer service oriented roles, is a strong communicator, and is personable. They’re tech-savvy enough to understand new technologies quickly and are developing a familiarity with the product and technologies used. They’re capable of interacting with customers and completing work with some direction and oversight, with some review needed to achieve high quality output. ",
 							"startingSalary": 45000,
 							"annualRaises": [0.1]
 						},
 						{
 							"title": "Customer Success Champion II",
-							"description": "A level two customer success champion has extensive work experience in customer success roles, has excellent communication skills, is very personable, and has a strong grasp of technology.",
+							"description": "A level two customer success champion has extensive work experience in customer success roles, excellent communication skills, and is exceedingly personable. Their understanding and familiarity of the product and technologies used are expanding, and they can tackle more complex situations with less direction. Their work has grown in efficiency and typically requires fewer modifications to meet our team’s high standards of quality. Level two customer success champions also are beginning to take more initiative to solve problems, help other members, and propose new ideas. ",
 							"startingSalary": 49000,
 							"annualRaises": [0.075, 0.05, 0.03, 0.025, 0.02, 0.02]
 						},
 						{
+							"title": "Senior Customer Success Champion",
+							"description": "A senior customer success champion—the first step on the contributor track—is a talented individual contributor with substantial professional experience. They have a deep familiarity with the product and technologies used and are viewed as an expert by their team. Their work is efficient and high quality, requiring little-to-no review. They help guide less experienced team members, develop content, and are trusted to solve complex problems.",
+							"startingSalary": 54500,
+							"annualRaises": [0.05, 0.035, 0.03, 0.025, 0.02, 0.02]
+						},
+						{
 							"title": "Lead Customer Success Champion",
-							"description": "A lead customer success champion is as talented as a level two customer success champion, but also has leadership responsibilities. Among other things, this includes reviewing the performance of others who report to them, taking an active role in the hiring process, and ensuring team goals are achieved.",
+							"description": "A lead customer success champion—the first step on the leadership track—is highly experienced and has a knack for producing great work in others. While being a strong individual contributor, they also have leadership responsibilities. Among other things, this includes reviewing the performance of those who report to them, assisting with hiring and training new team members, providing guidance, and ensuring team goals are achieved.",
 							"startingSalary": 54500,
 							"annualRaises": [0.05, 0.035, 0.03, 0.025, 0.02, 0.02]
 						}

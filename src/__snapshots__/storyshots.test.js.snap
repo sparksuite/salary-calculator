@@ -134,6 +134,9 @@ exports[`Storyshots Choices Normal 1`] = `
           Customer Success Champion II
         </option>
         <option>
+          Senior Customer Success Champion
+        </option>
+        <option>
           Lead Customer Success Champion
         </option>
       </optgroup>
