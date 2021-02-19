@@ -45,8 +45,8 @@
 		"build": "react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
-		"lint": "eslint . --ext .js,.jsx,.ts,.tsx && prettier --check '**/*.{js,jsx,ts,tsx,json}'",
-		"format": "eslint --fix . --ext .js,.jsx,.ts,.tsx && prettier --write '**/*.{js,jsx,ts,tsx,json}'",
+		"lint": "eslint . --ext .js,.jsx,.ts,.tsx && prettier --check '**/*.{js,jsx,ts,tsx,json,yml}'",
+		"format": "eslint --fix . --ext .js,.jsx,.ts,.tsx && prettier --write '**/*.{js,jsx,ts,tsx,json,yml}'",
 		"storybook": "start-storybook -p 9009 -s public",
 		"build-storybook": "build-storybook -s public"
 	},
