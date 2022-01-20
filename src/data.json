@@ -129,13 +129,13 @@
 					"levels": [
 						{
 							"title": "Customer Success Champion I",
-							"description": "A level one customer success champion has relevant work experience in customer service oriented roles, is a strong communicator, and is personable. They’re tech-savvy enough to understand new technologies quickly and are developing a familiarity with the product and technologies used. They’re capable of interacting with customers and completing work with some direction and oversight, with some review needed to achieve high quality output. ",
+							"description": "A level one customer success champion has relevant work experience in customer service oriented roles, is a strong communicator, and is personable. They’re tech-savvy enough to understand new technologies quickly and are developing a familiarity with the product and technologies used. They’re capable of interacting with customers and completing work with some direction and oversight, with some review needed to achieve high quality output.",
 							"startingSalary": 45000,
 							"annualRaises": [0.1]
 						},
 						{
 							"title": "Customer Success Champion II",
-							"description": "A level two customer success champion has extensive work experience in customer success roles, excellent communication skills, and is exceedingly personable. Their understanding and familiarity of the product and technologies used are expanding, and they can tackle more complex situations with less direction. Their work has grown in efficiency and typically requires fewer modifications to meet our team’s high standards of quality. Level two customer success champions also are beginning to take more initiative to solve problems, help other members, and propose new ideas. ",
+							"description": "A level two customer success champion has extensive work experience in customer success roles, excellent communication skills, and is exceedingly personable. Their understanding and familiarity of the product and technologies used are expanding, and they can tackle more complex situations with less direction. Their work has grown in efficiency and typically requires fewer modifications to meet our team’s high standards of quality. Level two customer success champions also are beginning to take more initiative to solve problems, help other members, and propose new ideas.",
 							"startingSalary": 49000,
 							"annualRaises": [0.075, 0.05, 0.03, 0.025, 0.02, 0.02]
 						},
