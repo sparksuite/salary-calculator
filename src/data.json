@@ -36,7 +36,7 @@
 						},
 						{
 							"title": "Senior Front End Engineer",
-							"description": "A senior front end engineer—the first step on the contributor track—is a talented and efficient individual contributor with substantial professional experience. They produce effective, intuitive, and polished code contributions that require little-to-no review iterations. Given their deep familiarity with the technologies they use, they are seen as a technical guru by their teammates. They are often trusted to design skillful solutions to complex problems and dependably propose contributions. They have a strong understanding of what constitutes polished UI/UX.",
+							"description": "A senior front end engineer—the first step on the contributor track—is a talented and efficient individual contributor with substantial professional experience. They produce effective, intuitive, and polished code contributions that require little-to-no review iterations. Given their deep familiarity with the technologies they use, they are seen as a technical guru by their teammates. They are often trusted to design skillful solutions to complex problems and dependably propose contributions.",
 							"startingSalary": 110000,
 							"annualRaises": [0.05, 0.035, 0.03, 0.025, 0.02, 0.02]
 						},
@@ -82,6 +82,41 @@
 							"annualRaises": [0.05, 0.035, 0.03, 0.025, 0.02, 0.02]
 						}
 					]
+				},
+				{
+					"name": "DevOps Engineer",
+					"levels": [
+						{
+							"title": "DevOps Engineer I",
+							"description": "A level one DevOps engineer is usually just beginning their professional career in DevOps software engineering and is developing a strong foundational knowledge of the fundamentals and familiarity with the technologies they use. They’re capable of completing tasks given to them with some direction and oversight. Reviews typically require more iterations to achieve high quality, intuitive, and polished code contributions.",
+							"startingSalary": 82500,
+							"annualRaises": [0.1]
+						},
+						{
+							"title": "DevOps Engineer II",
+							"description": "A level two DevOps engineer has relevant professional experience and has developed a strong understanding of software engineering fundamentals. They require less direction to accomplish tasks and are beginning to take more initiative to propose contributions and design solutions to problems. Reviews generally require fewer iterations before being accepted. Level two engineers have grown in efficiency and can tackle more complex problems with less direction. Their expertise with Kubernetes, CI/CD pipelines, CLI design, performance optimizations, and other DevOps specific knowledge is expanding.",
+							"startingSalary": 90000,
+							"annualRaises": [0.075, 0.05, 0.03]
+						},
+						{
+							"title": "DevOps Engineer III",
+							"description": "A level three DevOps engineer typically has several years of relevant professional experience and has honed their skills on a wide variety of topics related to DevOps engineering. They have a solid understanding of software engineering fundamentals and are beginning to be seen as a knowledge source by their teammates. Little direction is needed to accomplish tasks and they can tackle changes efficiently. The code they contribute is effective and well written, requiring very few review iterations. They often propose contributions and can effectively design solutions to more complex problems. They are well experienced with Kubernetes, CI/CD pipelines, CLI design, and performance optimizations, among other DevOps knowledge areas.",
+							"startingSalary": 97500,
+							"annualRaises": [0.05, 0.035, 0.03, 0.025, 0.02, 0.02]
+						},
+						{
+							"title": "Senior DevOps Engineer",
+							"description": "A senior DevOps engineer—the first step on the contributor track—is a talented and efficient individual contributor with substantial professional experience. They produce effective, intuitive, and polished code contributions that require little-to-no review iterations. Given their deep familiarity with the technologies they use, they are seen as a technical guru by their teammates. They are often trusted to design skillful solutions to complex problems and dependably propose contributions.",
+							"startingSalary": 107500,
+							"annualRaises": [0.05, 0.035, 0.03, 0.025, 0.02, 0.02]
+						},
+						{
+							"title": "Lead DevOps Engineer",
+							"description": "A lead DevOps engineer—the first step on the leadership track—is a highly experienced DevOps engineer with a knack for producing great work in others. While also being a strong individual contributor, lead engineers are beginning to incorporate leadership responsibilities into their role, like reviewing their teammates’ contributions, assigning tasks, and directing smaller projects. They assist with hiring and training new team members and provide guidance to less experienced teammates.",
+							"startingSalary": 107500,
+							"annualRaises": [0.05, 0.035, 0.03, 0.025, 0.02, 0.02]
+						}
+					]
 				}
 			]
 		},
@@ -94,13 +129,13 @@
 					"levels": [
 						{
 							"title": "Customer Success Champion I",
-							"description": "A level one customer success champion has relevant work experience in customer service oriented roles, is a strong communicator, and is personable. They’re tech-savvy enough to understand new technologies quickly and are developing a familiarity with the product and technologies used. They’re capable of interacting with customers and completing work with some direction and oversight, with some review needed to achieve high quality output. ",
+							"description": "A level one customer success champion has relevant work experience in customer service oriented roles, is a strong communicator, and is personable. They’re tech-savvy enough to understand new technologies quickly and are developing a familiarity with the product and technologies used. They’re capable of interacting with customers and completing work with some direction and oversight, with some review needed to achieve high quality output.",
 							"startingSalary": 45000,
 							"annualRaises": [0.1]
 						},
 						{
 							"title": "Customer Success Champion II",
-							"description": "A level two customer success champion has extensive work experience in customer success roles, excellent communication skills, and is exceedingly personable. Their understanding and familiarity of the product and technologies used are expanding, and they can tackle more complex situations with less direction. Their work has grown in efficiency and typically requires fewer modifications to meet our team’s high standards of quality. Level two customer success champions also are beginning to take more initiative to solve problems, help other members, and propose new ideas. ",
+							"description": "A level two customer success champion has extensive work experience in customer success roles, excellent communication skills, and is exceedingly personable. Their understanding and familiarity of the product and technologies used are expanding, and they can tackle more complex situations with less direction. Their work has grown in efficiency and typically requires fewer modifications to meet our team’s high standards of quality. Level two customer success champions also are beginning to take more initiative to solve problems, help other members, and propose new ideas.",
 							"startingSalary": 49000,
 							"annualRaises": [0.075, 0.05, 0.03, 0.025, 0.02, 0.02]
 						},

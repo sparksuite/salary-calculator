@@ -123,6 +123,21 @@ exports[`Storyshots Choices Normal 1`] = `
         <option>
           Lead Back End Engineer
         </option>
+        <option>
+          DevOps Engineer I
+        </option>
+        <option>
+          DevOps Engineer II
+        </option>
+        <option>
+          DevOps Engineer III
+        </option>
+        <option>
+          Senior DevOps Engineer
+        </option>
+        <option>
+          Lead DevOps Engineer
+        </option>
       </optgroup>
       <optgroup
         label="Customer Success"
