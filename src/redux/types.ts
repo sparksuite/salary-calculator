@@ -1,7 +1,6 @@
 // Export initial state interface
 export interface AppState {
 	position: string;
-	dependents: boolean;
 	tenure: string;
 }
 
@@ -12,12 +11,6 @@ interface SetPositionAction {
 	value: string;
 }
 
-export const SET_DEPENDENTS = 'SET_DEPENDENTS';
-interface SetDependentsAction {
-	type: typeof SET_DEPENDENTS;
-	value: boolean;
-}
-
 export const SET_TENURE = 'SET_TENURE';
 interface SetTenureAction {
 	type: typeof SET_TENURE;
@@ -25,7 +18,4 @@ interface SetTenureAction {
 }
 
 // Export union type
-export type ChoiceTypes =
-	| SetPositionAction
-	| SetDependentsAction
-	| SetTenureAction;
+export type ChoiceTypes = SetPositionAction | SetTenureAction;

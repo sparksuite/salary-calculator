@@ -1,17 +1,10 @@
 // Imports
 import data from '../data.json';
-import {
-	AppState,
-	SET_POSITION,
-	SET_DEPENDENTS,
-	SET_TENURE,
-	ChoiceTypes,
-} from './types';
+import { AppState, SET_POSITION, SET_TENURE, ChoiceTypes } from './types';
 
 // Define initial state
 const initialState: AppState = {
 	position: data.fields[0].roles[0].levels[0].title,
-	dependents: false,
 	tenure: data.tenures[0],
 };
 
@@ -25,11 +18,6 @@ export default function reducer(
 			return {
 				...state,
 				position: action.value,
-			};
-		case SET_DEPENDENTS:
-			return {
-				...state,
-				dependents: action.value,
 			};
 		case SET_TENURE:
 			return {
