@@ -266,7 +266,7 @@ exports[`Storyshots Compensation Normal 1`] = `
     <figcaption
       className="figure__Subtitle-sc-1fhptnd-3 bfewYL"
     >
-      BASE SALARY
+      ANNUAL SALARY
     </figcaption>
   </figure>
   <div
@@ -377,7 +377,7 @@ exports[`Storyshots Compensation Normal 1`] = `
   <div
     className="compensation__Perks-sc-1127ja8-1 eyDTrZ"
   >
-    Flexible working hours, free-lunch Fridays, generous paid time off, healthy work-life balance, great snacks, and all these other
+    Flexible working hours, free-lunch Fridays, generous paid time off, healthy work-life balance, craft coffee, and all these other
      
     <a
       href="https://handbook.sparksuite.com"
@@ -386,6 +386,7 @@ exports[`Storyshots Compensation Normal 1`] = `
     >
       awesome benefits & perks
     </a>
+    .
   </div>
 </div>
 `;
