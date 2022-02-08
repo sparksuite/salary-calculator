@@ -137,7 +137,7 @@ const Compensation: React.FC = () => {
 
 			<Perks>
 				Flexible working hours, free-lunch Fridays, generous paid time off,
-				healthy work-life balance, great snacks, and all these other{' '}
+				healthy work-life balance, craft coffee, and all these other{' '}
 				<a
 					href='https://handbook.sparksuite.com'
 					target='_blank'
