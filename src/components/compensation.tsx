@@ -74,9 +74,9 @@ const Compensation: React.FC = () => {
 		}
 	}
 
-	// Determine base salary
+	// Determine annual salary
 	const selectedTenure = useSelector((state: AppState) => state.tenure);
-	const baseSalary = calculateSalary(
+	const annualSalary = calculateSalary(
 		levelDetails.startingSalary,
 		levelDetails.annualRaises,
 		selectedTenure
@@ -93,7 +93,7 @@ const Compensation: React.FC = () => {
 	// Return JSX
 	return (
 		<Container>
-			<Figure amount={baseSalary} subtitle='BASE SALARY' />
+			<Figure amount={annualSalary} subtitle='ANNUAL SALARY' />
 
 			<Divider text='plus' />
 
@@ -116,7 +116,7 @@ const Compensation: React.FC = () => {
 
 				<div>
 					<Figure
-						amount={baseSalary * 0.04}
+						amount={annualSalary * 0.04}
 						subtitle='MATCHING 401(k) CONTRIBUTIONS'
 						color='#67b1d6'
 						smaller={true}
@@ -137,7 +137,7 @@ const Compensation: React.FC = () => {
 
 			<Perks>
 				Flexible working hours, free-lunch Fridays, generous paid time off,
-				healthy work-life balance, great snacks, and all these other{' '}
+				healthy work-life balance, craft coffee, and all these other{' '}
 				<a
 					href='https://handbook.sparksuite.com'
 					target='_blank'
@@ -145,6 +145,7 @@ const Compensation: React.FC = () => {
 				>
 					awesome benefits & perks
 				</a>
+				.
 			</Perks>
 		</Container>
 	);
