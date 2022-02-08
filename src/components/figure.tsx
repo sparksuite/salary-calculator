@@ -38,7 +38,7 @@ const Subtitle = styled.figcaption`
 
 // Define the component props
 type Props = {
-	amount: number;
+	amount: number | string;
 	subtitle: string;
 	color?: string;
 	smaller?: boolean;
@@ -58,13 +58,17 @@ const Figure: React.FC<Props> = ({
 	return (
 		<Container style={{ fontSize: smaller ? '0.8rem' : '1rem' }}>
 			{showUpTo && <UpTo>UP TO</UpTo>}
-			<Amount style={{ color: color }}>
-				{new Intl.NumberFormat('en-US', {
-					style: 'currency',
-					currency: 'USD',
-					minimumFractionDigits: 0,
-				}).format(amount)}
-			</Amount>
+			{typeof amount === 'number' ? (
+				<Amount style={{ color: color }}>
+					{new Intl.NumberFormat('en-US', {
+						style: 'currency',
+						currency: 'USD',
+						minimumFractionDigits: 0,
+					}).format(amount)}
+				</Amount>
+			) : (
+				<Amount style={{ color: color }}>{amount}</Amount>
+			)}
 			<Subtitle>
 				{subtitle}
 				{infoURL && (
