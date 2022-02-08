@@ -1,7 +1,7 @@
 // Imports
 import data from '../data.json';
 
-// Function that determines a base salary based on the starting salary + tenure
+// Function that determines an annual salary based on the starting salary + tenure
 export function calculateSalary(
 	startingSalary: number,
 	annualRaises: number[],
