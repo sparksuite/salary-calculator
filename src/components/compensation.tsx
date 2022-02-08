@@ -145,6 +145,7 @@ const Compensation: React.FC = () => {
 				>
 					awesome benefits & perks
 				</a>
+				.
 			</Perks>
 		</Container>
 	);
