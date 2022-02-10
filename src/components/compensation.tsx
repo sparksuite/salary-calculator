@@ -44,15 +44,42 @@ const AvoidLineBreakWithin = styled.span`
 `;
 
 const Perks = styled.div`
-	max-width: 450px;
-	margin: 2rem auto 0;
-	text-align: center;
+	margin-top: 2rem;
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-column-gap: 4em;
+	grid-row-gap: 0.3em;
+	justify-content: center;
 
-	a {
-		color: #67b1d6;
+	> div {
+		color: #757575;
 
-		&:hover {
-			text-decoration: none;
+		svg {
+			opacity: 0.5;
+			margin-right: 0.2em;
+		}
+	}
+
+	> span {
+		margin-top: 0.25em;
+		grid-column-start: span 2;
+		justify-self: center;
+		text-align: center;
+
+		a {
+			color: #67b1d6;
+
+			&:hover {
+				text-decoration: none;
+			}
+		}
+	}
+
+	@media (max-width: 768px) {
+		grid-template-columns: auto;
+
+		> span {
+			grid-column-start: span 1;
 		}
 	}
 `;
@@ -134,16 +161,58 @@ const Compensation: React.FC = () => {
 			<Divider text='along with' />
 
 			<Perks>
-				Flexible working hours, free-lunch Fridays, generous paid time off,
-				healthy work-life balance, craft coffee, and all these other{' '}
-				<a
-					href='https://handbook.sparksuite.com'
-					target='_blank'
-					rel='noopener noreferrer'
-				>
-					awesome benefits & perks
-				</a>
-				.
+				<div>
+					<i className='far fa-fw fa-sliders-up' /> Flexible working hours
+				</div>
+
+				<div>
+					<i className='far fa-fw fa-house-building' /> Flexible remote work
+				</div>
+
+				<div>
+					<i className='far fa-fw fa-pot-food' /> Free-lunch Fridays
+				</div>
+
+				<div>
+					<i className='far fa-fw fa-taco' /> Taco Tuesdays
+				</div>
+
+				<div>
+					<i className='far fa-fw fa-calendar-day' /> Generous paid time off
+				</div>
+
+				<div>
+					<i className='far fa-fw fa-house-person-return' /> Healthy work-life
+					balance
+				</div>
+
+				<div>
+					<i className='far fa-fw fa-chair-office' /> Incredible office
+				</div>
+
+				<div>
+					<i className='far fa-fw fa-golf-flag-hole' /> Company outings
+				</div>
+
+				<div>
+					<i className='far fa-fw fa-coffee-bean' /> Craft coffee
+				</div>
+
+				<div>
+					<i className='far fa-fw fa-avocado' /> Delicious snacks
+				</div>
+
+				<span>
+					…and all these other{' '}
+					<a
+						href='https://handbook.sparksuite.com'
+						target='_blank'
+						rel='noopener noreferrer'
+					>
+						awesome benefits &amp; perks
+					</a>
+					.
+				</span>
 			</Perks>
 		</Container>
 	);

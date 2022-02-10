@@ -361,18 +361,80 @@ exports[`Storyshots Compensation Normal 1`] = `
     </div>
   </div>
   <div
-    className="compensation__Perks-sc-1127ja8-2 jeuOJy"
+    className="compensation__Perks-sc-1127ja8-2 gRfquL"
   >
-    Flexible working hours, free-lunch Fridays, generous paid time off, healthy work-life balance, craft coffee, and all these other
-     
-    <a
-      href="https://handbook.sparksuite.com"
-      rel="noopener noreferrer"
-      target="_blank"
-    >
-      awesome benefits & perks
-    </a>
-    .
+    <div>
+      <i
+        className="far fa-fw fa-sliders-up"
+      />
+       Flexible working hours
+    </div>
+    <div>
+      <i
+        className="far fa-fw fa-house-building"
+      />
+       Flexible remote work
+    </div>
+    <div>
+      <i
+        className="far fa-fw fa-pot-food"
+      />
+       Free-lunch Fridays
+    </div>
+    <div>
+      <i
+        className="far fa-fw fa-taco"
+      />
+       Taco Tuesdays
+    </div>
+    <div>
+      <i
+        className="far fa-fw fa-calendar-day"
+      />
+       Generous paid time off
+    </div>
+    <div>
+      <i
+        className="far fa-fw fa-house-person-return"
+      />
+       Healthy work-life balance
+    </div>
+    <div>
+      <i
+        className="far fa-fw fa-chair-office"
+      />
+       Incredible office
+    </div>
+    <div>
+      <i
+        className="far fa-fw fa-golf-flag-hole"
+      />
+       Company outings
+    </div>
+    <div>
+      <i
+        className="far fa-fw fa-coffee-bean"
+      />
+       Craft coffee
+    </div>
+    <div>
+      <i
+        className="far fa-fw fa-avocado"
+      />
+       Delicious snacks
+    </div>
+    <span>
+      …and all these other
+       
+      <a
+        href="https://handbook.sparksuite.com"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        awesome benefits & perks
+      </a>
+      .
+    </span>
   </div>
 </div>
 `;
@@ -559,7 +621,7 @@ exports[`Storyshots Figure Up To 1`] = `
 
 exports[`Storyshots Footer Normal 1`] = `
 <footer
-  className="footer__Container-j9er38-0 gSLoki"
+  className="footer__Container-j9er38-0 jxyAgA"
 >
   <div>
     <a
@@ -600,7 +662,7 @@ exports[`Storyshots Footer Normal 1`] = `
   </div>
   <img
     alt="Sparksuite logo"
-    src="/logo.png"
+    src="/logo.svg"
   />
 </footer>
 `;
