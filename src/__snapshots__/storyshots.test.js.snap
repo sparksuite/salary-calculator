@@ -243,7 +243,7 @@ exports[`Storyshots Compensation Normal 1`] = `
       $88,000
     </div>
     <figcaption
-      className="figure__Subtitle-sc-1fhptnd-3 bfewYL"
+      className="figure__Subtitle-sc-1fhptnd-3 dUqReg"
     >
       ANNUAL SALARY
     </figcaption>
@@ -280,7 +280,7 @@ exports[`Storyshots Compensation Normal 1`] = `
           50%
         </div>
         <figcaption
-          className="figure__Subtitle-sc-1fhptnd-3 bfewYL"
+          className="figure__Subtitle-sc-1fhptnd-3 dUqReg"
         >
           OF BASE HEALTH PLAN PREMIUM
           <a
@@ -331,7 +331,7 @@ exports[`Storyshots Compensation Normal 1`] = `
           $3,520
         </div>
         <figcaption
-          className="figure__Subtitle-sc-1fhptnd-3 bfewYL"
+          className="figure__Subtitle-sc-1fhptnd-3 dUqReg"
         >
           MATCHING 401(k) CONTRIBUTIONS
           <a
@@ -427,7 +427,7 @@ exports[`Storyshots Figure Basic 1`] = `
     $123,456
   </div>
   <figcaption
-    className="figure__Subtitle-sc-1fhptnd-3 bfewYL"
+    className="figure__Subtitle-sc-1fhptnd-3 dUqReg"
   >
     EXAMPLE SUBTITLE
   </figcaption>
@@ -454,7 +454,7 @@ exports[`Storyshots Figure Custom Color 1`] = `
     $123,456
   </div>
   <figcaption
-    className="figure__Subtitle-sc-1fhptnd-3 bfewYL"
+    className="figure__Subtitle-sc-1fhptnd-3 dUqReg"
   >
     EXAMPLE SUBTITLE
   </figcaption>
@@ -481,7 +481,7 @@ exports[`Storyshots Figure Info Icon 1`] = `
     $123,456
   </div>
   <figcaption
-    className="figure__Subtitle-sc-1fhptnd-3 bfewYL"
+    className="figure__Subtitle-sc-1fhptnd-3 dUqReg"
   >
     EXAMPLE SUBTITLE
     <a
@@ -518,7 +518,7 @@ exports[`Storyshots Figure Smaller 1`] = `
     $123,456
   </div>
   <figcaption
-    className="figure__Subtitle-sc-1fhptnd-3 bfewYL"
+    className="figure__Subtitle-sc-1fhptnd-3 dUqReg"
   >
     EXAMPLE SUBTITLE
   </figcaption>
@@ -550,7 +550,7 @@ exports[`Storyshots Figure Up To 1`] = `
     $123,456
   </div>
   <figcaption
-    className="figure__Subtitle-sc-1fhptnd-3 bfewYL"
+    className="figure__Subtitle-sc-1fhptnd-3 dUqReg"
   >
     EXAMPLE SUBTITLE
   </figcaption>

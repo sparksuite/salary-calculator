@@ -30,7 +30,7 @@ const Subtitle = styled.figcaption`
 	font-size: 1.25em;
 	color: #717171;
 
-	i {
+	svg {
 		margin-left: 0.3rem;
 		color: #bdbdbd;
 	}
