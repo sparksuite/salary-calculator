@@ -109,18 +109,7 @@ const Choices: React.FC = () => {
 					</optgroup>
 				))}
 			</Choice>
-			<Text>and, for health benefits, I</Text>
-			<Choice
-				onChange={(value: string) => dispatch(actions.setDependents(value))}
-				ariaLabel='Spouse or dependents'
-			>
-				<option>don’t</option>
-				<option>do</option>
-			</Choice>
-			<Text>
-				have a spouse / dependents. I’ve been {fieldDescriptor} in the
-				Sparksuite family for
-			</Text>
+			<Text>and have been {fieldDescriptor} in the Sparksuite family for</Text>
 			<Choice
 				onChange={(value: string) => dispatch(actions.setTenure(value))}
 				ariaLabel='Tenure'

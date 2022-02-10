@@ -39,6 +39,10 @@ const FlexDiv = styled.div`
 	}
 `;
 
+const AvoidLineBreakWithin = styled.span`
+	display: inline-block;
+`;
+
 const Perks = styled.div`
 	max-width: 450px;
 	margin: 2rem auto 0;
@@ -82,14 +86,6 @@ const Compensation: React.FC = () => {
 		selectedTenure
 	);
 
-	// Determine HRA funding amount
-	const hasDependents = useSelector((state: AppState) => state.dependents);
-	let hraFunding = 4800;
-
-	if (hasDependents) {
-		hraFunding = 9600;
-	}
-
 	// Return JSX
 	return (
 		<Container>
@@ -100,17 +96,19 @@ const Compensation: React.FC = () => {
 			<FlexDiv>
 				<div>
 					<Figure
-						amount={hraFunding}
-						subtitle='TAX-FREE HRA FUNDS'
+						amount='50%'
+						subtitle='OF BASE HEALTH PLAN PREMIUM'
 						color='#67b1d6'
 						smaller={true}
 						infoURL='https://handbook.sparksuite.com/benefits/health.html'
 					/>
 
 					<p>
-						Flexible funds that reimburse you for nearly any health-related
-						expense, including insurance premiums, deductibles, copayments,
-						coinsurance, eyeglasses, sunscreen, and so much more.
+						Company contribution of 50% of the cost of your base health plan’s
+						premium toward any of the health plans offered. We also offer vision
+						and dental plans, plus{' '}
+						<AvoidLineBreakWithin>HSAs and FSAs</AvoidLineBreakWithin> to help
+						reduce your taxes.
 					</p>
 				</div>
 
