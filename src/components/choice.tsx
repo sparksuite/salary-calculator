@@ -4,7 +4,7 @@ import styled from 'styled-components/macro';
 
 // Initialize
 const spaceBeforeIcon = 0.4;
-const extraPaddingForClickEvents = 1.4;
+const extraPaddingForClickEvents = 1.5;
 
 // Styled components
 const Wrapper = styled.div`
@@ -20,11 +20,7 @@ const Wrapper = styled.div`
 		border-color: rgba(255, 255, 255, 0.7);
 	}
 
-	&::after {
-		content: '\f078';
-		font-family: 'Font Awesome 5 Pro';
-		font-weight: 400;
-		font-size: 1rem;
+	svg {
 		margin-left: -${extraPaddingForClickEvents - spaceBeforeIcon}rem;
 		pointer-events: none;
 	}
@@ -85,6 +81,7 @@ const Choice: React.FC<Props> = ({ onChange, ariaLabel, value, children }) => {
 			>
 				{children}
 			</Select>
+			<i className="far fa-chevron-down"></i>
 		</Wrapper>
 	);
 };
