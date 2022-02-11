@@ -81,7 +81,7 @@ const Choice: React.FC<Props> = ({ onChange, ariaLabel, value, children }) => {
 			>
 				{children}
 			</Select>
-			<i className="far fa-chevron-down"></i>
+			<i className='far fa-chevron-down'></i>
 		</Wrapper>
 	);
 };
