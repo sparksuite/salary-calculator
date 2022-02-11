@@ -78,7 +78,7 @@ const Footer: React.FC = () => {
 				</a>
 			</div>
 
-			<img src='/logo.svg' alt='Sparksuite logo' />
+			<img src='/logo.png' alt='Sparksuite logo' />
 		</Container>
 	);
 };
