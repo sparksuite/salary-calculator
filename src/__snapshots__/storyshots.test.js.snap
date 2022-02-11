@@ -2,11 +2,11 @@
 
 exports[`Storyshots Choice Grouped 1`] = `
 <div
-  className="choice__Wrapper-sc-1k1omlp-0 csOUzD"
+  className="choice__Wrapper-sc-1k1omlp-0 ipFFxj"
 >
   <select
     aria-label="ARIA label"
-    className="choice__Select-sc-1k1omlp-1 cBdpEX"
+    className="choice__Select-sc-1k1omlp-1 gqMQcq"
     onChange={[Function]}
   >
     <optgroup
@@ -30,16 +30,19 @@ exports[`Storyshots Choice Grouped 1`] = `
       </option>
     </optgroup>
   </select>
+  <i
+    className="far fa-chevron-down"
+  />
 </div>
 `;
 
 exports[`Storyshots Choice Simple 1`] = `
 <div
-  className="choice__Wrapper-sc-1k1omlp-0 csOUzD"
+  className="choice__Wrapper-sc-1k1omlp-0 ipFFxj"
 >
   <select
     aria-label="ARIA label"
-    className="choice__Select-sc-1k1omlp-1 cBdpEX"
+    className="choice__Select-sc-1k1omlp-1 gqMQcq"
     onChange={[Function]}
   >
     <option>
@@ -49,16 +52,19 @@ exports[`Storyshots Choice Simple 1`] = `
       Option 2
     </option>
   </select>
+  <i
+    className="far fa-chevron-down"
+  />
 </div>
 `;
 
 exports[`Storyshots Choice Some Disabled 1`] = `
 <div
-  className="choice__Wrapper-sc-1k1omlp-0 csOUzD"
+  className="choice__Wrapper-sc-1k1omlp-0 ipFFxj"
 >
   <select
     aria-label="ARIA label"
-    className="choice__Select-sc-1k1omlp-1 cBdpEX"
+    className="choice__Select-sc-1k1omlp-1 gqMQcq"
     onChange={[Function]}
   >
     <option
@@ -70,6 +76,9 @@ exports[`Storyshots Choice Some Disabled 1`] = `
       Option 2
     </option>
   </select>
+  <i
+    className="far fa-chevron-down"
+  />
 </div>
 `;
 
@@ -83,11 +92,11 @@ exports[`Storyshots Choices Normal 1`] = `
     I am a
   </span>
   <div
-    className="choice__Wrapper-sc-1k1omlp-0 csOUzD"
+    className="choice__Wrapper-sc-1k1omlp-0 ipFFxj"
   >
     <select
       aria-label="Position"
-      className="choice__Select-sc-1k1omlp-1 cBdpEX"
+      className="choice__Select-sc-1k1omlp-1 gqMQcq"
       onChange={[Function]}
     >
       <optgroup
@@ -163,6 +172,9 @@ exports[`Storyshots Choices Normal 1`] = `
         </option>
       </optgroup>
     </select>
+    <i
+      className="far fa-chevron-down"
+    />
   </div>
   <span
     className="choices__Text-sc-800kf9-1 bhMwJj"
@@ -172,11 +184,11 @@ exports[`Storyshots Choices Normal 1`] = `
      in the Sparksuite family for
   </span>
   <div
-    className="choice__Wrapper-sc-1k1omlp-0 csOUzD"
+    className="choice__Wrapper-sc-1k1omlp-0 ipFFxj"
   >
     <select
       aria-label="Tenure"
-      className="choice__Select-sc-1k1omlp-1 cBdpEX"
+      className="choice__Select-sc-1k1omlp-1 gqMQcq"
       onChange={[Function]}
       value="less than one year"
     >
@@ -216,6 +228,9 @@ exports[`Storyshots Choices Normal 1`] = `
         more than six years
       </option>
     </select>
+    <i
+      className="far fa-chevron-down"
+    />
   </div>
 </div>
 `;
