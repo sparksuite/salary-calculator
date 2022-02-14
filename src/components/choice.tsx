@@ -43,6 +43,8 @@ const Select = styled.select`
 	cursor: pointer;
 	text-overflow: ellipsis;
 	max-width: 50vw;
+	overflow: hidden;
+	white-space: nowrap;
 
 	/* For Windows */
 	option,
