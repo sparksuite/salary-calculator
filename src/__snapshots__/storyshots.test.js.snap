@@ -2,11 +2,11 @@
 
 exports[`Storyshots Choice Grouped 1`] = `
 <div
-  className="choice__Wrapper-sc-1k1omlp-0 ipFFxj"
+  className="sc-hKwDye pkbhy"
 >
   <select
     aria-label="ARIA label"
-    className="choice__Select-sc-1k1omlp-1 zxzDb"
+    className="sc-eCImPb jKohRv"
     onChange={[Function]}
   >
     <optgroup
@@ -38,11 +38,11 @@ exports[`Storyshots Choice Grouped 1`] = `
 
 exports[`Storyshots Choice Simple 1`] = `
 <div
-  className="choice__Wrapper-sc-1k1omlp-0 ipFFxj"
+  className="sc-hKwDye pkbhy"
 >
   <select
     aria-label="ARIA label"
-    className="choice__Select-sc-1k1omlp-1 zxzDb"
+    className="sc-eCImPb jKohRv"
     onChange={[Function]}
   >
     <option>
@@ -60,11 +60,11 @@ exports[`Storyshots Choice Simple 1`] = `
 
 exports[`Storyshots Choice Some Disabled 1`] = `
 <div
-  className="choice__Wrapper-sc-1k1omlp-0 ipFFxj"
+  className="sc-hKwDye pkbhy"
 >
   <select
     aria-label="ARIA label"
-    className="choice__Select-sc-1k1omlp-1 zxzDb"
+    className="sc-eCImPb jKohRv"
     onChange={[Function]}
   >
     <option
@@ -84,19 +84,19 @@ exports[`Storyshots Choice Some Disabled 1`] = `
 
 exports[`Storyshots Choices Normal 1`] = `
 <div
-  className="choices__Container-sc-800kf9-0 dJhxcL"
+  className="sc-jRQBWg gqVzFW"
 >
   <span
-    className="choices__Text-sc-800kf9-1 bhMwJj"
+    className="sc-gKclnd fRIwcw"
   >
     I am a
   </span>
   <div
-    className="choice__Wrapper-sc-1k1omlp-0 ipFFxj"
+    className="sc-hKwDye pkbhy"
   >
     <select
       aria-label="Position"
-      className="choice__Select-sc-1k1omlp-1 zxzDb"
+      className="sc-eCImPb jKohRv"
       onChange={[Function]}
     >
       <optgroup
@@ -177,18 +177,18 @@ exports[`Storyshots Choices Normal 1`] = `
     />
   </div>
   <span
-    className="choices__Text-sc-800kf9-1 bhMwJj"
+    className="sc-gKclnd fRIwcw"
   >
     and have been 
     an engineer
      in the Sparksuite family for
   </span>
   <div
-    className="choice__Wrapper-sc-1k1omlp-0 ipFFxj"
+    className="sc-hKwDye pkbhy"
   >
     <select
       aria-label="Tenure"
-      className="choice__Select-sc-1k1omlp-1 zxzDb"
+      className="sc-eCImPb jKohRv"
       onChange={[Function]}
       value="less than one year"
     >
@@ -237,10 +237,10 @@ exports[`Storyshots Choices Normal 1`] = `
 
 exports[`Storyshots Compensation Normal 1`] = `
 <div
-  className="container__Container-sc-8aaowj-0 bfnNcc"
+  className="sc-iCfMLu QDVzU"
 >
   <figure
-    className="figure__Container-sc-1fhptnd-0 bpKHsn"
+    className="sc-furwcr glKBuh"
     style={
       Object {
         "fontSize": "1rem",
@@ -248,7 +248,7 @@ exports[`Storyshots Compensation Normal 1`] = `
     }
   >
     <div
-      className="figure__Amount-sc-1fhptnd-2 jVeOqW"
+      className="sc-jrQzAO kQxwcz"
       style={
         Object {
           "color": undefined,
@@ -258,26 +258,26 @@ exports[`Storyshots Compensation Normal 1`] = `
       $88,000
     </div>
     <figcaption
-      className="figure__Subtitle-sc-1fhptnd-3 cidVDt"
+      className="sc-kDTinF fvWamc"
     >
       ANNUAL SALARY
     </figcaption>
   </figure>
   <div
-    className="divider__LineBox-sc-1mhowia-0 cbAUvB"
+    className="sc-iqseJM jnvQwA"
   >
     <div
-      className="divider__Text-sc-1mhowia-1 iWWUCr"
+      className="sc-crHmcD dHClYz"
     >
       plus
     </div>
   </div>
   <div
-    className="compensation__FlexDiv-sc-1127ja8-0 ciacxP"
+    className="sc-egiyK icwwXE"
   >
     <div>
       <figure
-        className="figure__Container-sc-1fhptnd-0 bpKHsn"
+        className="sc-furwcr glKBuh"
         style={
           Object {
             "fontSize": "0.8rem",
@@ -285,7 +285,7 @@ exports[`Storyshots Compensation Normal 1`] = `
         }
       >
         <div
-          className="figure__Amount-sc-1fhptnd-2 jVeOqW"
+          className="sc-jrQzAO kQxwcz"
           style={
             Object {
               "color": "#67b1d6",
@@ -295,7 +295,7 @@ exports[`Storyshots Compensation Normal 1`] = `
           50%
         </div>
         <figcaption
-          className="figure__Subtitle-sc-1fhptnd-3 cidVDt"
+          className="sc-kDTinF fvWamc"
         >
           OF BASE HEALTH PLAN PREMIUM
           <a
@@ -314,7 +314,7 @@ exports[`Storyshots Compensation Normal 1`] = `
         Company contribution of 50% of the cost of your base health plan’s premium toward any of the health plans offered. We also offer vision and dental plans, plus
          
         <span
-          className="compensation__AvoidLineBreakWithin-sc-1127ja8-1 gHGKlE"
+          className="sc-bqiRlB hHoPBy"
         >
           HSAs and FSAs
         </span>
@@ -323,7 +323,7 @@ exports[`Storyshots Compensation Normal 1`] = `
     </div>
     <div>
       <figure
-        className="figure__Container-sc-1fhptnd-0 bpKHsn"
+        className="sc-furwcr glKBuh"
         style={
           Object {
             "fontSize": "0.8rem",
@@ -331,12 +331,12 @@ exports[`Storyshots Compensation Normal 1`] = `
         }
       >
         <div
-          className="figure__UpTo-sc-1fhptnd-1 dJqhYV"
+          className="sc-pVTFL kBlOFw"
         >
           UP TO
         </div>
         <div
-          className="figure__Amount-sc-1fhptnd-2 jVeOqW"
+          className="sc-jrQzAO kQxwcz"
           style={
             Object {
               "color": "#67b1d6",
@@ -346,7 +346,7 @@ exports[`Storyshots Compensation Normal 1`] = `
           $3,520
         </div>
         <figcaption
-          className="figure__Subtitle-sc-1fhptnd-3 cidVDt"
+          className="sc-kDTinF fvWamc"
         >
           MATCHING 401(k) CONTRIBUTIONS
           <a
@@ -367,16 +367,16 @@ exports[`Storyshots Compensation Normal 1`] = `
     </div>
   </div>
   <div
-    className="divider__LineBox-sc-1mhowia-0 cbAUvB"
+    className="sc-iqseJM jnvQwA"
   >
     <div
-      className="divider__Text-sc-1mhowia-1 iWWUCr"
+      className="sc-crHmcD dHClYz"
     >
       along with
     </div>
   </div>
   <div
-    className="compensation__Perks-sc-1127ja8-2 gRfquL"
+    className="sc-ksdxgE fGDdFz"
   >
     <div>
       <i
@@ -456,16 +456,16 @@ exports[`Storyshots Compensation Normal 1`] = `
 
 exports[`Storyshots Container Normal 1`] = `
 <div
-  className="container__Container-sc-8aaowj-0 bfnNcc"
+  className="sc-iCfMLu QDVzU"
 />
 `;
 
 exports[`Storyshots Divider Longer 1`] = `
 <div
-  className="divider__LineBox-sc-1mhowia-0 cbAUvB"
+  className="sc-iqseJM jnvQwA"
 >
   <div
-    className="divider__Text-sc-1mhowia-1 iWWUCr"
+    className="sc-crHmcD dHClYz"
   >
     a much longer example
   </div>
@@ -474,10 +474,10 @@ exports[`Storyshots Divider Longer 1`] = `
 
 exports[`Storyshots Divider Normal 1`] = `
 <div
-  className="divider__LineBox-sc-1mhowia-0 cbAUvB"
+  className="sc-iqseJM jnvQwA"
 >
   <div
-    className="divider__Text-sc-1mhowia-1 iWWUCr"
+    className="sc-crHmcD dHClYz"
   >
     example
   </div>
@@ -486,7 +486,7 @@ exports[`Storyshots Divider Normal 1`] = `
 
 exports[`Storyshots Figure Basic 1`] = `
 <figure
-  className="figure__Container-sc-1fhptnd-0 bpKHsn"
+  className="sc-furwcr glKBuh"
   style={
     Object {
       "fontSize": "1rem",
@@ -494,7 +494,7 @@ exports[`Storyshots Figure Basic 1`] = `
   }
 >
   <div
-    className="figure__Amount-sc-1fhptnd-2 jVeOqW"
+    className="sc-jrQzAO kQxwcz"
     style={
       Object {
         "color": undefined,
@@ -504,7 +504,7 @@ exports[`Storyshots Figure Basic 1`] = `
     $123,456
   </div>
   <figcaption
-    className="figure__Subtitle-sc-1fhptnd-3 cidVDt"
+    className="sc-kDTinF fvWamc"
   >
     EXAMPLE SUBTITLE
   </figcaption>
@@ -513,7 +513,7 @@ exports[`Storyshots Figure Basic 1`] = `
 
 exports[`Storyshots Figure Custom Color 1`] = `
 <figure
-  className="figure__Container-sc-1fhptnd-0 bpKHsn"
+  className="sc-furwcr glKBuh"
   style={
     Object {
       "fontSize": "1rem",
@@ -521,7 +521,7 @@ exports[`Storyshots Figure Custom Color 1`] = `
   }
 >
   <div
-    className="figure__Amount-sc-1fhptnd-2 jVeOqW"
+    className="sc-jrQzAO kQxwcz"
     style={
       Object {
         "color": "#f00",
@@ -531,7 +531,7 @@ exports[`Storyshots Figure Custom Color 1`] = `
     $123,456
   </div>
   <figcaption
-    className="figure__Subtitle-sc-1fhptnd-3 cidVDt"
+    className="sc-kDTinF fvWamc"
   >
     EXAMPLE SUBTITLE
   </figcaption>
@@ -540,7 +540,7 @@ exports[`Storyshots Figure Custom Color 1`] = `
 
 exports[`Storyshots Figure Info Icon 1`] = `
 <figure
-  className="figure__Container-sc-1fhptnd-0 bpKHsn"
+  className="sc-furwcr glKBuh"
   style={
     Object {
       "fontSize": "1rem",
@@ -548,7 +548,7 @@ exports[`Storyshots Figure Info Icon 1`] = `
   }
 >
   <div
-    className="figure__Amount-sc-1fhptnd-2 jVeOqW"
+    className="sc-jrQzAO kQxwcz"
     style={
       Object {
         "color": undefined,
@@ -558,7 +558,7 @@ exports[`Storyshots Figure Info Icon 1`] = `
     $123,456
   </div>
   <figcaption
-    className="figure__Subtitle-sc-1fhptnd-3 cidVDt"
+    className="sc-kDTinF fvWamc"
   >
     EXAMPLE SUBTITLE
     <a
@@ -577,7 +577,7 @@ exports[`Storyshots Figure Info Icon 1`] = `
 
 exports[`Storyshots Figure Smaller 1`] = `
 <figure
-  className="figure__Container-sc-1fhptnd-0 bpKHsn"
+  className="sc-furwcr glKBuh"
   style={
     Object {
       "fontSize": "0.8rem",
@@ -585,7 +585,7 @@ exports[`Storyshots Figure Smaller 1`] = `
   }
 >
   <div
-    className="figure__Amount-sc-1fhptnd-2 jVeOqW"
+    className="sc-jrQzAO kQxwcz"
     style={
       Object {
         "color": undefined,
@@ -595,7 +595,7 @@ exports[`Storyshots Figure Smaller 1`] = `
     $123,456
   </div>
   <figcaption
-    className="figure__Subtitle-sc-1fhptnd-3 cidVDt"
+    className="sc-kDTinF fvWamc"
   >
     EXAMPLE SUBTITLE
   </figcaption>
@@ -604,7 +604,7 @@ exports[`Storyshots Figure Smaller 1`] = `
 
 exports[`Storyshots Figure Up To 1`] = `
 <figure
-  className="figure__Container-sc-1fhptnd-0 bpKHsn"
+  className="sc-furwcr glKBuh"
   style={
     Object {
       "fontSize": "1rem",
@@ -612,12 +612,12 @@ exports[`Storyshots Figure Up To 1`] = `
   }
 >
   <div
-    className="figure__UpTo-sc-1fhptnd-1 dJqhYV"
+    className="sc-pVTFL kBlOFw"
   >
     UP TO
   </div>
   <div
-    className="figure__Amount-sc-1fhptnd-2 jVeOqW"
+    className="sc-jrQzAO kQxwcz"
     style={
       Object {
         "color": undefined,
@@ -627,7 +627,7 @@ exports[`Storyshots Figure Up To 1`] = `
     $123,456
   </div>
   <figcaption
-    className="figure__Subtitle-sc-1fhptnd-3 cidVDt"
+    className="sc-kDTinF fvWamc"
   >
     EXAMPLE SUBTITLE
   </figcaption>
@@ -636,7 +636,7 @@ exports[`Storyshots Figure Up To 1`] = `
 
 exports[`Storyshots Footer Normal 1`] = `
 <footer
-  className="footer__Container-j9er38-0 jxyAgA"
+  className="sc-hBUSln gNMGdG"
 >
   <div>
     <a
@@ -684,19 +684,19 @@ exports[`Storyshots Footer Normal 1`] = `
 
 exports[`Storyshots Gradient Normal 1`] = `
 <div
-  className="gradient__Gradient-zihgh-0 hfiInQ"
+  className="sc-bdvvtL gVVNsX"
 />
 `;
 
 exports[`Storyshots Header Normal 1`] = `
 <header>
   <h1
-    className="header__Title-vob98y-0 jcfmoo"
+    className="sc-gsDKAQ dGnJJj"
   >
     Sparksuite’s Salary Calculator
   </h1>
   <h2
-    className="header__Subtitle-vob98y-1 dpDWMf"
+    className="sc-dkPtRN fEFnJl"
   >
     Transparent, predictable, & holistic compensation
   </h2>
@@ -705,7 +705,7 @@ exports[`Storyshots Header Normal 1`] = `
 
 exports[`Storyshots Position description Normal 1`] = `
 <div
-  className="container__Container-sc-8aaowj-0 bfnNcc"
+  className="sc-iCfMLu QDVzU"
 >
   A level one front end engineer is usually just beginning their professional career in front end software engineering and is developing a strong foundational knowledge of the fundamentals and familiarity with the technologies they use. They’re capable of completing tasks given to them with some direction and oversight. Reviews typically require more iterations to achieve high quality, intuitive, and polished code contributions.
 </div>
