@@ -34,6 +34,10 @@ const Subtitle = styled.figcaption`
 		margin-left: 0.3rem;
 		color: #bdbdbd;
 	}
+
+	@media (max-width: 425px) {
+		font-size: 1.1em;
+	}
 `;
 
 // Define the component props
