@@ -168,7 +168,7 @@ exports[`Storyshots Choices Normal 1`] = `
         label="Administration"
       >
         <option>
-          Office assistant
+          Office manager
         </option>
       </optgroup>
     </select>
