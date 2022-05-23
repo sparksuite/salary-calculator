@@ -133,6 +133,21 @@ exports[`Storyshots Choices Normal 1`] = `
           Lead Back End Engineer
         </option>
         <option>
+          Mobile Engineer I
+        </option>
+        <option>
+          Mobile Engineer II
+        </option>
+        <option>
+          Mobile Engineer III
+        </option>
+        <option>
+          Senior Mobile Engineer
+        </option>
+        <option>
+          Lead Mobile Engineer
+        </option>
+        <option>
           DevOps Engineer I
         </option>
         <option>
