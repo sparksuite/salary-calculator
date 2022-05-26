@@ -50,7 +50,7 @@ const Choices: React.FC = () => {
 				}
 			}
 		}
-	}, []);
+	}, [dispatch]);
 
 	// Form an array of all position titles
 	let fields = [];
@@ -119,8 +119,9 @@ const Choices: React.FC = () => {
 				onChange={(value: string) => dispatch(actions.setPosition(value))}
 				ariaLabel='Position'
 				value={selectedPosition}
+				defaultValue='PLACEHOLDER'
 			>
-				<option disabled selected>
+				<option disabled value={'PLACEHOLDER'}>
 					select position…
 				</option>
 

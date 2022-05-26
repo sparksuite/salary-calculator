@@ -70,16 +70,24 @@ type Props = {
 	onChange: Function;
 	ariaLabel?: string;
 	value?: string;
+	defaultValue?: string;
 };
 
 // Functional component
-const Choice: React.FC<Props> = ({ onChange, ariaLabel, value, children }) => {
+const Choice: React.FC<Props> = ({
+	onChange,
+	ariaLabel,
+	value,
+	defaultValue,
+	children,
+}) => {
 	return (
 		<Wrapper>
 			<Select
 				onChange={(event) => onChange(event.target.value)}
 				aria-label={ariaLabel}
 				value={value}
+				defaultValue={defaultValue}
 			>
 				{children}
 			</Select>
