@@ -101,6 +101,10 @@ const Choices: React.FC = () => {
 				onChange={(value: string) => dispatch(actions.setPosition(value))}
 				ariaLabel='Position'
 			>
+				<option disabled selected>
+					select position…
+				</option>
+
 				{fields.map((field) => (
 					<optgroup key={field.descriptor} label={field.descriptor}>
 						{field.positions.map((position) => (
