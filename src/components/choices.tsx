@@ -1,5 +1,5 @@
 // Imports
-import React from 'react';
+import React, { useEffect } from 'react';
 import styled from 'styled-components/macro';
 import Choice from './choice';
 import data from '../data.json';
@@ -33,6 +33,24 @@ const Text = styled.span`
 const Choices: React.FC = () => {
 	// Use dispatch
 	const dispatch = useDispatch();
+
+	// Set the position if the corresponding search param is provided
+	useEffect(() => {
+		const searchParams = new URLSearchParams(window.location.search);
+		const requestedPosition = searchParams.get('position');
+
+		if (requestedPosition) {
+			for (const field of data.fields) {
+				for (const role of field.roles) {
+					for (const level of role.levels) {
+						if (level.title === requestedPosition) {
+							dispatch(actions.setPosition(requestedPosition));
+						}
+					}
+				}
+			}
+		}
+	}, []);
 
 	// Form an array of all position titles
 	let fields = [];
@@ -100,6 +118,7 @@ const Choices: React.FC = () => {
 			<Choice
 				onChange={(value: string) => dispatch(actions.setPosition(value))}
 				ariaLabel='Position'
+				value={selectedPosition}
 			>
 				<option disabled selected>
 					select position…
