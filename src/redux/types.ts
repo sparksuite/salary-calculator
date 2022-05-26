@@ -1,6 +1,6 @@
 // Export initial state interface
 export interface AppState {
-	position: string;
+	position?: string;
 	tenure: string;
 }
 

@@ -22,7 +22,13 @@ const PositionDescription: React.FC = () => {
 	}
 
 	// Return JSX
-	return <Container>{positionDescription}</Container>;
+	return (
+		<Container>
+			{positionDescription || (
+				<em>Select a position above to see its description.</em>
+			)}
+		</Container>
+	);
 };
 
 export default PositionDescription;

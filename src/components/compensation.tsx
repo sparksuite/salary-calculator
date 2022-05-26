@@ -116,7 +116,10 @@ const Compensation: React.FC = () => {
 	// Return JSX
 	return (
 		<Container>
-			<Figure amount={annualSalary} subtitle='ANNUAL SALARY' />
+			<Figure
+				amount={selectedPosition ? annualSalary : '$--,---'}
+				subtitle='ANNUAL SALARY'
+			/>
 
 			<Divider text='plus' />
 
@@ -141,7 +144,7 @@ const Compensation: React.FC = () => {
 
 				<div>
 					<Figure
-						amount={annualSalary * 0.04}
+						amount={selectedPosition ? annualSalary * 0.04 : '$-,---'}
 						subtitle='MATCHING 401(k) CONTRIBUTIONS'
 						color='#67b1d6'
 						smaller={true}

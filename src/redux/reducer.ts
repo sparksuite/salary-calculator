@@ -4,7 +4,7 @@ import { AppState, SET_POSITION, SET_TENURE, ChoiceTypes } from './types';
 
 // Define initial state
 const initialState: AppState = {
-	position: data.fields[0].roles[0].levels[0].title,
+	position: undefined,
 	tenure: data.tenures[0],
 };
 
