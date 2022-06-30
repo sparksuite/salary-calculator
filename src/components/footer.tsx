@@ -10,12 +10,11 @@ const Container = styled.footer`
 	img {
 		height: 1.5rem;
 		margin-top: 1.25rem;
-		opacity: 0.15;
 	}
 
 	a {
-		color: #999;
-		font-size: 0.9rem;
+		color: #000;
+		font-size: 1rem;
 		margin-right: 2rem;
 		text-decoration: none;
 		line-height: 1;
@@ -78,7 +77,7 @@ const Footer: React.FC = () => {
 				</a>
 			</div>
 
-			<img src='/logo.png' alt='Sparksuite logo' />
+			<img src='/images/logo.svg' alt='Sparksuite logo' />
 		</Container>
 	);
 };

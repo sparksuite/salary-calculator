@@ -5,11 +5,22 @@ import styled from 'styled-components/macro';
 const Container = styled.div`
 	margin-top: 2rem;
 	padding: 2rem;
-	box-shadow: 0 1rem 3.125rem 0 rgba(0, 0, 0, 0.15);
 	background: #fff;
-	font-size: 1.125rem;
+	font-size: 1.2rem;
 	line-height: 1.5rem;
-	color: #4f4f4f;
+	color: #000;
+
+	&:nth-child(3n + 1) {
+		filter: drop-shadow(5px 5px 0px #acd561);
+	}
+
+	&:nth-child(3n + 2) {
+		filter: drop-shadow(5px 5px 0px #67b1d6);
+	}
+
+	&:nth-child(3n) {
+		filter: drop-shadow(5px 5px 0px #e46b65);
+	}
 `;
 
 export default Container;

@@ -1,6 +1,6 @@
 // Imports
 import React from 'react';
-import styled from 'styled-components/macro';
+import styled, { css } from 'styled-components/macro';
 
 // Styled elements
 const Container = styled.figure`
@@ -13,30 +13,40 @@ const Container = styled.figure`
 const UpTo = styled.div`
 	margin-bottom: 0.2rem;
 	line-height: 1;
-	font-size: 1.09375em;
-	color: #777676;
+	font-size: 1.4em;
+	color: #000;
 `;
 
-const Amount = styled.div`
+const Amount = styled.div<{ color?: Props['color'] }>`
 	line-height: 1;
-	font-size: 3.125em;
-	font-weight: 500;
-	color: #8ccc5e;
+	font-size: 4em;
+	font-weight: 600;
+	letter-spacing: -0.05em;
+
+	${(props) =>
+		props.color === 'green'
+			? css`
+					background: linear-gradient(90deg, #acc734 0%, #6eb32e 100%);
+			  `
+			: css`
+					background: linear-gradient(90deg, #38b1c9 0%, #3171b0 100%);
+			  `}
+
+	-webkit-background-clip: text; // LATER: Remove when we upgrade to styled-components v6
+	-webkit-text-fill-color: transparent; // LATER: Remove when we upgrade to styled-components v6
+	background-clip: text;
+	text-fill-color: transparent;
 `;
 
 const Subtitle = styled.figcaption`
 	margin-top: 0.5rem;
 	line-height: 1;
-	font-size: 1.25em;
-	color: #717171;
+	font-size: 1.2rem;
+	color: #000;
 
 	svg {
 		margin-left: 0.3rem;
 		color: #bdbdbd;
-	}
-
-	@media (max-width: 425px) {
-		font-size: 1.1em;
 	}
 `;
 
@@ -44,7 +54,7 @@ const Subtitle = styled.figcaption`
 type Props = {
 	amount: number | string;
 	subtitle: string;
-	color?: string;
+	color: 'green' | 'blue';
 	smaller?: boolean;
 	showUpTo?: boolean;
 	infoURL?: string;
@@ -63,7 +73,7 @@ const Figure: React.FC<Props> = ({
 		<Container style={{ fontSize: smaller ? '0.8rem' : '1rem' }}>
 			{showUpTo && <UpTo>UP TO</UpTo>}
 			{typeof amount === 'number' ? (
-				<Amount style={{ color: color }}>
+				<Amount color={color}>
 					{new Intl.NumberFormat('en-US', {
 						style: 'currency',
 						currency: 'USD',
@@ -71,7 +81,7 @@ const Figure: React.FC<Props> = ({
 					}).format(amount)}
 				</Amount>
 			) : (
-				<Amount style={{ color: color }}>{amount}</Amount>
+				<Amount color={color}>{amount}</Amount>
 			)}
 			<Subtitle>
 				{subtitle}

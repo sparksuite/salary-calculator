@@ -9,25 +9,26 @@ export default {
 };
 
 export const basic = () => (
-	<Figure amount={123456} subtitle='EXAMPLE SUBTITLE' />
+	<Figure amount={123456} subtitle='EXAMPLE SUBTITLE' color='green' />
 );
 
-export const customColor = () => (
-	<Figure amount={123456} subtitle='EXAMPLE SUBTITLE' color={'#f00'} />
+export const blue = () => (
+	<Figure amount={123456} subtitle='EXAMPLE SUBTITLE' color='blue' />
 );
 
 export const smaller = () => (
-	<Figure amount={123456} subtitle='EXAMPLE SUBTITLE' smaller={true} />
+	<Figure amount={123456} subtitle='EXAMPLE SUBTITLE' color='green' smaller />
 );
 
 export const upTo = () => (
-	<Figure amount={123456} subtitle='EXAMPLE SUBTITLE' showUpTo={true} />
+	<Figure amount={123456} subtitle='EXAMPLE SUBTITLE' color='green' showUpTo />
 );
 
 export const infoIcon = () => (
 	<Figure
 		amount={123456}
 		subtitle='EXAMPLE SUBTITLE'
+		color='green'
 		infoURL='https://www.sparksuite.com/'
 	/>
 );

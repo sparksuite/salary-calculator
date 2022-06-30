@@ -1,7 +1,7 @@
 // Imports
 import React from 'react';
 import { createGlobalStyle } from 'styled-components/macro';
-import Gradient from './gradient';
+import Background from './background';
 import Header from './header';
 import Choices from './choices';
 import PositionDescription from './position-description';
@@ -15,7 +15,7 @@ export const GlobalStyle = createGlobalStyle`
 		margin: 0;
 		padding: 0;
 		padding-bottom: 5rem;
-		font-family: Raleway, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+		font-family: Work Sans, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
 		-moz-osx-font-smoothing: grayscale;
 		-webkit-font-smoothing: antialiased;
 		text-rendering: optimizeLegibility;
@@ -37,7 +37,7 @@ const App: React.FC = () => {
 	return (
 		<React.Fragment>
 			<GlobalStyle />
-			<Gradient />
+			<Background />
 			<Header />
 
 			<main>

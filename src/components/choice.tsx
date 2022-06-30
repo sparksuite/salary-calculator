@@ -9,15 +9,15 @@ const extraPaddingForClickEvents = 1.5;
 // Styled components
 const Wrapper = styled.div`
 	margin-right: 0.5rem;
-	font-weight: 700;
-	border-bottom: 0.125rem solid rgba(255, 255, 255, 0.3);
+	font-weight: 600;
+	border-bottom: 0.125rem solid rgba(0, 0, 0, 0.3);
 	display: inline-block;
 	transition: all 0.2s ease;
 	line-height: 1.2;
-	color: #fff;
+	color: #000;
 
 	&:hover {
-		border-color: rgba(255, 255, 255, 0.7);
+		border-color: rgba(0, 0, 0, 0.7);
 	}
 
 	svg {
