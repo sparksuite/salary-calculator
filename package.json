@@ -3,7 +3,6 @@
 	"version": "0.0.0",
 	"dependencies": {
 		"@storybook/addon-essentials": "^6.1.1",
-		"@storybook/addon-storyshots": "^6.1.1",
 		"@storybook/builder-webpack5": "^6.4.19",
 		"@storybook/manager-webpack5": "^6.4.19",
 		"@storybook/preset-create-react-app": "^4.0.1",
