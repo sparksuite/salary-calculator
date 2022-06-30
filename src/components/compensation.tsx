@@ -24,9 +24,10 @@ const FlexDiv = styled.div`
 			margin: 0;
 			padding: 0;
 			margin-top: 1rem;
-			font-size: 0.9rem;
-			line-height: 1.15rem;
-			color: #757575;
+			font-size: 1.1rem;
+			line-height: 1.2;
+			font-weight: 300;
+			color: #000;
 		}
 
 		@media (max-width: 768px) {
@@ -52,7 +53,7 @@ const Perks = styled.div`
 	justify-content: center;
 
 	> div {
-		color: #757575;
+		color: #000;
 
 		svg {
 			opacity: 0.5;
@@ -119,6 +120,7 @@ const Compensation: React.FC = () => {
 			<Figure
 				amount={selectedPosition ? annualSalary : '$--,---'}
 				subtitle='ANNUAL SALARY'
+				color='green'
 			/>
 
 			<Divider text='plus' />
@@ -128,8 +130,8 @@ const Compensation: React.FC = () => {
 					<Figure
 						amount='50%'
 						subtitle='OF BASE HEALTH PLAN PREMIUM'
-						color='#67b1d6'
-						smaller={true}
+						color='blue'
+						smaller
 						infoURL='https://handbook.sparksuite.com/benefits/health.html'
 					/>
 
@@ -146,10 +148,10 @@ const Compensation: React.FC = () => {
 					<Figure
 						amount={selectedPosition ? annualSalary * 0.04 : '$-,---'}
 						subtitle='MATCHING 401(k) CONTRIBUTIONS'
-						color='#67b1d6'
-						smaller={true}
+						color='blue'
+						smaller
 						infoURL='https://handbook.sparksuite.com/benefits/401(k).html'
-						showUpTo={true}
+						showUpTo
 					/>
 
 					<p>

@@ -8,21 +8,25 @@ const Title = styled.h1`
 	padding: 0;
 	margin-top: 3.5rem;
 	margin-bottom: 0.1em;
-	color: #fff;
-	font-family: Playfair Display, serif;
-	font-weight: 700;
-	font-size: 2.5rem;
-	text-shadow: 0.1rem 0.1rem 0.25rem rgba(0, 0, 0, 0.1);
-	line-height: 1.1;
+	color: #000;
+	font-family: Neuton, serif;
+	font-weight: 400;
+	font-size: 3.75em;
+	line-height: 0.9;
+	text-align: center;
+
+	@media (max-width: 425px) {
+		font-size: 3.25em;
+	}
 `;
 
 const Subtitle = styled.h2`
-	margin: 0;
+	margin: 0.5em 0 0 0;
 	padding: 0;
-	color: #fff;
-	font-size: 1.25rem;
-	font-style: italic;
-	font-weight: 400;
+	color: #000;
+	font-size: 1.5em;
+	font-weight: 300;
+	text-align: center;
 `;
 
 // Functional component

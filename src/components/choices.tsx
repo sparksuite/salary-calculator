@@ -6,23 +6,11 @@ import data from '../data.json';
 import * as actions from '../redux/actions';
 import { useDispatch, useSelector } from 'react-redux';
 import { AppState } from '../redux/types';
+import Container from './container';
 
 // Styled container
-const Container = styled.div`
-	margin-top: 2rem;
-	padding: 1.5rem 2rem;
-	background: #8acc5e;
-	background: linear-gradient(90deg, #afcc5e 0%, #8acc5e 100%);
-	box-shadow: 0 1rem 3.125rem 0 rgba(0, 0, 0, 0.15);
-	font-size: 1.25rem;
-	font-weight: 500;
+const ModifiedContainer = styled(Container)`
 	line-height: 1.75;
-	color: #fff;
-	color: rgba(255, 255, 255, 0.9);
-
-	@media (max-width: 768px) {
-		font-size: 1.1rem;
-	}
 `;
 
 const Text = styled.span`
@@ -113,7 +101,7 @@ const Choices: React.FC = () => {
 
 	// Return JSX
 	return (
-		<Container>
+		<ModifiedContainer>
 			<Text>I am a</Text>
 			<Choice
 				onChange={(value: string) => dispatch(actions.setPosition(value))}
@@ -145,7 +133,7 @@ const Choices: React.FC = () => {
 					</option>
 				))}
 			</Choice>
-		</Container>
+		</ModifiedContainer>
 	);
 };
 
