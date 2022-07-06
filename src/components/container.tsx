@@ -10,6 +10,9 @@ const Container = styled.div`
 	line-height: 1.5rem;
 	color: #000;
 
+	// Prevents super glitchy rendering on Safari
+	-webkit-transform: translateZ(0);
+
 	&:nth-child(3n + 1) {
 		filter: drop-shadow(5px 5px 0px #acd561);
 	}
