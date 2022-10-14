@@ -185,6 +185,12 @@
 							"description": "A lead customer success champion—the first step on the leadership track—is highly experienced and has a knack for producing great work in others. While being a strong individual contributor, they also have leadership responsibilities. Among other things, this includes reviewing the performance of those who report to them, assisting with hiring and training new team members, providing guidance, and ensuring team goals are achieved.",
 							"startingSalary": 57500,
 							"annualRaises": [0.05, 0.035, 0.03, 0.025, 0.02, 0.02]
+						},
+						{
+							"title": "Head of Customer Success",
+							"description": "A head of customer success is responsible for leading the customer success team for one company in the Sparksuite family. They have a wealth of customer success knowledge and experience, and are responsible for designing the systems and frameworks employed by their team. They track the overall team performance and set the bigger-picture goals for ensuring customers are as successful as possible using our product. Among other responsibilities, a head of customer success is responsible for making hiring decisions, working on special projects, helping navigate more complex customer inquiries, aggregating feedback received through customer success channels, and collaborating with other team heads.",
+							"startingSalary": 90000,
+							"annualRaises": [0.05, 0.035, 0.03, 0.025, 0.02, 0.02]
 						}
 					]
 				}
