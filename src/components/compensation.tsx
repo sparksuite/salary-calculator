@@ -40,10 +40,6 @@ const FlexDiv = styled.div`
 	}
 `;
 
-const AvoidLineBreakWithin = styled.span`
-	display: inline-block;
-`;
-
 const Perks = styled.div`
 	margin-top: 2rem;
 	display: grid;
@@ -138,9 +134,7 @@ const Compensation: React.FC = () => {
 					<p>
 						Company contribution of 50% of the cost of your base health plan’s
 						premium toward any of the health plans offered. We also offer vision
-						and dental plans, plus{' '}
-						<AvoidLineBreakWithin>HSAs and FSAs</AvoidLineBreakWithin> to help
-						reduce your taxes.
+						and dental plans, plus HSAs to help reduce your taxes.
 					</p>
 				</div>
 
