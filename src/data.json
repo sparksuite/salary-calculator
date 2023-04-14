@@ -148,6 +148,16 @@
 							"annualRaises": [0.05, 0.035, 0.03, 0.025, 0.02, 0.02]
 						}
 					]
+				},
+				{
+					"levels": [
+						{
+							"title": "Software Engineering Manager",
+							"description": "A software engineering manager is talented at managing other software engineers and empowering them to produce their best work. They’re deeply familiar with both industry and internal best practices and conventions, and use that knowledge to provide invaluable guidance and feedback to the engineers on their team. They have excellent communication skills and are able to clearly convey technical concepts. Among other responsibilities, a software engineering manager is responsible for reviewing code contributions, documenting designs, distributing and prioritizing workload, mentoring their team, and helping with hiring and training.",
+							"startingSalary": 150000,
+							"annualRaises": [0.03, 0.0275, 0.025, 0.0225, 0.02, 0.02]
+						}
+					]
 				}
 			]
 		},
