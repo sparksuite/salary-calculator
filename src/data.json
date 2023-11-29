@@ -33,19 +33,25 @@
 							"title": "Front End Engineer III",
 							"description": "A level three front end engineer typically has several years of relevant professional experience and has honed their skills on a wide variety of topics related to front end engineering. They have a solid understanding of software engineering fundamentals and are beginning to be seen as a knowledge source by their teammates. They’ve developed an instinctive ability to follow best practices and conventions. Little direction is needed to accomplish tasks and they can tackle changes efficiently. The code they contribute is effective and well written, requiring very few review iterations. They often propose contributions and can effectively design solutions to more complex problems. They are well experienced with browser technologies, performance measuring, and accessibility testing, among other front end knowledge areas. They have an eye for UI/UX and are talented at refining the front end experiences they produce.",
 							"startingSalary": 105500,
-							"annualRaises": [0.05, 0.035, 0.03, 0.025, 0.02, 0.02, 0.015, 0.015]
+							"annualRaises": [
+								0.05, 0.035, 0.03, 0.025, 0.02, 0.02, 0.015, 0.015
+							]
 						},
 						{
 							"title": "Senior Front End Engineer",
 							"description": "A senior front end engineer—the first step on the contributor track—is a talented and efficient individual contributor with substantial professional experience. They produce effective, intuitive, and polished code contributions that require little-to-no review iterations. Given their deep familiarity with the technologies they use, they are seen as a technical guru by their teammates. They are often trusted to design skillful solutions to complex problems and dependably propose contributions.",
 							"startingSalary": 115500,
-							"annualRaises": [0.05, 0.035, 0.03, 0.025, 0.02, 0.02, 0.015, 0.015]
+							"annualRaises": [
+								0.05, 0.035, 0.03, 0.025, 0.02, 0.02, 0.015, 0.015
+							]
 						},
 						{
 							"title": "Lead Front End Engineer",
 							"description": "A lead front end engineer—the first step on the leadership track—is a highly experienced front end engineer with a knack for producing great work in others. While also being a strong individual contributor, lead engineers are beginning to incorporate leadership responsibilities into their role, like reviewing their teammates’ contributions, assigning tasks, and directing smaller projects. They assist with hiring and training new team members and provide guidance to less experienced teammates.",
 							"startingSalary": 115500,
-							"annualRaises": [0.05, 0.035, 0.03, 0.025, 0.02, 0.02, 0.015, 0.015]
+							"annualRaises": [
+								0.05, 0.035, 0.03, 0.025, 0.02, 0.02, 0.015, 0.015
+							]
 						}
 					]
 				},
@@ -67,19 +73,25 @@
 							"title": "Back End Engineer III",
 							"description": "A level three back end engineer typically has several years of relevant professional experience and has honed their skills on a wide variety of topics related to back end engineering. They have a solid understanding of software engineering fundamentals and are beginning to be seen as a knowledge source by their teammates. They’ve developed an instinctive ability to follow best practices and conventions. Little direction is needed to accomplish tasks and they can tackle changes efficiently. The code they contribute is effective and well written, requiring very few review iterations. They often propose contributions and can effectively design solutions to more complex problems. They are well experienced with network requests, database design, microservice design, and performance optimizations, among other back end knowledge areas.",
 							"startingSalary": 98000,
-							"annualRaises": [0.05, 0.035, 0.03, 0.025, 0.02, 0.02, 0.015, 0.015]
+							"annualRaises": [
+								0.05, 0.035, 0.03, 0.025, 0.02, 0.02, 0.015, 0.015
+							]
 						},
 						{
 							"title": "Senior Back End Engineer",
 							"description": "A senior back end engineer—the first step on the contributor track—is a talented and efficient individual contributor with substantial professional experience. They produce effective, intuitive, and polished code contributions that require little-to-no review iterations. Given their deep familiarity with the technologies they use, they are seen as a technical guru by their teammates. They are often trusted to design skillful solutions to complex problems and dependably propose contributions.",
 							"startingSalary": 108000,
-							"annualRaises": [0.05, 0.035, 0.03, 0.025, 0.02, 0.02, 0.015, 0.015]
+							"annualRaises": [
+								0.05, 0.035, 0.03, 0.025, 0.02, 0.02, 0.015, 0.015
+							]
 						},
 						{
 							"title": "Lead Back End Engineer",
 							"description": "A lead back end engineer—the first step on the leadership track—is a highly experienced back end engineer with a knack for producing great work in others. While also being a strong individual contributor, lead engineers are beginning to incorporate leadership responsibilities into their role, like reviewing their teammates’ contributions, assigning tasks, and directing smaller projects. They assist with hiring and training new team members and provide guidance to less experienced teammates.",
 							"startingSalary": 108000,
-							"annualRaises": [0.05, 0.035, 0.03, 0.025, 0.02, 0.02, 0.015, 0.015]
+							"annualRaises": [
+								0.05, 0.035, 0.03, 0.025, 0.02, 0.02, 0.015, 0.015
+							]
 						}
 					]
 				},
@@ -101,19 +113,25 @@
 							"title": "Mobile Engineer III",
 							"description": "A level three mobile engineer typically has several years of relevant professional experience and has honed their skills on a wide variety of topics related to mobile engineering. They have a solid understanding of software engineering fundamentals and are beginning to be seen as a knowledge source by their teammates. They’ve developed an instinctive ability to follow best practices and conventions. Little direction is needed to accomplish tasks and they can tackle changes efficiently. The code they contribute is effective and well written, requiring very few review iterations. They often propose contributions and can effectively design solutions to more complex problems. They are well experienced with mobile operating systems, network requests, performance measuring, platform guidelines, and database design, among other mobile development knowledge areas. They have an eye for UI/UX and are talented at refining the user experiences they produce.",
 							"startingSalary": 102500,
-							"annualRaises": [0.05, 0.035, 0.03, 0.025, 0.02, 0.02, 0.015, 0.015]
+							"annualRaises": [
+								0.05, 0.035, 0.03, 0.025, 0.02, 0.02, 0.015, 0.015
+							]
 						},
 						{
 							"title": "Senior Mobile Engineer",
 							"description": "A senior mobile engineer—the first step on the contributor track—is a talented and efficient individual contributor with substantial professional experience. They produce effective, intuitive, and polished code contributions that require little-to-no review iterations. Given their deep familiarity with the technologies they use, they are seen as a technical guru by their teammates. They are often trusted to design skillful solutions to complex problems and dependably propose contributions.",
 							"startingSalary": 112500,
-							"annualRaises": [0.05, 0.035, 0.03, 0.025, 0.02, 0.02, 0.015, 0.015]
+							"annualRaises": [
+								0.05, 0.035, 0.03, 0.025, 0.02, 0.02, 0.015, 0.015
+							]
 						},
 						{
 							"title": "Lead Mobile Engineer",
 							"description": "A lead mobile engineer—the first step on the leadership track—is a highly experienced mobile engineer with a knack for producing great work in others. While also being a strong individual contributor, lead engineers are beginning to incorporate leadership responsibilities into their role, like reviewing their teammates’ contributions, assigning tasks, and directing smaller projects. They assist with hiring and training new team members and provide guidance to less experienced teammates.",
 							"startingSalary": 112500,
-							"annualRaises": [0.05, 0.035, 0.03, 0.025, 0.02, 0.02, 0.015, 0.015]
+							"annualRaises": [
+								0.05, 0.035, 0.03, 0.025, 0.02, 0.02, 0.015, 0.015
+							]
 						}
 					]
 				},
@@ -135,19 +153,25 @@
 							"title": "DevOps Engineer III",
 							"description": "A level three DevOps engineer typically has several years of relevant professional experience and has honed their skills on a wide variety of topics related to DevOps engineering. They have a solid understanding of software engineering fundamentals and are beginning to be seen as a knowledge source by their teammates. They’ve developed an instinctive ability to follow best practices and conventions. Little direction is needed to accomplish tasks and they can tackle changes efficiently. The code they contribute is effective and well written, requiring very few review iterations. They often propose contributions and can effectively design solutions to more complex problems. They are well experienced with Kubernetes, CI/CD pipelines, CLI design, and performance optimizations, among other DevOps knowledge areas.",
 							"startingSalary": 103000,
-							"annualRaises": [0.05, 0.035, 0.03, 0.025, 0.02, 0.02, 0.015, 0.015]
+							"annualRaises": [
+								0.05, 0.035, 0.03, 0.025, 0.02, 0.02, 0.015, 0.015
+							]
 						},
 						{
 							"title": "Senior DevOps Engineer",
 							"description": "A senior DevOps engineer—the first step on the contributor track—is a talented and efficient individual contributor with substantial professional experience. They produce effective, intuitive, and polished code contributions that require little-to-no review iterations. Given their deep familiarity with the technologies they use, they are seen as a technical guru by their teammates. They are often trusted to design skillful solutions to complex problems and dependably propose contributions.",
 							"startingSalary": 113000,
-							"annualRaises": [0.05, 0.035, 0.03, 0.025, 0.02, 0.02, 0.015, 0.015]
+							"annualRaises": [
+								0.05, 0.035, 0.03, 0.025, 0.02, 0.02, 0.015, 0.015
+							]
 						},
 						{
 							"title": "Lead DevOps Engineer",
 							"description": "A lead DevOps engineer—the first step on the leadership track—is a highly experienced DevOps engineer with a knack for producing great work in others. While also being a strong individual contributor, lead engineers are beginning to incorporate leadership responsibilities into their role, like reviewing their teammates’ contributions, assigning tasks, and directing smaller projects. They assist with hiring and training new team members and provide guidance to less experienced teammates.",
 							"startingSalary": 113000,
-							"annualRaises": [0.05, 0.035, 0.03, 0.025, 0.02, 0.02, 0.015, 0.015]
+							"annualRaises": [
+								0.05, 0.035, 0.03, 0.025, 0.02, 0.02, 0.015, 0.015
+							]
 						}
 					]
 				},
@@ -157,7 +181,9 @@
 							"title": "Software Engineering Manager",
 							"description": "A software engineering manager is talented at managing other software engineers and empowering them to produce their best work. They’re deeply familiar with both industry and internal best practices and conventions, and use that knowledge to provide invaluable guidance and feedback to the engineers on their team. They have excellent communication skills and are able to clearly convey technical concepts. Among other responsibilities, a software engineering manager is responsible for reviewing code contributions, documenting designs, distributing and prioritizing workload, mentoring their team, and helping with hiring and training.",
 							"startingSalary": 150000,
-							"annualRaises": [0.03, 0.0275, 0.025, 0.0225, 0.02, 0.02, 0.015, 0.015]
+							"annualRaises": [
+								0.03, 0.0275, 0.025, 0.0225, 0.02, 0.02, 0.015, 0.015
+							]
 						}
 					]
 				}
@@ -179,19 +205,25 @@
 							"title": "Customer Success Champion II",
 							"description": "A level two customer success champion has extensive work experience in customer success roles, excellent communication skills, and is exceedingly personable. Their understanding and familiarity of the product and technologies used are expanding, and they can tackle more complex situations with less direction. Their work has grown in efficiency and typically requires fewer modifications to meet our team’s high standards of quality. Level two customer success champions also are beginning to take more initiative to solve problems, help other members, and propose new ideas.",
 							"startingSalary": 52000,
-							"annualRaises": [0.075, 0.05, 0.03, 0.025, 0.02, 0.02, 0.015, 0.015]
+							"annualRaises": [
+								0.075, 0.05, 0.03, 0.025, 0.02, 0.02, 0.015, 0.015
+							]
 						},
 						{
 							"title": "Senior Customer Success Champion",
 							"description": "A senior customer success champion—the first step on the contributor track—is a talented individual contributor with substantial professional experience. They have a deep familiarity with the product and technologies used and are viewed as an expert by their team. Their work is efficient and high quality, requiring little-to-no review. They help guide less experienced team members, develop content, and are trusted to solve complex problems.",
 							"startingSalary": 60000,
-							"annualRaises": [0.05, 0.035, 0.03, 0.025, 0.02, 0.02, 0.015, 0.015]
+							"annualRaises": [
+								0.05, 0.035, 0.03, 0.025, 0.02, 0.02, 0.015, 0.015
+							]
 						},
 						{
 							"title": "Lead Customer Success Champion",
 							"description": "A lead customer success champion—the first step on the leadership track—is highly experienced and has a knack for producing great work in others. While being a strong individual contributor, they also have leadership responsibilities. Among other things, this includes reviewing the performance of those who report to them, assisting with hiring and training new team members, providing guidance, and ensuring team goals are achieved.",
 							"startingSalary": 60000,
-							"annualRaises": [0.05, 0.035, 0.03, 0.025, 0.02, 0.02, 0.015, 0.015]
+							"annualRaises": [
+								0.05, 0.035, 0.03, 0.025, 0.02, 0.02, 0.015, 0.015
+							]
 						}
 					]
 				},
@@ -201,7 +233,9 @@
 							"title": "Head of Customer Success",
 							"description": "A head of customer success is responsible for leading the customer success team for one company in the Sparksuite family. They have a wealth of customer success knowledge and experience, and are responsible for designing the systems and frameworks employed by their team. They track the overall team performance and set the bigger-picture goals for ensuring customers are as successful as possible using our product. Among other responsibilities, a head of customer success is responsible for making hiring decisions, working on special projects, helping navigate more complex customer inquiries, aggregating feedback received through customer success channels, and collaborating with other team heads.",
 							"startingSalary": 90000,
-							"annualRaises": [0.05, 0.035, 0.03, 0.025, 0.02, 0.02, 0.015, 0.015]
+							"annualRaises": [
+								0.05, 0.035, 0.03, 0.025, 0.02, 0.02, 0.015, 0.015
+							]
 						}
 					]
 				}
@@ -217,7 +251,9 @@
 							"title": "Office manager",
 							"description": "An office manager is responsible for orchestrating the many facets of our office environment. They’re responsible for ensuring our team is equipped to work productively, fostering an enjoyable working experience, organizing team activities, assisting with planning and hosting events, and supporting team members in their day-to-day responsibilities.",
 							"startingSalary": 45000,
-							"annualRaises": [0.05, 0.035, 0.03, 0.025, 0.02, 0.02, 0.015, 0.015]
+							"annualRaises": [
+								0.05, 0.035, 0.03, 0.025, 0.02, 0.02, 0.015, 0.015
+							]
 						}
 					]
 				}
