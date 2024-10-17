@@ -164,8 +164,20 @@ const Compensation: React.FC = () => {
 					<i className='far fa-fw fa-sliders-up' /> Flexible working hours
 				</div>
 
-				<div>
+				<div
+					style={{
+						display: selectedPosition !== 'Office Assistant' ? 'block' : 'none',
+					}}
+				>
 					<i className='far fa-fw fa-house-building' /> Flexible remote work
+				</div>
+
+				<div
+					style={{
+						display: selectedPosition === 'Office Assistant' ? 'block' : 'none',
+					}}
+				>
+					<i className='far fa-fw fa-gift' /> Work anniversary swag
 				</div>
 
 				<div>
