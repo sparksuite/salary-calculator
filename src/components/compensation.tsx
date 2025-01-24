@@ -20,6 +20,10 @@ const FlexDiv = styled.div`
 		width: 48%;
 		text-align: center;
 
+		&:only-child {
+			margin: 0 auto;
+		}
+
 		p {
 			margin: 0;
 			padding: 0;
@@ -122,21 +126,23 @@ const Compensation: React.FC = () => {
 			<Divider text='plus' />
 
 			<FlexDiv>
-				<div>
-					<Figure
-						amount='50%'
-						subtitle='OF BASE HEALTH PLAN PREMIUM'
-						color='blue'
-						smaller
-						infoURL='https://handbook.sparksuite.com/benefits/health.html'
-					/>
+				{selectedPosition !== 'Office Assistant' && (
+					<div>
+						<Figure
+							amount='50%'
+							subtitle='OF BASE HEALTH PLAN PREMIUM'
+							color='blue'
+							smaller
+							infoURL='https://handbook.sparksuite.com/benefits/health.html'
+						/>
 
-					<p>
-						Company contribution of 50% of the cost of your base health plan’s
-						premium toward any of the health plans offered. We also offer vision
-						and dental plans, plus HSAs to help reduce your taxes.
-					</p>
-				</div>
+						<p>
+							Company contribution of 50% of the cost of your base health plan’s
+							premium toward any of the health plans offered. We also offer
+							vision and dental plans, plus HSAs to help reduce your taxes.
+						</p>
+					</div>
+				)}
 
 				<div>
 					<Figure
