@@ -67,4 +67,4 @@ jobs:
       - run: yarn build
       - run: npx wrangler publish
         env:
-          CF_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
