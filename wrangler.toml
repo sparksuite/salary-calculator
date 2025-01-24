@@ -1,9 +1,8 @@
 name = "salary-calculator"
-type = "webpack"
 account_id = "f4e4ed8fbf42f6f6b11f42413aa5f27e"
-zone_id = "f32413c72ae75df9ceb8a576c9a1d8db"
 route = "salaries.sparksuite.com/*"
+main = "workers-site/index.js"
+compatibility_date = "2025-01-24"
 
 [site]
 bucket = "./build"
-entry-point = "workers-site"
