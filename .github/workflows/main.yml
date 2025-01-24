@@ -65,6 +65,6 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
       - run: yarn install --frozen-lockfile --prefer-offline
       - run: yarn build
-      - run: npx @cloudflare/wrangler publish
+      - run: npx wrangler publish
         env:
           CF_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
