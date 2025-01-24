@@ -65,6 +65,7 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
       - run: yarn install --frozen-lockfile --prefer-offline
       - run: yarn build
+      - run: npm install --prefix ./workers-site
       - run: npx wrangler publish
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
