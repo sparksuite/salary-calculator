@@ -248,9 +248,17 @@
 				{
 					"levels": [
 						{
+							"title": "People Ops Coordinator",
+							"description": "A people ops coordinator is passionate about helping to create an exceptional experience for current and prospective team members. Among a variety of responsibilities, they foster company culture by coordinating team outings, events, and activities; they tackle routine people ops tasks like raises and promotions; they facilitate our goals of transparency, clarity, and flexibility with our policies and benefits; they assist with hiring, onboarding, and training; they collaborate on new initiatives, policies, and workflows; and they aid in compliance with employment laws. A people ops coordinator has the knowledge and experience to accomplish these responsibilities and possesses the ability to communicate clearly and effectively.",
+							"startingSalary": 60000,
+							"annualRaises": [
+								0.075, 0.05, 0.03, 0.025, 0.02, 0.02, 0.015, 0.015
+							]
+						},
+						{
 							"title": "People Ops Generalist",
-							"description": "A people ops generalist is responsible for and passionate about creating an exceptional experience for current and prospective team members. Among a variety of responsibilities, they help attract and onboard talented team members by overseeing hiring, onboarding, and training; they promote our goals of transparency, clarity, and flexibility with our policies and benefits; they foster company culture by coordinating team outings, events, and activities; they ensure compliance with employment laws; and they support managers as they lead their teams. A people ops generalist has the knowledge and experience to accomplish these responsibilities and possesses the ability to communicate clearly and effectively.",
-							"startingSalary": 75000,
+							"description": "A people ops generalist has relevant work experience, expanding knowledge in the area of people ops, clear and effective communication, and a greater impact on the success of people ops functions. They are passionate about creating an exceptional experience for current and prospective team members and are committed to our goals of transparency, clarity, and flexibility with our policies and benefits. In addition to the coordinator’s responsibilities, they have more oversight over hiring, onboarding, and training; they contribute more significantly to the development and introduction of new initiatives, policies, and workflows; and they are more involved in ensuring compliance with employment laws. They are beginning to provide training for managers while also helping managers navigate more complex situations.",
+							"startingSalary": 70000,
 							"annualRaises": [
 								0.05, 0.035, 0.03, 0.025, 0.02, 0.02, 0.015, 0.015
 							]
