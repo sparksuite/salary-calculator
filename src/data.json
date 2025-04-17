@@ -13,7 +13,6 @@
 	"fields": [
 		{
 			"name": "Engineering",
-			"descriptor": "an engineer",
 			"roles": [
 				{
 					"levels": [
@@ -191,7 +190,6 @@
 		},
 		{
 			"name": "Customer Success",
-			"descriptor": "in customer success",
 			"roles": [
 				{
 					"levels": [
@@ -243,7 +241,6 @@
 		},
 		{
 			"name": "People Ops",
-			"descriptor": "in people ops",
 			"roles": [
 				{
 					"levels": [
@@ -269,7 +266,6 @@
 		},
 		{
 			"name": "Administration",
-			"descriptor": "in administration",
 			"roles": [
 				{
 					"levels": [
