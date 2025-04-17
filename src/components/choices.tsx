@@ -67,7 +67,7 @@ const Choices: React.FC = () => {
 		for (const role of field.roles) {
 			for (const level of role.levels) {
 				if (level.title === selectedPosition) {
-					fieldDescriptor = field.descriptor;
+					fieldDescriptor = `in ${field.name.toLowerCase()}`;
 					annualRaises = level.annualRaises;
 				}
 			}
@@ -121,7 +121,9 @@ const Choices: React.FC = () => {
 					</optgroup>
 				))}
 			</Choice>
-			<Text>and have been {fieldDescriptor} in the Sparksuite family for</Text>
+			<Text>
+				and have worked {fieldDescriptor} in the Sparksuite family for
+			</Text>
 			<Choice
 				onChange={(value: string) => dispatch(actions.setTenure(value))}
 				ariaLabel='Tenure'
