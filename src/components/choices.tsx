@@ -121,7 +121,9 @@ const Choices: React.FC = () => {
 					</optgroup>
 				))}
 			</Choice>
-			<Text>and have worked {fieldDescriptor} in the Sparksuite family for</Text>
+			<Text>
+				and have worked {fieldDescriptor} in the Sparksuite family for
+			</Text>
 			<Choice
 				onChange={(value: string) => dispatch(actions.setTenure(value))}
 				ariaLabel='Tenure'
