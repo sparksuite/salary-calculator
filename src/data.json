@@ -24,7 +24,7 @@
 						},
 						{
 							"title": "Front End Engineer II",
-							"description": "A level two front end engineer has relevant professional experience and has developed a strong understanding of software engineering fundamentals. They have a stronger grasp of both industry and internal best practices and conventions. They require less direction to accomplish work and are beginning to take more initiative to propose contributions and design solutions to problems. Reviews generally require fewer iterations before being accepted. Level two engineers have grown in efficiency and can tackle more complex problems with less direction. Their expertise with browser technologies, performance measuring, accessibility testing, and other front end specific knowledge is expanding. Their eye for UI/UX is developing as they learn how to refine the front end experiences they produce.",
+							"description": "A level two front end engineer has relevant professional experience and has developed a strong understanding of software engineering fundamentals. They have a stronger grasp of both industry and internal best practices and conventions. They require less direction to accomplish work and are beginning to take more initiative to propose contributions and design solutions to problems. Reviews generally require fewer iterations before being accepted. Level two engineers have grown in efficiency and can tackle more complex problems with less guidance. Their expertise with browser technologies, performance measuring, accessibility testing, and other front end specific knowledge is expanding. Their eye for UI/UX is developing as they learn how to refine the front end experiences they produce.",
 							"startingSalary": 95500,
 							"annualRaises": [0.075, 0.05, 0.03]
 						},
@@ -64,7 +64,7 @@
 						},
 						{
 							"title": "Back End Engineer II",
-							"description": "A level two back end engineer has relevant professional experience and has developed a strong understanding of software engineering fundamentals. They have a stronger grasp of both industry and internal best practices and conventions. They require less direction to accomplish work and are beginning to take more initiative to propose contributions and design solutions to problems. Reviews generally require fewer iterations before being accepted. Level two engineers have grown in efficiency and can tackle more complex problems with less direction. Their expertise with network requests, database design, microservice design, performance optimizations, and other back end specific knowledge is expanding.",
+							"description": "A level two back end engineer has relevant professional experience and has developed a strong understanding of software engineering fundamentals. They have a stronger grasp of both industry and internal best practices and conventions. They require less direction to accomplish work and are beginning to take more initiative to propose contributions and design solutions to problems. Reviews generally require fewer iterations before being accepted. Level two engineers have grown in efficiency and can tackle more complex problems with less guidance. Their expertise with network requests, database design, microservice design, performance optimizations, and other back end specific knowledge is expanding.",
 							"startingSalary": 88000,
 							"annualRaises": [0.075, 0.05, 0.03]
 						},
@@ -104,7 +104,7 @@
 						},
 						{
 							"title": "Mobile Engineer II",
-							"description": "A level two mobile engineer has relevant professional experience and has developed a strong understanding of software engineering fundamentals. They have a stronger grasp of both industry and internal best practices and conventions. They require less direction to accomplish work and are beginning to take more initiative to propose contributions and design solutions to problems. Reviews generally require fewer iterations before being accepted. Level two engineers have grown in efficiency and can tackle more complex problems with less direction. Their expertise with mobile operating systems, network requests, performance measuring, platform guidelines, database design, and other mobile specific knowledge is expanding. Their eye for UI/UX is developing as they learn how to refine the user experiences they produce.",
+							"description": "A level two mobile engineer has relevant professional experience and has developed a strong understanding of software engineering fundamentals. They have a stronger grasp of both industry and internal best practices and conventions. They require less direction to accomplish work and are beginning to take more initiative to propose contributions and design solutions to problems. Reviews generally require fewer iterations before being accepted. Level two engineers have grown in efficiency and can tackle more complex problems with less guidance. Their expertise with mobile operating systems, network requests, performance measuring, platform guidelines, database design, and other mobile specific knowledge is expanding. Their eye for UI/UX is developing as they learn how to refine the user experiences they produce.",
 							"startingSalary": 92500,
 							"annualRaises": [0.075, 0.05, 0.03]
 						},
@@ -144,7 +144,7 @@
 						},
 						{
 							"title": "DevOps Engineer II",
-							"description": "A level two DevOps engineer has relevant professional experience and has developed a strong understanding of software engineering fundamentals. They have a stronger grasp of both industry and internal best practices and conventions. They require less direction to accomplish work and are beginning to take more initiative to propose contributions and design solutions to problems. Reviews generally require fewer iterations before being accepted. Level two engineers have grown in efficiency and can tackle more complex problems with less direction. Their expertise with Kubernetes, CI/CD pipelines, CLI design, performance optimizations, and other DevOps specific knowledge is expanding.",
+							"description": "A level two DevOps engineer has relevant professional experience and has developed a strong understanding of software engineering fundamentals. They have a stronger grasp of both industry and internal best practices and conventions. They require less direction to accomplish work and are beginning to take more initiative to propose contributions and design solutions to problems. Reviews generally require fewer iterations before being accepted. Level two engineers have grown in efficiency and can tackle more complex problems with less guidance. Their expertise with Kubernetes, CI/CD pipelines, CLI design, performance optimizations, and other DevOps specific knowledge is expanding.",
 							"startingSalary": 93000,
 							"annualRaises": [0.075, 0.05, 0.03]
 						},
