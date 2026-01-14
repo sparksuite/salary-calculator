@@ -167,7 +167,7 @@ const Compensation: React.FC = () => {
 
 			<Perks>
 				<div>
-					<i className='far fa-fw fa-sliders-up' /> Flexible working hours
+					<i className='far fa-sliders-up' /> Flexible working hours
 				</div>
 
 				<div
@@ -175,7 +175,7 @@ const Compensation: React.FC = () => {
 						display: selectedPosition !== 'Office Assistant' ? 'block' : 'none',
 					}}
 				>
-					<i className='far fa-fw fa-house-building' /> Flexible remote work
+					<i className='far fa-house-building' /> Flexible remote work
 				</div>
 
 				<div
@@ -183,40 +183,40 @@ const Compensation: React.FC = () => {
 						display: selectedPosition === 'Office Assistant' ? 'block' : 'none',
 					}}
 				>
-					<i className='far fa-fw fa-gift' /> Work anniversary swag
+					<i className='far fa-gift' /> Work anniversary swag
 				</div>
 
 				<div>
-					<i className='far fa-fw fa-pot-food' /> Free-lunch Fridays
+					<i className='far fa-pot-food' /> Free-lunch Fridays
 				</div>
 
 				<div>
-					<i className='far fa-fw fa-taco' /> Taco Tuesdays
+					<i className='far fa-taco' /> Taco Tuesdays
 				</div>
 
 				<div>
-					<i className='far fa-fw fa-calendar-day' /> Generous paid time off
+					<i className='far fa-calendar-day' /> Generous paid time off
 				</div>
 
 				<div>
-					<i className='far fa-fw fa-house-person-return' /> Healthy work-life
+					<i className='far fa-house-person-return' /> Healthy work-life
 					balance
 				</div>
 
 				<div>
-					<i className='far fa-fw fa-chair-office' /> Incredible office
+					<i className='far fa-chair-office' /> Incredible office
 				</div>
 
 				<div>
-					<i className='far fa-fw fa-golf-flag-hole' /> Company outings
+					<i className='far fa-golf-flag-hole' /> Company outings
 				</div>
 
 				<div>
-					<i className='far fa-fw fa-coffee-bean' /> Craft coffee
+					<i className='far fa-coffee-bean' /> Craft coffee
 				</div>
 
 				<div>
-					<i className='far fa-fw fa-avocado' /> Delicious snacks
+					<i className='far fa-avocado' /> Delicious snacks
 				</div>
 
 				<span>
