@@ -92,7 +92,7 @@ const Figure: React.FC<Props> = ({
 						rel='noopener noreferrer'
 						aria-label='Learn more'
 					>
-						<i className='far fa-info-circle' />
+						<i className='far fa-info-circle fa-width-auto' />
 					</a>
 				)}
 			</Subtitle>
