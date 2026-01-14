@@ -199,8 +199,7 @@ const Compensation: React.FC = () => {
 				</div>
 
 				<div>
-					<i className='far fa-house-person-return' /> Healthy work-life
-					balance
+					<i className='far fa-house-person-return' /> Healthy work-life balance
 				</div>
 
 				<div>
