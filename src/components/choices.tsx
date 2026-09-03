@@ -22,10 +22,14 @@ const Choices: React.FC = () => {
 	// Use dispatch
 	const dispatch = useDispatch();
 
-	// Set the position if the corresponding search param is provided
+	// Set the position and tenure if the corresponding search params are provided
 	useEffect(() => {
 		const searchParams = new URLSearchParams(window.location.search);
 		const requestedPosition = searchParams.get('position');
+		const requestedTenureIndex = searchParams.get('tenure');
+		const requestedTenure = requestedTenureIndex
+			? data.tenures[Number(requestedTenureIndex)]
+			: undefined;
 
 		if (requestedPosition) {
 			for (const field of data.fields) {
@@ -37,6 +41,10 @@ const Choices: React.FC = () => {
 					}
 				}
 			}
+		}
+
+		if (requestedTenure) {
+			dispatch(actions.setTenure(requestedTenure));
 		}
 	}, [dispatch]);
 
