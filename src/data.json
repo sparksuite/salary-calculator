@@ -180,8 +180,17 @@
 					"levels": [
 						{
 							"title": "Software Engineering Manager",
-							"description": "A software engineering manager is talented at managing other software engineers and empowering them to produce their best work. They’re deeply familiar with both industry and internal best practices and conventions, and use that knowledge to provide invaluable guidance and feedback to the engineers on their team. They have excellent communication skills and are able to clearly convey technical concepts. Among other responsibilities, a software engineering manager is responsible for reviewing code contributions, documenting designs, distributing and prioritizing workload, mentoring their team, and helping with hiring and training.",
+							"description": "A software engineering manager is talented at managing software engineers and empowering them to produce their best work. They’re deeply familiar with both industry and internal best practices and conventions, and use that knowledge to provide invaluable guidance and feedback to the engineers on their team. They have excellent communication skills and can clearly convey technical concepts. Among other responsibilities, a software engineering manager is responsible for reviewing code contributions, documenting designs, distributing and prioritizing workload, mentoring their team, and helping with hiring and training.",
 							"startingSalary": 150000,
+							"annualRaises": [
+								0.03, 0.0275, 0.025, 0.0225, 0.02, 0.02, 0.015, 0.015, 0.015,
+								0.015
+							]
+						},
+						{
+							"title": "Senior Software Engineering Manager",
+							"description": "A senior software engineering manager excels at managing software engineers, empowering them to produce their best work and aligning their efforts with broader company strategy. They’ve developed an expert grasp of our internal conventions, their reasoning, and the industry best practices that inform them. They’re a respected leader and use their knowledge, judgment, and experience to mentor both individual contributors and emerging leaders. They have excellent communication skills and can clearly convey complex technical and strategic concepts to cross-functional audiences. In addition to the responsibilities of a software engineering manager, a senior software engineering manager helps shape cross-team engineering direction, orchestrates larger projects and initiatives, strategically balances short- and long-term priorities, and scales their leadership across a larger team.",
+							"startingSalary": 165000,
 							"annualRaises": [
 								0.03, 0.0275, 0.025, 0.0225, 0.02, 0.02, 0.015, 0.015, 0.015,
 								0.015
